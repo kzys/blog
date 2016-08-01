@@ -1,0 +1,8 @@
+baseurl = "http://blog.8-p.info/ja/"
+languageCode = "ja-jp"
+title = "滞舎路日記"
+theme = "abc"
+
+[permalinks]
+post  = "/:section/:year/:month/:day/:filename/"
+page  = "/:section/:filename/"
