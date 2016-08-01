@@ -1,0 +1,23 @@
+box: golang
+
+build:
+  steps:
+    - script:
+        name: Download
+        code: curl -L https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_linux_amd64.tar.gz | tar zxvf -
+    - script:
+        name: Build
+        code: |
+          mkdir build
+          cd ja
+          ../hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
+          cp -r public/ja ../build
+
+deploy:
+  steps:
+    - s3sync:
+        source_dir: public
+        delete-removed: true
+        bucket-url: $AWS_BUCKET_URL
+        key-id: $AWS_ACCESS_KEY_ID
+        key-secret: $AWS_SECRET_ACCESS_KEY
