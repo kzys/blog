@@ -11,12 +11,12 @@ build:
           mkdir build
           cd ja
           ../hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
-          cp -r public/ja ../build
+          cp -r public ../build/ja
 
 deploy:
   steps:
     - s3sync:
-        source_dir: public
+        source_dir: build
         delete-removed: true
         bucket-url: $AWS_BUCKET_URL
         key-id: $AWS_ACCESS_KEY_ID
