@@ -12,6 +12,10 @@ build:
           cd ja
           ../hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
           cp -r public ../build/ja
+          cd ..
+          cd en
+          ../hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
+          cp -r public ../build/en
 
 deploy:
   steps:
