@@ -6,21 +6,22 @@ build:
         name: Download
         code: curl -L https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_linux_amd64.tar.gz | tar zxvf -
     - script:
-        name: Build
+        name: Build ja/
         code: |
-          mkdir build
-          cd ja
-          ../hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
-          cp -r public ../build/ja
-          cd ..
-          cd en
-          ../hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
-          cp -r public ../build/en
+          cd $WERCKER_ROOT/ja
+          $WERCKER_ROOT/hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
+          cp -r $WERCKER_ROOT/ja/public $WERCKER_OUTPUT_DIR/ja
+    - script:
+        name: Build en/
+        code: |
+          cd $WERCKER_ROOT/en
+          $WERCKER_ROOT/hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
+          cp -r $WERCKER_ROOT/en/public $WERCKER_OUTPUT_DIR/en
 
 deploy:
   steps:
     - s3sync:
-        source_dir: build
+        source_dir: $WERCKER_OUTPUT_DIR
         delete-removed: true
         bucket-url: $AWS_BUCKET_URL
         key-id: $AWS_ACCESS_KEY_ID
