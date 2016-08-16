@@ -1,0 +1,5 @@
+<article class="{{ .Params.lang }}">
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <div class="posted">{{ .Date.Format "Jan 2, 2006" }}</div>
+  <div>{{ .Content }}</div>
+</article>

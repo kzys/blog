@@ -1,0 +1,158 @@
+html {
+    background: #f0f0f0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1, h2 {
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.content {
+    max-width: 40rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+header {
+    padding: 0;
+    border-bottom: 1px solid #000;
+}
+
+html[lang="ja-jp"] h1 {
+    font-family: 'Hiragino Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem 0;
+}
+
+#content {
+}
+
+aside {
+    width: 29.3%;
+    margin-left: auto;
+}
+
+a:link {
+    color: #000;
+}
+a:visited {
+    color: #999;
+}
+a:hover {
+}
+a:active {
+}
+
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 a, h2 a {
+    color: black !important;
+    text-decoration: none;
+}
+
+article {
+    padding: 1rem 0 0 0;
+}
+
+article .posted {
+    font-size: 90%;
+    color: #666;
+}
+
+article .photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+code {
+    background: #f0f0f0;
+    padding: 0 .5em;
+}
+
+pre {
+    background: #f0f0f0;
+    padding: 1em;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+pre code {
+    padding: 0;
+}
+
+#pagination {
+    clear: both;
+    float: none;
+
+    padding: 0 0.5em;
+}
+
+#pagination ul {
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+#pagination ul li {
+    list-style: none;
+    display: inline;
+}
+
+#pagination ul li a {
+    padding: 1em;
+}
+
+#menu ul li {
+    list-style: none;
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 1em;
+}
+
+#list h2 {
+    font-size: 100%;
+}
+
+article.japanese p {
+    font-size: 90%;
+}
+
+article blockquote {
+    margin: 0 0 0 2em;
+}
+
+div.photo {
+    margin-top: 1em;
+}
+
+footer {
+    margin: 0;
+    padding: 1em 0;
+    background: #f0f0f0;
+}
+
+#powered {
+    font-size: 90%;
+}

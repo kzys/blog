@@ -1,0 +1,24 @@
+<footer>
+  <div class="content">
+    <div id="author">
+    {{ if eq .Site.LanguageCode "en-us" }}
+    <h2>About the Author</h2>
+    <p>
+      Kazuyoshi Kato is a software developer and Seattle transplant.
+      He is an occasional open source hacker who has contributed to
+      <a href="https://github.com/scala/scala/commits/2.12.x?author=kzys">scala/scala</a> and
+      <a href="https://github.com/lampepfl/dotty/commits/master?author=kzys">lampepfl/dotty</a>.
+    </p>
+    {{ else }}
+    {{ end }}
+    </div>
+
+    <div id="powered">
+      <p>Powered by Hugo {{ .Hugo.Version }}</p>
+    </div>
+  </div>
+</footer>
+
+</div><!-- #content -->
+
+</body></html>

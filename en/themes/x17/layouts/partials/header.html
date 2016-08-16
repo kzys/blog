@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.LanguageCode }}">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,12 +26,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-PSXDZ4');</script>
 <!-- End Google Tag Manager -->
 
-<div id="content">
-  <header>
-    <h1><a href="/">{{ .Site.Title }}</a></h1>
-    <div id="menu">
-      <ul>
-        <li><a href="{{ .RSSlink }}">RSS</a></li>
-      </ul>
-    </div>
-  </header>
+<header>
+  <div class="content">
+    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+  </div>
+</header>

@@ -1,7 +1,7 @@
 baseurl = "https://blog.8-p.info/ja/"
 languageCode = "ja-jp"
 title = "滞舎路日記"
-theme = "abc"
+theme = "x17"
 
 [permalinks]
 post  = "/:section/:year/:month/:day/:filename/"

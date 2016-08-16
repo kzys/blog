@@ -1,7 +1,7 @@
 baseurl = "https://blog.8-p.info/en/"
 languageCode = "en-us"
 title = "Kazu's Log"
-theme = "abc"
+theme = "x17"
 
 [permalinks]
 post  = "/:section/:year/:month/:day/:filename/"
