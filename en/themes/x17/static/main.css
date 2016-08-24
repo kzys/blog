@@ -1,19 +1,41 @@
-html {
-    background: #f0f0f0;
-    height: 100%;
-}
+/*
+
+- Colors are from http://clrs.cc/ and http://clrs.cc/a11y/
+
+*/
 
 body {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Avenir Next', Arial, sans-serif;
+}
+
+html[lang="en-us"] p {
 }
 
 h1, h2 {
 }
 
-body {
+html {
     margin: 0;
     padding: 0;
+
     background: #fff;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 40em;
+
+    color: #001f3f;
+}
+
+#content {
+    padding: 1em 0;
+}
+
+header {
+    padding: 0;
 }
 
 p {
@@ -21,14 +43,8 @@ p {
 }
 
 .content {
-    max-width: 40rem;
     padding: 0 1rem;
     margin: 0 auto;
-}
-
-header {
-    padding: 0;
-    border-bottom: 1px solid #000;
 }
 
 html[lang="ja-jp"] h1 {
@@ -38,10 +54,7 @@ html[lang="ja-jp"] h1 {
 
 h1 {
     margin: 0;
-    padding: 1rem 0;
-}
-
-#content {
+    padding: 0;
 }
 
 aside {
@@ -50,10 +63,10 @@ aside {
 }
 
 a:link {
-    color: #000;
+    color: #0074d9;
 }
 a:visited {
-    color: #999;
+    color: #b10dc9;
 }
 a:hover {
 }
@@ -67,12 +80,17 @@ h2 {
 }
 
 h1 a, h2 a {
-    color: black !important;
+    color: #001f3f !important;
+    background: unset !important;
     text-decoration: none;
 }
 
 article {
     padding: 1rem 0 0 0;
+}
+
+article p {
+    line-height: 1.5;
 }
 
 article .posted {
@@ -150,9 +168,9 @@ div.photo {
 footer {
     margin: 0;
     padding: 1em 0;
-    background: #f0f0f0;
 }
 
 #powered {
     font-size: 90%;
+    font-weight: bold;
 }
