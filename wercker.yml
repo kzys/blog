@@ -17,6 +17,10 @@ build:
           cd $WERCKER_ROOT/en
           $WERCKER_ROOT/hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
           cp -r $WERCKER_ROOT/en/public $WERCKER_OUTPUT_DIR/en
+    - script:
+        name: Hide en/ for a moment
+        code: |
+          echo > $WERCKER_OUTPUT_DIR/en/index.html
 
 deploy:
   steps:
