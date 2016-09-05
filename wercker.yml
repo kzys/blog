@@ -4,18 +4,18 @@ build:
   steps:
     - script:
         name: Download
-        code: curl -L https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux_amd64.tar.gz | tar zxvf -
+        code: curl -L https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-64bit.tgz | tar zxvf -
     - script:
         name: Build ja/
         code: |
           cd $WERCKER_ROOT/ja
-          $WERCKER_ROOT/hugo_0.16_linux_amd64/hugo_0.16_linux_amd64
+          $WERCKER_ROOT/hugo
           cp -r $WERCKER_ROOT/ja/public $WERCKER_OUTPUT_DIR/ja
     - script:
         name: Build en/
         code: |
           cd $WERCKER_ROOT/en
-          $WERCKER_ROOT/hugo_0.16_linux_amd64/hugo_0.16_linux_amd64
+          $WERCKER_ROOT/hugo
           cp -r $WERCKER_ROOT/en/public $WERCKER_OUTPUT_DIR/en
     - script:
         name: Hide en/ for a moment
