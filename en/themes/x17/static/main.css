@@ -42,11 +42,6 @@ p {
     line-height: 1.4;
 }
 
-.content {
-    padding: 0 1rem;
-    margin: 0 auto;
-}
-
 html[lang="ja-jp"] h1 {
     font-family: 'Hiragino Sans', 'Helvetica Neue', sans-serif;
     font-weight: 100;
