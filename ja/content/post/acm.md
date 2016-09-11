@@ -10,3 +10,8 @@ Association for Computing Machinery (ACM) は、いわゆる Computer Science �
 
 CACM が毎月とどいて、Safari の一部を読めて、それで毎年 $99 なら、まあよいかと入りなおしてみた。実は以前にも同じような判断をして入って、そのときはあまり使わないなというので止めてしまったんだけど、でも当時よりは英語も読めるようになっている、はず。
 
+### Safari を何で読むか
+
+[Safari の iOS/Android むけアプリケーション](https://www.safaribooksonline.com/apps/) には Safari Queue という現行のものと、Safari To Go という古いものがあって、残念ながら ACM の Safari は後者にしか対応していない。
+
+そもそも iPad も Android タブレットも手元にないので、いまは Safari のウェブ版を Fire で読んでいる。わるくない、けどもうちょっと画面の大きなタブレットがほしい気もする。
