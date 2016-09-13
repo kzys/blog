@@ -1,10 +1,10 @@
 +++
 date = "2016-09-12T07:09:00-07:00"
 draft = false
-title = "Show Stopper て良い意味? 悪い意味?"
+title = "Showstopper て良い意味? 悪い意味?"
 +++
 
-"show stopper" といえば『闘うプログラマー』の原題であり「ショーを止めてしまうような深刻な問題」という悪い意味の単語だと思っていたんだけど、実は別の意味があることを [The Great British Baking Show](http://www.pbs.org/food/shows/great-british-baking-show/) を見ていて知った。
+"showstopper" といえば『闘うプログラマー』の原題であり「ショーを止めてしまうような深刻な問題」という悪い意味の単語だと思っていたんだけど、実は別の意味があることを [The Great British Baking Show](http://www.pbs.org/food/shows/great-british-baking-show/) を見ていて知った。
 
 番組の中で、毎週のトリの大勝負を "Showstopper Bake" といっていて、もともとは良い意味の単語らしい。The Jargon File の [showstopper の項](http://www.catb.org/jargon/html/S/showstopper.html) にも
 
@@ -14,7 +14,7 @@ title = "Show Stopper て良い意味? 悪い意味?"
 
 ### blocker
 
-会社やチームによって差があるのかもしれないけど、私のまわりで "show stopper" はあまり使われていない。どちらかというと "blocker" という単語のほうがよく使われているように思う。
+会社やチームによって差があるのかもしれないけど、私のまわりで "showstopper" はあまり使われていない。どちらかというと "blocker" という単語のほうがよく使われているように思う。
 
 "The issue is a launch blocker" みたいに名詞にもなるし "This issue blocks their deployment" みたいに動詞としても使える。
 
