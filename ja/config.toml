@@ -3,6 +3,9 @@ languageCode = "ja-jp"
 title = "滞舎路日記"
 theme = "x17"
 
+# https://github.com/spf13/hugo/issues/1252
+CanonifyUrls = true
+
 [permalinks]
 post  = "/:section/:year/:month/:day/:filename/"
 page  = "/:section/:filename/"
