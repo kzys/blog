@@ -11,4 +11,13 @@ title = "hdfs balancer で unhealthy node をなんとかする"
 * start-balancer.sh は [hdfs balancer](https://hadoop.apache.org/docs/r2.7.3/hadoop-project-dist/hadoop-hdfs/HDFSCommands.html#balancer) に
 * hadoop dfsadmin は [hdfs dfsadmin](https://hadoop.apache.org/docs/r2.7.3/hadoop-project-dist/hadoop-hdfs/HDFSCommands.html#dfsadmin) に
 
-それぞれ変わっている。
+それぞれ変わっているので、結果として
+
+```
+[hadoop@ip-192-0-2-1 ~]$ hdfs dfsadmin -setBalancerBandwidth $(ruby -e 'p 1024 ** 3')
+Balancer bandwidth is set to 1073741824
+[hadoop@ip-192-0-2-1 ~]$ hdfs balancer
+...
+```
+
+こんな感じになる。
