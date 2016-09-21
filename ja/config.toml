@@ -3,6 +3,8 @@ languageCode = "ja-jp"
 title = "滞舎路日記"
 theme = "x17"
 
+Paginate = 3
+
 # https://github.com/spf13/hugo/issues/1252
 CanonifyUrls = true
 

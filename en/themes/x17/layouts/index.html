@@ -3,7 +3,7 @@
 <div id="content">
   <div class="content">
     <main>
-{{ $paginator := .Paginate (where .Data.Pages "Type" "post") 5 }}
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
 {{ range $paginator.Pages }}
   {{ .Scratch.Set "IsSingle" false }}
   {{ partial "article.html" . }}
