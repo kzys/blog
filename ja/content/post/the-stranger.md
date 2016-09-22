@@ -5,7 +5,10 @@ title = "The Stranger を読もう"
 +++
 
 <div class="photo">
-<img src="/photo/the-stranger.jpg" alt="The Stranger newspapers">
+<img src="/photo/the-stranger_1024.jpg"
+     srcset="/photo/the-stranger_1024.jpg 1024w,
+             /photo/the-stranger_2304.jpg 2304w"
+     alt="The Stranger newspapers">
 </div>
 
 [The Stranger](http://www.thestranger.com/) はシアトルのフリーペーパーで、アパートの近くのニューススタンドに置いてあるのもあり、たまに手にとって読んでいる。
