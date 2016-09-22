@@ -23,11 +23,8 @@ html {
 }
 
 body {
-    margin: 0 auto;
-    padding: 1em;
-    max-width: 40em;
-
     color: #001f3f;
+    margin: 0;
 }
 
 #content {
@@ -36,10 +33,6 @@ body {
 
 header {
     padding: 0;
-}
-
-p {
-    line-height: 1.4;
 }
 
 html[lang="ja-jp"] h1 {
@@ -69,11 +62,6 @@ a:active {
 }
 
 
-h2 {
-    margin: 0;
-    padding: 0;
-}
-
 h1 a, h2 a {
     color: #001f3f !important;
     background: unset !important;
@@ -81,8 +69,32 @@ h1 a, h2 a {
 }
 
 article {
-    border-bottom: 1px solid #001f3f;
     padding: 2rem 0 1rem 0;
+}
+
+header,
+#pagination,
+footer,
+article > h2,
+article > .posted,
+article > .content > h3,
+article > .content > p,
+article > .content > pre,
+article > .content > ul,
+article > .content > ol,
+article > .content > blockquote {
+    max-width: 50rem;
+    margin-left:  auto;
+    margin-right: auto;
+
+    border-left:  1rem solid #fff;
+    border-right: 1rem solid #fff;
+
+    box-sizing: border-box;
+}
+
+article > .content > blockquote {
+    padding-left: 2rem;
 }
 
 article p {
@@ -94,9 +106,17 @@ article .posted {
     color: #666;
 }
 
-article .photo img {
-    max-width: 100%;
+article .photo {
+    display: block;
     height: auto;
+    margin: 1em 0;
+}
+
+article .photo img {
+    position: relative;
+    left: 0;
+    height: auto;
+    max-width: 100%;
 }
 
 code {
@@ -162,7 +182,6 @@ div.photo {
 }
 
 footer {
-    margin: 0;
     padding: 1em 0;
 }
 
