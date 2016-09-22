@@ -43,13 +43,13 @@ We Saw You は Stranger のスタッフが街でみたニュースを紹介す�
 * #WHITETRUCKSMATTER とはってあるトラックをみかけた
 * [Eric Frye](http://www.thestranger.com/events/24441222/eric-frye-raica-rm-francis) が良かった
 
-と、毎号この調子。最近だと [ポルノを見ている人がいて外から丸見え](http://www.thestranger.com/we-saw-you/2016/04/20/23980625/we-saw-you-harassing-women-outside-the-library-being-a-brat-on-the-bus-and-watching-porn-on-mercer-island) という話に [続き](http://www.thestranger.com/we-saw-you/2016/07/06/24305921/we-saw-you-get-a-sparkler-on-your-birthday-cake-in-fremont-and-almost-get-hit-by-a-firework-in-ballard) があったのが酷かった。
+と、毎号この調子。最近だと [自宅でポルノを見ているのが外から丸見えですよ](http://www.thestranger.com/we-saw-you/2016/04/20/23980625/we-saw-you-harassing-women-outside-the-library-being-a-brat-on-the-bus-and-watching-porn-on-mercer-island) という話に [続報](http://www.thestranger.com/we-saw-you/2016/07/06/24305921/we-saw-you-get-a-sparkler-on-your-birthday-cake-in-fremont-and-almost-get-hit-by-a-firework-in-ballard) があったのが酷かった。
 
 I, Anonymous は匿名投書コーナーで、投稿される話は [Thanks for Coming](http://www.thestranger.com/i-anonymous/2016/07/20/24361838/i-anonymous) のような良いものから、[Disgraceful Delivery Guy](http://www.thestranger.com/i-anonymous/2016/09/06/24541445/i-anonymous) のような酷いものまで幅広い。個人的には「Yelp にネガティブレビュー書いてないで、店にいえば?」という [Zero Stars](http://www.thestranger.com/seattle/i-anonymous/Content?oid=21628064) が、Yelp を使いはじめたあたりに読んだのもあり、印象に残っている。
 
 ### テック業界
 
-悲しいことに、The Stranger においては、ソフトウェア業界はあまり良い感じには取り上げられない。冒頭でとりあげた "New to Town!" 特集の [The Mysteries of Seattle's New-to-Town Tech Workers](http://www.thestranger.com/seattle/the-mysteries-of-seattles-new-to-town-tech-workers/Content?oid=21567302) も事実を伝えているとは思うけど、大歓迎という雰囲気では無い。
+悲しいことに、The Stranger においては、テック業界はあまり良い感じには取り上げられない。冒頭でとりあげた "New to Town!" 特集の [The Mysteries of Seattle's New-to-Town Tech Workers](http://www.thestranger.com/seattle/the-mysteries-of-seattles-new-to-town-tech-workers/Content?oid=21567302) も事実を伝えているとは思うけど、大歓迎という雰囲気では無い。
 
 以前に読んだ [Hacker News のスレッド](https://news.ycombinator.com/item?id=11537307) では
 
