@@ -18,9 +18,9 @@ title = "The Stranger を読もう"
 
 ### 特集
 
-ほとんどの号には、特集というかテーマみたいなものがある。[最近の号](http://www.thestranger.com/issues/24548712/2016-09-14) は、主催する [The Genius Awards](http://www.thestranger.com/genius-awards-2016) の候補者紹介に加えて、別冊のアートガイドもついてくる芸術特集で、[Haruki Murakami Bingo](http://www.incidentalcomics.com/2012/06/haruki-murakami-bingo.html) を彷彿とさせる [Seattle Theater Bingo](http://www.thestranger.com/theater/2016/09/12/24555198/seattle-theater-bingo) が良かった。
+ほとんどの号には、特集というかテーマみたいなものがある。[最近の号](http://www.thestranger.com/issues/24548712/2016-09-14) は、主催する [The Genius Awards](http://www.thestranger.com/genius-awards-2016) の候補者紹介に加えて、別冊のアートガイドもついてくる芸術特集で、[Haruki Murakami Bingo](http://www.incidentalcomics.com/2012/06/haruki-murakami-bingo.html) を彷彿とさせる [Seattle Theater Bingo](http://www.thestranger.com/theater/2016/09/12/24555198/seattle-theater-bingo) がかわいかった。
 
-読ませるものだと、シアトル出身でレズビアンの著者が、自分の彼女の実家を訪れる [My Girlfriend and I Just Visited North Carolina, and We Did Not Get Beat Up](http://www.thestranger.com/features/2016/06/22/24238335/queer-issue-my-girlfriend-and-i-just-visited-north-carolina-and-we-did-not-get-beat-uphhh) は
+読ませるものだと、シアトル出身でレズビアンの著者が、自分の彼女の実家を訪れる [My Girlfriend and I Just Visited North Carolina, and We Did Not Get Beat Up](http://www.thestranger.com/features/2016/06/22/24238335/queer-issue-my-girlfriend-and-i-just-visited-north-carolina-and-we-did-not-get-beat-uphhh) が
 
 > Mary Anne told me Charlotte was like Bellevue, so I imagined it as sort of a fancy strip mall featuring narration by William Faulkner.
 
@@ -30,7 +30,7 @@ title = "The Stranger を読もう"
 
 また、[Rui さんが出ていた回の Rebuild](http://rebuild.fm/153a/) にバンクーバーの話があったけど、[A City of Empty Towers](http://www.thestranger.com/features/2016/08/03/24419129/a-city-of-empty-towers-what-seattle-can-learn-from-vancouvers-real-estate-crisis) ではバンクーバーの住宅事情の悪化を詳しく報じている。
 
-なお、政治的にはリベラルよりで、[Should I Vote for Hillary Clinton? A Flowchart](http://www.thestranger.com/department-of-columns/2016/07/27/24395959/new-column) なんてものも載っている。
+なお、Stranger は政治的にはリベラルよりで、[Should I Vote for Hillary Clinton? A Flowchart](http://www.thestranger.com/department-of-columns/2016/07/27/24395959/new-column) なんてものも載っている。
 
 ### 連載
 
@@ -43,7 +43,7 @@ We Saw You は Stranger のスタッフが街でみたニュースを紹介す�
 * #WHITETRUCKSMATTER とはってあるトラックをみかけた
 * [Eric Frye](http://www.thestranger.com/events/24441222/eric-frye-raica-rm-francis) が良かった
 
-と、毎号この調子。最近だと [ポルノを見ている人がいて外から丸見え](http://www.thestranger.com/we-saw-you/2016/04/20/23980625/we-saw-you-harassing-women-outside-the-library-being-a-brat-on-the-bus-and-watching-porn-on-mercer-island) という話に [続き](http://www.thestranger.com/we-saw-you/2016/07/06/24305921/we-saw-you-get-a-sparkler-on-your-birthday-cake-in-fremont-and-almost-get-hit-by-a-firework-in-ballard) があったのは酷かった。
+と、毎号この調子。最近だと [ポルノを見ている人がいて外から丸見え](http://www.thestranger.com/we-saw-you/2016/04/20/23980625/we-saw-you-harassing-women-outside-the-library-being-a-brat-on-the-bus-and-watching-porn-on-mercer-island) という話に [続き](http://www.thestranger.com/we-saw-you/2016/07/06/24305921/we-saw-you-get-a-sparkler-on-your-birthday-cake-in-fremont-and-almost-get-hit-by-a-firework-in-ballard) があったのが酷かった。
 
 I, Anonymous は匿名投書コーナーで、投稿される話は [Thanks for Coming](http://www.thestranger.com/i-anonymous/2016/07/20/24361838/i-anonymous) のような良いものから、[Disgraceful Delivery Guy](http://www.thestranger.com/i-anonymous/2016/09/06/24541445/i-anonymous) のような酷いものまで幅広い。個人的には「Yelp にネガティブレビュー書いてないで、店にいえば?」という [Zero Stars](http://www.thestranger.com/seattle/i-anonymous/Content?oid=21628064) が、Yelp を使いはじめたあたりに読んだのもあり、印象に残っている。
 
@@ -55,4 +55,4 @@ I, Anonymous は匿名投書コーナーで、投稿される話は [Thanks for 
 
 > As I am reminded by the Seattle Times, the PI, and the Stranger (particularly), techies are not really welcome by the True Seattlite, and we aren't Welcome - (this is even true on reddit r/Seattle, which is the techiest of the techy).
 
-と、Stranger の傾向を強調したうえに、それを "True Seattlite" まで拡大するコメントがあって、ちょっと厳しみがあった。
+と、Stranger の傾向を強調したうえに、それを "True Seattlite" まで拡大するコメントがあって、ちょっときびしみがあった。
