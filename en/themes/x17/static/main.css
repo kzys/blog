@@ -90,6 +90,10 @@ article > .content > blockquote {
     box-sizing: border-box;
 }
 
+article h2 {
+    margin-bottom: 0;
+}
+
 article > .content > blockquote {
     padding-left: 2rem;
 }
