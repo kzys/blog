@@ -25,9 +25,6 @@ html {
 body {
     color: #001f3f;
     margin: 0;
-}
-
-#content {
     padding: 1em 0;
 }
 
@@ -143,17 +140,19 @@ pre code {
 }
 
 #pagination ul {
+    display: flex;
+    flex-direction: row;
     margin: 0 auto;
     padding: 1em 0;
 }
 
 #pagination ul li {
     list-style: none;
-    display: inline;
+    text-align: center;
+    flex: 1;
 }
 
 #pagination ul li a {
-    padding: 1em;
 }
 
 #menu ul li {
