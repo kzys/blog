@@ -1,8 +1,9 @@
 +++
-date = "2016-09-21T00:37:21-07:00"
-draft = true
+date = "2016-09-21T22:19:38-07:00"
+draft = false
 title = "The Stranger を読もう"
 +++
+
 <div class="photo">
 <img src="/photo/the-stranger.jpg" alt="The Stranger newspapers">
 </div>
