@@ -2,6 +2,9 @@
 <html lang="{{ .Site.LanguageCode }}">
 <head>
   <meta charset="utf-8" />
+
+  {{ template "_internal/twitter_cards.html" . }}
+
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {{ if .RSSlink }}
   <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml"
