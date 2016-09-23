@@ -2,6 +2,7 @@
 date = "2016-09-21T22:19:38-07:00"
 draft = false
 title = "The Stranger を読もう"
+images = [ "/photo/the-stranger_1024.jpg" ]
 +++
 
 <div class="photo">
