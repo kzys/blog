@@ -6,6 +6,11 @@ build:
         name: Download
         code: curl -L https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-64bit.tgz | tar zxvf -
     - script:
+        name: Build highlight.js with Go
+        code: |
+          cd $WERCKER_ROOT
+          make
+    - script:
         name: Build ja/
         code: |
           cd $WERCKER_ROOT/ja
