@@ -42,6 +42,14 @@ h1 {
     padding: 0;
 }
 
+code {
+    font-family: 'Menlo', monospace;
+}
+
+pre code {
+    font-size: 80%;
+}
+
 aside {
     width: 29.3%;
     margin-left: auto;
