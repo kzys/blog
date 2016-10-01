@@ -9,5 +9,8 @@ Paginate = 3
 CanonifyUrls = true
 
 [permalinks]
-post  = "/:section/:year/:month/:day/:filename/"
+post  = "/:year/:month/:day/:filename/"
 page  = "/:section/:filename/"
+
+[blackfriday]
+fractions = false
