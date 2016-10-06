@@ -4,17 +4,17 @@ draft = false
 title = "jBrowserDriver で JavaScript つきスクレイピング"
 +++
 
-iKnow をスクレイピングしようとしたら https://iknow.jp/login が派手に JavaScript を使っていた。仕方がないので [Ghost Driver](https://github.com/detro/ghostdriver) 経由で [PhantomJS](http://phantomjs.org/) を呼ぼうと思ったら、Ghost Driver のほうが最近はあまりメンテナンスされていないらしく
+iKnow をスクレイピングしようとしたら https://iknow.jp/login が派手に JavaScript を使っていた。
+
+仕方がないので [Ghost Driver](https://github.com/detro/ghostdriver) 経由で [PhantomJS](http://phantomjs.org/) を呼ぼうと思ったら、最近 Ghost Driver はあまりメンテナンスされていないらしく
 
 > If you need a better maintained WebDriver implementation, and write your code in Java, why not checkout Machine Publishers' jBrowserDriver? Tell Dan Hollingsworth I sent you.
 
-と [jBrowserDriver](https://github.com/MachinePublishers/jBrowserDriver/) がすすめられていた。
-
-jBrowserDriver は
+代わりに、[jBrowserDriver](https://github.com/MachinePublishers/jBrowserDriver/) がすすめられていた。jBrowserDriver は
 
 > A programmable, embedded web browser driver compatible with the Selenium WebDriver spec -- fast, headless, WebKit-based, 100% pure Java, and no browser dependencies
 
-をうたうライブラリで、はてどうやって、と見たら JavaFX の javafx.scene.web.WebView を使っていた。
+をうたうライブラリで、JavaFX の javafx.scene.web.WebView を使っている。
 
 ```scala
     val driver = new JBrowserDriver(Settings.builder.timezone(Timezone.AMERICA_NEWYORK).build)
