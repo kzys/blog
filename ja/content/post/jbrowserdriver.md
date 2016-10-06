@@ -4,7 +4,7 @@ draft = false
 title = "jBrowserDriver で JavaScript つきスクレイピング"
 +++
 
-iKnow をスクレイピングしようとしたら https://iknow.jp/login が派手に JavaScript を使っていた。仕方がないので [Ghost Driver](https://github.com/detro/ghostdriver) 経由で [PhantomJS](http://phantomjs.org/) でも使おうかとみてみたら、最近はあまりメンテナンスされていないらしく
+iKnow をスクレイピングしようとしたら https://iknow.jp/login が派手に JavaScript を使っていた。仕方がないので [Ghost Driver](https://github.com/detro/ghostdriver) 経由で [PhantomJS](http://phantomjs.org/) を呼ぼうと思ったら、Ghost Driver のほうが最近はあまりメンテナンスされていないらしく
 
 > If you need a better maintained WebDriver implementation, and write your code in Java, why not checkout Machine Publishers' jBrowserDriver? Tell Dan Hollingsworth I sent you.
 
