@@ -14,9 +14,7 @@ jBrowserDriver は
 
 > A programmable, embedded web browser driver compatible with the Selenium WebDriver spec -- fast, headless, WebKit-based, 100% pure Java, and no browser dependencies
 
-をうたうライブラリで、はて WebKit の Java バインディングなんてあったっけと思ったら JavaFX の javafx.scene.web.WebView を使っていた。
-
-こんな感じに使える。
+をうたうライブラリで、はてどうやって、と見たら JavaFX の javafx.scene.web.WebView を使っていた。
 
 ```scala
     val driver = new JBrowserDriver(Settings.builder.timezone(Timezone.AMERICA_NEWYORK).build)
@@ -28,6 +26,8 @@ jBrowserDriver は
 
     driver.findElement(By.tagName("form")).submit()
 ```
+
+こんな感じに使える。
 
 ### 実装
 
@@ -73,5 +73,4 @@ jBrowserDriver は
   }
 ```
 
-新しめの Java があればどこからでも WebKit が呼べるというのはちょっと面白い。
-
+なにもインストールせずに Java から簡単に WebKit が呼べるというのはちょっと面白い。
