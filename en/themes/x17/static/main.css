@@ -186,6 +186,7 @@ article.japanese p {
 
 article blockquote {
     margin: 0 0 0 2em;
+    blockquote: 90%;
 }
 
 div.photo {
