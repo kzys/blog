@@ -6,7 +6,7 @@ title = "Showstopper て良い意味? 悪い意味?"
 
 "showstopper" といえば『闘うプログラマー』の原題であり「ショーを止めてしまうような深刻な問題」という悪い意味の単語だと思っていたんだけど、実は別の意味があることを [The Great British Baking Show](http://www.pbs.org/food/shows/great-british-baking-show/) を見ていて知った。
 
-番組の中で、毎週のトリの大勝負を "Showstopper Bake" といっていて、もともとは良い意味の単語らしい。The Jargon File の [showstopper の項](http://www.catb.org/jargon/html/S/showstopper.html) にも
+番組の中で、毎週のトリの大勝負を "Showstopper Bake" といっていて、ここでの意味は「拍手が鳴り止まなくてショーを止めてしまうような、素晴らしい演技」からきている「すばらしい作品」というような意味らしい。The Jargon File の [showstopper の項](http://www.catb.org/jargon/html/S/showstopper.html) にも
 
 > A hardware or (especially) software bug that makes an implementation effectively unusable; one that absolutely has to be fixed before development can go on. Opposite in connotation from its original theatrical use, which refers to something stunningly good.
 
