@@ -4,6 +4,8 @@
 
 */
 
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 body {
     font-family: 'Avenir Next', Arial, sans-serif;
 }
@@ -195,6 +197,11 @@ div.photo {
 
 footer {
     padding: 1em 0;
+}
+
+footer a {
+    padding-right: 1rem;
+    text-decoration: none;
 }
 
 #powered {
