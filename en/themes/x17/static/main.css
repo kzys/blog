@@ -89,7 +89,8 @@ article > .content > p,
 article > .content > pre,
 article > .content > ul,
 article > .content > ol,
-article > .content > blockquote {
+article > .content > blockquote,
+article > .content > .photo-100 {
     max-width: 50rem;
     margin-left:  auto;
     margin-right: auto;
@@ -98,6 +99,10 @@ article > .content > blockquote {
     border-right: 1rem solid #fff;
 
     box-sizing: border-box;
+}
+
+article .photo-100 img {
+    width: 100%;
 }
 
 article h2 {
@@ -192,6 +197,10 @@ article blockquote {
 }
 
 div.photo {
+    margin-top: 1em;
+}
+
+div.photo-100 {
     margin-top: 1em;
 }
 
