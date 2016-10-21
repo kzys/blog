@@ -2,6 +2,7 @@
 draft = false
 date = "2016-10-21T00:18:26-07:00"
 title = "BrickCon 2016 に行ってきた"
+images = [ "/ja/photo/2016/brickcon-spaceneedle_1024.jpg" ]
 +++
 
 <div class="photo">
