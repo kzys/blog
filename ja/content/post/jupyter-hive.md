@@ -78,3 +78,4 @@ TypeError: not enough arguments for format string
 ```
 
 というエラーになってしまう。```'%%steve%%'``` とエスケープする必要があり、ちょっと面倒くさい。
+<!--more-->

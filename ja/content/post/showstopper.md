@@ -26,3 +26,4 @@ title = "Showstopper て良い意味? 悪い意味?"
 * [学校では教えてくれないエンジニアリング英語 #6: red herring](http://blog.bulknews.net/mt/archives/002238.html) (2009)
 
 書こうと思ったら、すでに高林さんも宮川さんも書かれていて、追記することが無い。
+<!--more-->

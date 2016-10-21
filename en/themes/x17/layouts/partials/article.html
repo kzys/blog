@@ -1,5 +1,16 @@
 <article>
   <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
   <div class="posted">{{ .Date.Format "Jan 2, 2006" }}</div>
+  {{ if and .Params.readmore (not (.Scratch.Get "IsSingle")) }}
+  <div class="content">
+    {{ .Summary }}
+    <p>
+      {{ if .Truncated }}
+      (<a href="{{ .RelPermalink }}">続きを読む</a>)
+      {{ end }}
+    </p>
+  </div>
+  {{ else }}
   <div class="content">{{ .Content }}</div>
+  {{ end }}
 </article>

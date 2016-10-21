@@ -21,3 +21,4 @@ Balancer bandwidth is set to 1073741824
 ```
 
 こんな感じになる。
+<!--more-->

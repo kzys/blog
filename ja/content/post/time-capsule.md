@@ -9,3 +9,4 @@ title = "Time Capsule を買った"
 Apple べったりなのに少し躊躇がありつつも、でも、無線 LAN 経由で勝手にバックアップされていくのは便利で良い。ルーター機能もついていて、[CenturyLink](http://www.centurylink.com/) のルーターでは [fast.com](https://fast.com/) 調べで 5.3 Mbps しか出ていなかったのが、なんと 42 Mbps になった。体感で8倍も速くなった感じはしないけれど。
 
 ちなみに、日本では AirMac Time Capsule という名前だけど、アメリカでは [AirPort Time Capsule](http://www.apple.com/airport-time-capsule/) という名前で売っている。
+<!--more-->

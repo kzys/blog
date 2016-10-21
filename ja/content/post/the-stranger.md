@@ -60,3 +60,4 @@ I, Anonymous は匿名投書コーナーで、投稿される話は [Thanks for 
 > As I am reminded by the Seattle Times, the PI, and the Stranger (particularly), techies are not really welcome by the True Seattlite, and we aren't Welcome - (this is even true on reddit r/Seattle, which is the techiest of the techy).
 
 と、Stranger の傾向を強調したうえに、それを "True Seattlite" まで拡大するコメントがあって、ちょっときびしみがあった。
+<!--more-->

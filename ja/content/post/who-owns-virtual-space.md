@@ -17,3 +17,4 @@ Pokemon Go の後に書かれたものだと、The Guardian に、そのもの�
 この記事では、空中権のはなしをひきながら、仮想空間の所有権について論じている。
 
 Pokemon Go 以前だと、[「AR空間は誰のもの？」――「ARを規制する法律はない」と牧野弁護士](http://www.itmedia.co.jp/promobile/articles/1003/12/news040.html) (2010) と [Who Owns the Advertising Space in an Augmented Reality World?](http://mashable.com/2011/06/06/virtual-air-rights-augmented-reality/) (2011) が参考になりそうだった。
+<!--more-->

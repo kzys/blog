@@ -74,3 +74,4 @@ iKnow をスクレイピングしようとしたら https://iknow.jp/login が�
 ```
 
 なにもインストールせずに Java から簡単に WebKit が呼べるというのはちょっと面白い。
+<!--more-->

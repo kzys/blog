@@ -3,6 +3,7 @@ draft = false
 date = "2016-10-21T00:18:26-07:00"
 title = "BrickCon 2016 に行ってきた"
 images = [ "/ja/photo/2016/brickcon-spaceneedle_1024.jpg" ]
+readmore = true
 +++
 
 <div class="photo">
@@ -15,6 +16,8 @@ images = [ "/ja/photo/2016/brickcon-spaceneedle_1024.jpg" ]
 10月1日のはなしになるけど、[BrickCon](http://brickcon.org/) 2016 に行ってきた。
 
 BrickCon は毎年シアトルでやっているレゴファンの作品展示会で、私は今年が初参加だったんだけど、だいぶ見応えがあって良いイベントだった。
+
+<!--more-->
 
 ### Sea Garten
 
