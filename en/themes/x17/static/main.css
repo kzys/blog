@@ -227,3 +227,8 @@ footer a {
     font-size: 90%;
     font-weight: bold;
 }
+
+/* list */
+#list article {
+    padding: 2rem 0 0 0;
+}
