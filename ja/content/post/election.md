@@ -62,5 +62,5 @@ Saturday Night Live のほかにも、Jimmy Fallon の The Tonight Show には [
 
 なんか出羽守っぽくなってしまって不本意だけど、外国の制度をみるのは「社会の制度がこうなっているのは絶対ではなくて、そうじゃない社会では、こういったことがあるんですよ」という、SF 的な楽しみがあると思う。
 
-できれば Hilary Clinton が大統領になって、[Sound Transit 3 計画](http://soundtransit3.org/) (シアトルの電車拡張計画) が通って欲しいけど、どうなるんですかね。
+できれば Hillary Clinton が大統領になって、[Sound Transit 3 計画](http://soundtransit3.org/) (シアトルの電車拡張計画) が通って欲しいけど、どうなるんですかね。
 
