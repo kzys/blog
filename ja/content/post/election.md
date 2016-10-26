@@ -10,9 +10,9 @@ title = "街宣車のない選挙の季節"
 
 ### テレビ討論会
 
-大統領選にはテレビで中継される候補者同士の討論会が3回あり、そのときには主要なテレビ局はほとんどすべて討論会の生中継をしている。複数チャンネルで同じ内容を流すのは電波の無駄遣いだけど、これはそういうものらしい。
+大統領選にはテレビで中継される候補者同士の討論会が3回あり、そのときには主要なテレビ局はほとんどすべて討論会の生中継をしている。複数チャンネルで同じ内容を流すのは電波の無駄遣いだけど、そういうものらしい。
 
-大統領選以外でも governor (知事), senator (上院議員)、representative (下院議員) もみなテレビで討論会をしているのをみると、なるほどここは討論の国だなあと思う。
+大統領選以外でも governor (知事), senator (上院議員), representative (下院議員) もみなテレビで討論会をしているのをみると、なるほどここは討論の国だなあと思う。
 
 ### CM
 
@@ -30,13 +30,13 @@ Brady Walkinshaw には ["We Have A Choice" と題されたこんなコマーシ
 * 第2回: [Donald Trump vs. Hillary Clinton Town Hall Debate Cold Open](https://www.youtube.com/watch?v=qVMW_1aZXRk)
 * 第3回: [Donald Trump vs. Hillary Clinton Third Debate Cold Open](https://www.youtube.com/watch?v=-kjyltrKZSY)
 
-他にも [Beyoné の Sorry](https://www.youtube.com/watch?v=QxsmWxxouIM) のパロディで、Donald Trump の妻や娘が別れをつげる [Melanianade](https://www.youtube.com/watch?v=uJBL7kuzvsg) とか、Tom Hanks がアメリカの父として悩めるアメリカと対話する [America's Dad Monologue](https://www.youtube.com/watch?v=vcwFeyrH2ww) とか、これはテレビでは見ていないけど、Hilary のものまねの Kate McKinnon が本物の Hilary 扮するバーテンダーと話す [Hillary Clinton Bar Talk](https://www.youtube.com/watch?v=6Jh2n5ki0KE) とか、やたらと政治的なはなしがテーマになりがちでびっくりする。
+他にも [Beyoné の Sorry](https://www.youtube.com/watch?v=QxsmWxxouIM) のパロディで、Donald Trump の妻や娘が別れをつげる [Melanianade](https://www.youtube.com/watch?v=uJBL7kuzvsg) とか、Tom Hanks がアメリカの父として悩めるアメリカと対話する [America's Dad Monologue](https://www.youtube.com/watch?v=vcwFeyrH2ww) とか、これはテレビでは見ていないけど、Hillary のものまねをしている Kate McKinnon が本物の Hillary 扮するバーテンダーと話す [Hillary Clinton Bar Talk](https://www.youtube.com/watch?v=6Jh2n5ki0KE) とか、政治的なネタが多くてびっくりする。
 
-Saturday Night Live のほかにも、Jimmy Fallon の The Tonight Show には [Donald Trump が出てきて髪をめちゃくちゃにされる](https://www.youtube.com/watch?v=u0BYqzdiuJc) し、Seth Meyers の Late Night には現職副大統領の [Joe Biden が出てくる](https://www.youtube.com/watch?v=ilOEuIxpfz4) し、でもどちらも Wikipedia を見ると "American comedian" とあって、なるほどわからんという気持ちになる。
+Saturday Night Live のほかにも、Jimmy Fallon の The Tonight Show には [Donald Trump が出てきて髪をめちゃくちゃにされる](https://www.youtube.com/watch?v=u0BYqzdiuJc)し、Seth Meyers の Late Night には現職副大統領の [Joe Biden が出てくる](https://www.youtube.com/watch?v=ilOEuIxpfz4)し、でもどちらも Wikipedia を見ると "American comedian" と紹介されていて、アメリカのコメディアンは働くなあと思う。
 
 ### パンフレット
 
-選挙にともなって [Voter's Pamphlet という小冊子 (PDF)](https://www.sos.wa.gov/_assets/elections/research/ED%2007%20-%20King%20(Seattle%20area).pdf) も配布される。わたしは外国人なんで選挙権は無いんだけど、そういうものなのか前に住んでいた人の住所がどこかに登録されたままなのか、アパートに届いていた。
+選挙にともなって [Voter's Pamphlet という小冊子 (PDF)](https://www.sos.wa.gov/_assets/elections/research/ED%2007%20-%20King%20(Seattle%20area).pdf) も配布される。そういうものなのか、前に住んでいた人の住所がどこかに登録されたままなのか、外国人で選挙権の無い私のアパートにも届いていた。
 
 これには、大統領や議員に加えて、各種投票にかけられている Initiative (住民発案) の説明も載っている。説明は [HTML 版](https://weiapplets.sos.wa.gov/MyVoteOLVR/OnlineVotersGuide/Measures?language=en&electionId=63&countyCode=xx&ismyVote=False&electionTitle=2016%20General%20Election%20#ososTop) にもあるけど、すべてが
 
@@ -44,7 +44,7 @@ Saturday Night Live のほかにも、Jimmy Fallon の The Tonight Show には [
 * Fiscal Impact Statement (財政面での影響)
 * Argument for / Argument against (賛成側/反対側の意見)
 
-というフォーマットに別れて説明されていて、読み応えがある。
+というフォーマットで説明されていて、わかりやすいけど、全部まじめに読もうとするとかなりの時間がかかると思う。
 
 ### Endorsement
 
@@ -54,13 +54,12 @@ Saturday Night Live のほかにも、Jimmy Fallon の The Tonight Show には [
 
 > IT'S ALMOST OVER! We mean the election. We mean Donald Trump vs. Hillary Clinton vs. Your Sanity. That's almost over. But in the final weeks of this fucked-up, race-baiting, Muslim-smearing, face-punching, pussy-grabbing presidential election season, it feels like our democracy could be coming to an end, too.
 
-テンションがちょっとおかしいけど、[The Stranger はそういうものなので](https://blog.8-p.info/ja/2016/09/21/the-stranger/)、まあ。[Seattle Weekly](http://www.seattleweekly.com/news/the-endorsements/) や [Seattle Times](http://www.seattletimes.com/category/endorsements-2016/) にも同じように endorsements が出ている。
+テンションがちょっとおかしいけど、[The Stranger はそういうもの](https://blog.8-p.info/ja/2016/09/21/the-stranger/)なので、まあ。[Seattle Weekly](http://www.seattleweekly.com/news/the-endorsements/) や [Seattle Times](http://www.seattletimes.com/category/endorsements-2016/) にも同じように endorsements が出ている。
 
-新聞がこうやって支持/不支持を表明するのは、「結局のところ、朝日は左で、産経は右なんでしょ」みたいな世の中の見方にたいして「いえいえ新聞は中立な、社会の木鐸ですよ」とするよりは、はっきりしていて好ましいと思う。
+新聞がこうやって支持/不支持を表明するのは、「結局のところ、朝日は左で、産経は右なんでしょ」みたいな世の中の見方に対して「いえいえ、新聞というのは中立ですよ」というポーズをとるよりは、はっきりしていて好ましいと思う。
 
 ### 最後に
 
-なんか出羽守っぽくなってしまって不本意だけど、外国の制度をみるのは「社会の制度がこうなっているのは絶対ではなくて、そうじゃない社会では、こういったことがあるんですよ」という、SF 的な楽しみがあると思う。
+全体的に出羽守っぽくなってしまって不本意だけど、外国の制度をみるのは「社会の制度がこうなっているのは絶対ではなくて、そうじゃない社会では、こういったことがあるんですよ」という、SF 的な楽しみがあると思う。
 
 できれば Hillary Clinton が大統領になって、[Sound Transit 3 計画](http://soundtransit3.org/) (シアトルの電車拡張計画) が通って欲しいけど、どうなるんですかね。
-
