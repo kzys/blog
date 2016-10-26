@@ -230,5 +230,9 @@ footer a {
 
 /* list */
 #list article {
-    padding: 2rem 0 0 0;
+    padding: 1rem 0 0 0;
+}
+
+#list h2 {
+    font-size: 1rem;
 }
