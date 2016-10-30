@@ -37,6 +37,17 @@
 
 <header>
   <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+  {{ if eq .Site.LanguageCode "en-us" }}
+  <p class="about">
+    I'm a software developer in Seattle, who used to work in Tokyo.
+    This blog focuses my technical interests,
+    mainly Unix and functional programming.
+  </p>
+  <div class="menu">
+    <a href="{{ .Site.BaseURL }}">Latest</a>
+    <a href="{{ .Site.BaseURL }}post/">Archives</a>
+  </div>
+  {{ else }}
   <p class="about">
     アメリカのシアトルで働くプログラマの日記です。以前は東京でも働いていました。
   </p>
@@ -44,4 +55,5 @@
     <a href="/">ブログトップ</a>
     <a href="/post/">記事一覧</a>
   </div>
+  {{ end }}
 </header>

@@ -4,5 +4,5 @@ title = "Kazu's Log"
 theme = "x17"
 
 [permalinks]
-post  = "/:section/:year/:month/:day/:filename/"
-page  = "/:section/:filename/"
+post  = "/:year/:month/:day/:filename/"
+page  = "/:filename/"

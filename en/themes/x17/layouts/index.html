@@ -1,21 +1,15 @@
 {{ partial "header.html" . }}
 
-<div id="content">
-  <div class="content">
-    <main>
+<main>
 {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
 {{ range $paginator.Pages }}
   {{ .Scratch.Set "IsSingle" false }}
   {{ partial "article.html" . }}
 {{ end }}
+</main>
 
-    </main>
-  </div><!-- .content -->
-
-  <div id="pagination">
-    {{ template "_internal/pagination.html" . }}
-  </div>
-
-</div><!-- #content -->
+<div id="pagination">
+  {{ template "_internal/pagination.html" . }}
+</div>
 
 {{ partial "footer.html" . }}
