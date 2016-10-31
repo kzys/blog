@@ -2,6 +2,7 @@
 draft = false
 date = "2016-10-26T08:14:25-07:00"
 title = "街宣車のない選挙の季節"
+images = [ "/ja/photo/2016/election_1024.jpg" ]
 +++
 
 <div class="photo">
