@@ -25,9 +25,13 @@ title = "街宣車のない選挙の季節"
 
 討論会のほかに、テレビ CM も年中やっている。YouTube で見れるものだと、たとえば [ワシントン第7区](https://en.wikipedia.org/wiki/Washington%27s_7th_congressional_district) の下院議員に立候補している Pramila Jayapal は ["Listening" と題されたこんなコマーシャル](https://www.youtube.com/watch?v=mfBDaIODWhs) などを、対する Brady Walkinshaw は ["Together" と題されたこんなコマーシャル](https://www.youtube.com/watch?v=6kzbDyKgk3E) などを流している。
 
-Brady Walkinshaw には ["We Have A Choice" と題されたこんなコマーシャル](https://www.youtube.com/watch?v=enKJbT30WAw) もあり、こっちは「Pramila は良くないよ」という、対立候補を下げるような、比較広告じみたものになっている。
+Brady Walkinshaw には ["We Have A Choice" と題されたこんなコマーシャル](https://www.youtube.com/watch?v=enKJbT30WAw) もあり、こっちは「Pramila は良くないよ」という、対立候補を下げるような、比較広告じみたものになっている。この広告には Pramila 側から
 
-特定の候補者を下げるような広告は、対立候補からだけ出るわけでもない。たとえば州知事に立候補している Bill Bryant には [Washington Conservation Voters](https://wcvoters.org/) という環境系の団体が、各種団体からの献金から ["He'd be their Governor, not yours" と批判するコマーシャル](https://www.youtube.com/watch?v=kC7X1GDnsK0) を放送している。
+> Today, Elected officials, community Leaders, and labor leaders joined to refute the dishonest, misleading, and desperate attacks by Rep. Brady Walkinshaw in the 7th Congressional District race.
+
+と、[プレスリリース](http://www.pramilaforcongress.com/news/negativeadresponse) が出ている。
+
+特定の候補者を下げるような広告は、対立候補からだけ出るわけでもない。たとえば州知事に立候補している Bill Bryant には [Washington Conservation Voters](https://wcvoters.org/) という環境系の団体が、各種企業の献金から ["He'd be their Governor, not yours" と批判するコマーシャル](https://www.youtube.com/watch?v=kC7X1GDnsK0) を放送している。
 
 ### コメディアン
 
