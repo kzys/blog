@@ -25,6 +25,7 @@ build:
     - script:
         name: Hide en/ for a moment
         code: |
+          mv $WERCKER_OUTPUT_DIR/en/index.html $WERCKER_OUTPUT_DIR/en/index2.html
           echo > $WERCKER_OUTPUT_DIR/en/index.html
 
 deploy:
