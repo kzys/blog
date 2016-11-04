@@ -6,10 +6,7 @@ images = [ "/ja/photo/2016/election_1024.jpg" ]
 +++
 
 <div class="photo">
-<img src="/photo/2016/election_1024.jpg"
-     srcset="/photo/2016/election_1024.jpg 1024w,
-             /photo/2016/election_2304.jpg 2304w"
-     alt="Voter's Pamphlet and newspapers">
+{{<photo name="2016/election" alt="Voter's Pamphlet and newspapers" >}}
 </div>
 
 アメリカはいま選挙の季節で、大統領選はもちろん、知事も上院議員も下院議員も各種発案もみんな一度に投票して決めてしまうらしい。
