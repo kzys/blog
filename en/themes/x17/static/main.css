@@ -234,11 +234,11 @@ footer a {
 
 /* list */
 #list {
-    padding: 2rem;
 }
 
 #list article {
-    padding: 1rem 0 0 0;
+    margin: 2rem 0 0 0;
+    padding: 0;
 }
 
 #list h2 {
