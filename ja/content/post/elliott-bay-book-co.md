@@ -10,4 +10,4 @@ title = "The Elliott Bay Book Company"
 
 ちなみに、コンピュータ関係の本は二階にあるけど、量がないうえにあまり厳選されてもいなくて、これは [Pacific Place](http://www.pacificplaceseattle.com/) の Barnes & Noble に行ったほうがいいと思う。
 
-今日は、[シアトルに引っ越してきたらしい](http://www.thestranger.com/books/2016/04/20/23980466/sifting-through-hazardous-materials-with-international-comics-superstar-simon-hanselmann)、[Vice なんかにも書いている](http://www.vice.com/series/megg-mogg-owl)、Simon Hanselmann のマンガでも買おうと思っていたんだけど、パラパラめくってみたら、想像よりだいぶどぎつくて、結局は買わずじまいで終わってしまった。
+今日は、[シアトルに引っ越してきたらしい](http://www.thestranger.com/books/2016/04/20/23980466/sifting-through-hazardous-materials-with-international-comics-superstar-simon-hanselmann)、[Vice なんかにも書いている](http://www.vice.com/series/megg-mogg-owl)、Simon Hanselmann のマンガでも買おうと思っていたんだけど、パラパラめくってみたら想像よりだいぶどぎつくて、結局は買わずじまいで終わってしまった。
