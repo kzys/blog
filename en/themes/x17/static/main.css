@@ -233,6 +233,10 @@ footer a {
 }
 
 /* list */
+#list {
+    padding: 2rem;
+}
+
 #list article {
     padding: 1rem 0 0 0;
 }
