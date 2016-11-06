@@ -27,6 +27,9 @@ build:
         code: |
           mv $WERCKER_OUTPUT_DIR/en/index.html $WERCKER_OUTPUT_DIR/en/index2.html
           echo > $WERCKER_OUTPUT_DIR/en/index.html
+    - script:
+        name: Copy index.html
+        code: cp $WERCKER_ROOT/index.html $WERCKER_OUTPUT_DIR/index.html
 
 deploy:
   steps:
