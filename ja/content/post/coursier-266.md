@@ -14,7 +14,7 @@ title = "Coursier のバグを直した"
 
 一方で、最近の世の中は、ブラウザで JavaScript をたくさん実行したり、電話に明示的にソフトウェアをダウンロードさせて実行するような方向に傾いている。こういう環境で Web アプリケーション時代のいろいろなテクニックが使えるかどうかというと、私にはあまり知見がない。
 
-Martin Odersky は、[Scalawags #38](http://scalawags.tv/scalawags-38) で、C# コンパイラの書き直しである Roslyn プロジェクトを引き合いに、Dotty について説明していた。
+Martin Odersky は、[Scalawags #38](http://scalawags.tv/scalawags-38) で、C# コンパイラの (成功した) 書き直しである Roslyn プロジェクトを引き合いに、Dotty がなぜ書き直しなのかを説明していた。
 
 ### Coursier
 
