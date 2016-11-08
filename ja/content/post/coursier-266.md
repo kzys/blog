@@ -18,7 +18,7 @@ Martin Odersky は、[Scalawags #38](http://scalawags.tv/scalawags-38) で、C# 
 
 ### Coursier
 
-一方で、以前に趣味で [scala/scala (主に Scaladoc) をいろいろ直していた](https://github.com/scala/scala/commits?author=kzys) 身としては、現状のふたつコンパイラがある状況はなやましい。一方で Scala 2.12.0 の Scaladoc は、EPFL の [Felix Mulder](https://github.com/felixmulder) の変更が入っていて、びっくりするくらい見た目がよくなった。
+一方で、以前に趣味で [scala/scala (主に Scaladoc) をいろいろ直していた](https://github.com/scala/scala/commits?author=kzys) 身としては、現状のふたつコンパイラがある状況はなやましい。また、Scala 2.12.0 の Scaladoc は、EPFL の [Felix Mulder](https://github.com/felixmulder) の変更が入っていて、びっくりするくらい見た目がよくなった。
 
 というわけで、Scala コンパイラ以外で何か面白そうなものはないかなと探していたら、[Coursier](https://github.com/alexarchambault/coursier) を見つけた。Coursier は Maven と Ivy から jar をダウンロードするためのライブラリで、一気に jar を並列ダウンロードするので速い、らしい。
 
