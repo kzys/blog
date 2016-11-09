@@ -10,8 +10,6 @@ date = "2016-11-09T01:23:12-08:00"
 
 > Regardless of tonight’s national results, tomorrow Seattle will remain a city guided by the values of equality, inclusion and openness. Tomorrow we will continue to support women, we will welcome as neighbors our Muslim brothers and sisters, and tomorrow Black Lives will still matter. Our City will remain strong because of our diversity, not in spite of it.
 
-> Regardless of tonight's national results, tomorrow Seattle will remain a city guided by the values of equality, inclusion and openness.
-
 という [声明](http://murray.seattle.gov/mayor-murray-statement-election/) を出していて ([KIRO7](https://twitter.com/KIRO7Seattle/status/796263729436323841), [動画](https://twitter.com/lindsaycohen/status/796219705438543875))、頼もしい。
 
 イギリスの EU 離脱のときに読んだ、[地べたから見た英EU離脱：昨日とは違うワーキングクラスの街の風景](http://bylines.news.yahoo.co.jp/bradymikako/20160625-00059237/) は興味深くて、アメリカにも分断はあるんだろう。
