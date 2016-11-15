@@ -94,7 +94,7 @@ h1 a, h2 a {
 header .content,
 article .header,
 #list,
-#pagination,
+#pagination .content,
 footer .content {
     max-width: 50rem;
     margin-left:  auto;
@@ -219,16 +219,16 @@ div.photo-100 {
 /* pagination */
 
 #pagination {
-    clear: both;
-    float: none;
-    padding: 0;
+    background: #ffdc00;
+    margin: 0;
+    padding: 1rem 0 0 0;
 }
 
 #pagination ul {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    padding: 1em;
+    padding: 0;
 }
 
 #pagination ul li {
@@ -255,6 +255,10 @@ div.photo-100 {
 
 /* footer */
 footer {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #ffdc00;
 }
 
 footer .content {
