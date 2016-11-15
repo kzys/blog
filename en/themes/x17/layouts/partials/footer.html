@@ -1,6 +1,10 @@
 
 <footer>
   <div class="content">
+    {{ if eq .Site.LanguageCode "en-us" }}
+    {{ else }}
+    {{ end }}
+
     <div id="powered">
       <p>Powered by Hugo {{ .Hugo.Version }}</p>
     </div>

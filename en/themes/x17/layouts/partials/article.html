@@ -1,6 +1,9 @@
 <article>
-  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-  <div class="posted">{{ .Date.Format "Jan 2, 2006" }}</div>
+  <div class="header">
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <div class="posted">{{ .Date.Format "Jan 2, 2006" }}</div>
+  </div>
+
   {{ if and .Params.readmore (not (.Scratch.Get "IsSingle")) }}
   <div class="content">
     {{ .Summary }}

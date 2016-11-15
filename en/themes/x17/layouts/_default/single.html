@@ -1,6 +1,8 @@
 {{ partial "header.html" . }}
 
-{{ .Scratch.Set "IsSingle" true }}
-{{ partial "article.html" . }}
+<main>
+  {{ .Scratch.Set "IsSingle" true }}
+  {{ partial "article.html" . }}
+</main>
 
 {{ partial "footer.html" . }}
