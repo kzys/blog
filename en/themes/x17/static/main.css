@@ -32,7 +32,7 @@ html {
 }
 
 body {
-    background: #ffdc00;
+    background: #ddd;
 }
 
 html, body {
@@ -101,6 +101,8 @@ footer .content {
     margin-left:  auto;
     margin-right: auto;
     box-sizing: border-box;
+
+    /* 1rem for a narrow screen such as mobile */
     padding: 0 1rem;
 }
 
@@ -119,7 +121,7 @@ h1 {
 
 header .about {
     font-size: 90%;
-    margin: 1rem 0;
+    margin: .5em 0;
 }
 
 #menu {
@@ -146,7 +148,7 @@ article {
 }
 
 article:last-child {
-    margin-bottom: 2rem !important;
+    margin-bottom: 0 !important;
 }
 
 article .header {
@@ -224,8 +226,9 @@ div.photo-100 {
 /* pagination */
 
 #pagination {
+    background: #fff;
     margin: 0;
-    padding: 1rem 0 0 0;
+    padding: 0;
 }
 
 #pagination .content {
@@ -287,7 +290,7 @@ footer .about {
 
 .about p {
     font-size: 100%;
-    margin: 0;
+    margin: .5em 0;
     padding: 0;
 }
 
