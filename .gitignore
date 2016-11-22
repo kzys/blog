@@ -1,2 +1,4 @@
-ja/public
+ja/public/
+en/public/
 *~
+*.min.js
