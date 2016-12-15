@@ -45,6 +45,10 @@ header, main {
     overflow: hidden;
 }
 
+main {
+    padding: 1rem 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -93,6 +97,7 @@ h1 a, h2 a {
 /* basic structure */
 
 header .content,
+#menu .content,
 article .header,
 #list,
 #pagination .content,
@@ -109,7 +114,7 @@ footer .content {
 /* header */
 
 header .content {
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem;
 }
 
 h1 {
@@ -121,24 +126,24 @@ h1 {
 
 header .about {
     font-size: 90%;
-    margin: .5em 0;
+    margin-top: .5em;
 }
 
 #menu {
-    font-size: 90%;
+    background: #fff;
     clear: both;
     overflow: hidden;
+    font-size: 90%;
+    border-bottom: 1px solid #ddd;
 }
 
 #menu a {
     display: block;
     float: left;
-
-    padding: .2rem;
-    margin-right: 1rem;
+    line-height: 2rem;
+    margin-right: 2rem;
 
     color: #111 !important;
-    background: #ddd;
 }
 
 /* article */
@@ -301,6 +306,7 @@ footer .about {
 /* list */
 #list {
     padding: 0 1rem;
+    margin-bottom: 2rem;
 }
 
 #list article {
