@@ -12,9 +12,9 @@ Derek Sivers が「[目標は人に言わずにおこう](https://www.ted.com/ta
 
 子供が生まれて父親になった。アメリカの出産では立ち会うのが普通らしく、陣痛から出産までずっと一緒にいた結果、3回くらい泣いてしまった。子供はかわいい。
 
-私は、結婚して子供をつくったり住宅ローンを組んだりすると、生活の可搬性はどんどん失われていって、結果として海外で暮らすようなことはなるんだろうと思っていた。
+以前に私は、結婚して子供をつくったり住宅ローンを組んだりすると、生活の可搬性はどんどん失われていって、結果として海外で暮らすようなことはなるんだろうと思っていた。
 
-現実問題として可搬性は失われていて、たぶんギークハウスとかにはもう住めないけど、一方で、結婚して子供をつくってアメリカに住む、くらいまでなら実現できたのは発見だった。もちろんそれは、慣れないアメリカの生活についてきてくれた妻のおかげで、これについては感謝しかない。
+数年たってみると、現実問題として可搬性は失われていて、たぶんギークハウスとかにはもう住めないけど、一方で、結婚して子供をつくってアメリカに住む、くらいまでなら実現できたのは発見だった。もちろんそれは、慣れないアメリカの生活についてきてくれた妻のおかげで、これについては感謝しかない。
 
 ### 仕事で Peer Recognition Award をもらった
 
@@ -40,6 +40,8 @@ Derek Sivers が「[目標は人に言わずにおこう](https://www.ted.com/ta
 
 ### 機械学習と Hadoop に入門した
 
-機械学習は [Coursera の Machine Learning](https://www.coursera.org/learn/machine-learning) を途中までやって (途中で挫折して)、いまは [Udacity の Intro to Machine Learning](https://classroom.udacity.com/courses/ud120) を少しずつ進めている。Hadoop にも Amazon Elastic MapReduce で少しだけ入門した。
+機械学習は [Coursera の Machine Learning](https://www.coursera.org/learn/machine-learning) を途中までやって (途中で挫折して)、いまは [Udacity の Intro to Machine Learning](https://classroom.udacity.com/courses/ud120) を少しずつ進めている。
+
+Hadoop にも Amazon Elastic MapReduce で少しだけ入門した。
 
 どちらも入門半ばで、どのくらい取り組むかはまだ未知数だけど、はじめられたこと自体は良かった。
