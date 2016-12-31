@@ -39,7 +39,6 @@
   <div class="content">
     <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
     {{ if eq .Site.LanguageCode "en-us" }}
-    <div class="about">Let compilers to do more work</div>
     {{ else }}
     <div class="about">アメリカのシアトルで働くプログラマの日記です</div>
     {{ end }}
@@ -48,8 +47,14 @@
 
 <div id="menu">
   <div class="content">
-    <a href="{{ .Site.BaseURL }}">トップ</a>
-    <a href="/post/">過去記事</a>
+    {{ if eq .Site.LanguageCode "en-us" }}
+    <a href="{{ .Site.BaseURL }}">Top</a>
+    <a href="{{ .Site.BaseURL }}post/">Archive</a>
     <a href="{{ .Site.RSSLink }}">RSS</a>
+    {{ else }}
+    <a href="{{ .Site.BaseURL }}">トップ</a>
+    <a href="{{ .Site.BaseURL }}post/">過去記事</a>
+    <a href="{{ .Site.RSSLink }}">RSS</a>
+    {{ end }}
   </div>
 </div>
