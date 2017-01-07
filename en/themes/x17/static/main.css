@@ -59,7 +59,6 @@ pre {
     word-break: break-all;
 
     background: #f0f0f0;
-    box-sizing: border-box;
     padding: .5rem;
 }
 
@@ -105,7 +104,6 @@ footer .content {
     max-width: 50rem;
     margin-left:  auto;
     margin-right: auto;
-    box-sizing: border-box;
 
     /* 1rem for a narrow screen such as mobile */
     padding: 0 1rem;
@@ -165,31 +163,20 @@ article .content {
     margin: 0 1rem;
 }
 
-article > .content > h3,
-article > .content > p,
-article > .content > pre,
-article > .content > ul,
-article > .content > ol,
-article > .content > blockquote,
-article > .content > .photo-100 {
-    /* 50em - 1em padding around header, footer, ... */
-    max-width: 48rem;
+article .content {
+    max-width: 50rem;
 
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1rem auto;
+    padding: 0 1rem;
 }
 
 /* article */
-article .photo-100 img {
-    width: 100%;
+article .photo {
+    margin: 1rem -1rem;
 }
 
 h2 {
     margin: 0;
-}
-
-article > .content > blockquote {
-    padding-left: 2rem;
 }
 
 article p {
@@ -201,18 +188,9 @@ article .posted {
     color: #666;
 }
 
-/* photo xl */
-article .photo {
-    display: block;
-    height: auto;
-    margin: 0 -1rem;
-}
-
 article .photo img {
-    position: relative;
-    left: 0;
-    height: auto;
     max-width: 100%;
+    height: auto;
 }
 
 article blockquote {
@@ -221,10 +199,6 @@ article blockquote {
 }
 
 div.photo {
-    margin-top: 1em;
-}
-
-div.photo-100 {
     margin-top: 1em;
 }
 
