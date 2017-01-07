@@ -1,6 +1,6 @@
 /*
 
-- Colors are from http://clrs.cc/ and http://clrs.cc/a11y/
+- Colors are from https://material.io/guidelines/style/color.html
 
 */
 
@@ -14,7 +14,7 @@ html[lang="en-us"] body {
     font-family: Georgia, serif;
 }
 
-h1, h2, .posted, #menu, #powered {
+header, h2, .posted, #pagination, footer {
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -24,15 +24,11 @@ code {
 
 /* Define the color of <footer> */
 html {
-    background: #fff;
-    color: #001f3f;
+    background: #E0E0E0; /* Gray 400 */
+    color: #212121;
 
     margin: 0;
     padding: 0;
-}
-
-body {
-    background: #ddd;
 }
 
 html, body {
@@ -40,13 +36,9 @@ html, body {
 }
 
 /* Define the color of the rest */
-header, main {
-    background: #fff;
+header, main, #pagination {
+    background: #FAFAFA; /* Grey 50 */
     overflow: hidden;
-}
-
-main {
-    padding: 1rem 0;
 }
 
 body {
@@ -58,12 +50,12 @@ pre {
     white-space: pre-wrap;
     word-break: break-all;
 
-    background: #f0f0f0;
+    background: #f5f5f5;
     padding: .5rem;
 }
 
 code {
-    background: #f0f0f0;
+    background: #f5f5f5;
     padding: 0 .5em;
 }
 
@@ -73,10 +65,10 @@ pre code {
 
 /* link */
 a:link {
-    color: #0074d9;
+    color: #2196F3; /* Blue 500 */
 }
 a:visited {
-    color: #b10dc9;
+    color: #9C27B0; /* Purple 500 */
 }
 a:hover {
 }
@@ -84,7 +76,7 @@ a:active {
 }
 
 h1 a, h2 a {
-    color: #001f3f !important;
+    color: #212121 !important;
     background: unset !important;
     text-decoration: none;
 }
@@ -95,13 +87,8 @@ h1 a, h2 a {
 
 /* basic structure */
 
-header .content,
-#menu .content,
-article .header,
-#list,
-#pagination .content,
-footer .content {
-    max-width: 50rem;
+article .header, #list {
+    max-width: 45rem;
     margin-left:  auto;
     margin-right: auto;
 
@@ -112,7 +99,13 @@ footer .content {
 /* header */
 
 header .content {
+    max-width: 70rem;
     padding: 1rem;
+    margin: 2rem auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h1 {
@@ -128,30 +121,24 @@ header .about {
 }
 
 #menu {
-    background: #fff;
     clear: both;
     overflow: hidden;
     font-size: 90%;
     border-bottom: 1px solid #ddd;
 }
 
-#menu a {
-    display: block;
-    float: left;
-    line-height: 2rem;
-    margin-right: 2rem;
+.menu {
+    margin: 1rem 0;
+}
 
-    color: #111 !important;
+.menu a {
+    margin-right: 2rem;
 }
 
 /* article */
 
 article {
-    margin-bottom: 4rem;
-}
-
-article:last-child {
-    margin-bottom: 0 !important;
+    margin: 2rem 0;
 }
 
 article .header {
@@ -164,7 +151,7 @@ article .content {
 }
 
 article .content {
-    max-width: 50rem;
+    max-width: 45rem;
 
     margin: 1rem auto;
     padding: 0 1rem;
@@ -205,25 +192,24 @@ div.photo {
 /* pagination */
 
 #pagination {
-    background: #fff;
     margin: 0;
     padding: 0;
 }
 
 #pagination .content {
+    padding: 1rem;
+
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 #pagination .column {
-    flex: 1;
     text-align: center;
 }
 
 #pagination a, #pagination .number {
     display: block;
-    margin: 1em 0;
-    padding: .4em;
+    padding: .5rem;
 }
 
 #pagination a {
@@ -241,14 +227,13 @@ div.photo {
 
 /* footer */
 footer {
-    background: #ddd;
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
 
 footer .content {
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 footer a {
@@ -256,24 +241,7 @@ footer a {
     text-decoration: none;
 }
 
-footer .about {
-    font-size: 90%;
-    margin: 1rem 0;
-}
-
-.about h2 {
-    font-size: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.about p {
-    font-size: 100%;
-    margin: .5em 0;
-    padding: 0;
-}
-
-#powered {
+footer {
     font-size: 90%;
 }
 
@@ -283,10 +251,29 @@ footer .about {
 }
 
 #list article {
-    margin: 0 0 2rem 0;
     padding: 0;
 }
 
 #list h2 {
     font-size: 1rem;
+}
+
+@media (min-width: 50rem) {
+    header .content {
+        margin: 4rem 0;
+        flex-direction: row;
+    }
+
+    .menu {
+        margin: 0;
+    }
+
+    .menu a {
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+
+    article {
+        margin: 4rem 0;
+    }
 }
