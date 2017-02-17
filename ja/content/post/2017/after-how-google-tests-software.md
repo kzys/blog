@@ -20,7 +20,7 @@ SRE 本を読んでいて思い出すのは『[テストから見えてくるグ
 
 一方で、James Whittaker なき後の Google では、SET を [SETI (Software Engineer, Tools & Infrastructure) と改名](https://testing.googleblog.com/2016/03/from-qa-to-engineering-productivity.html)する。ここではもう「テスト」は名前に含まれなくなってしまっている。
 
-SET から SETI への変化で、業務や組織構造が実際にどれだけ変わったのかは、Google 社員ではない私にはいまひとつわからない。ただ『テストから見えてくるグーグルのソフトウェア開発』の予言と期待は、部分的には成就したといっても良いのではないかと思う。
+SET から SETI への変化で、業務や組織構造が実際にどれだけ変わったのかは、Google 社員ではない私にはいまひとつわからない。ただ『テストから見えてくるグーグルのソフトウェア開発』の予言と期待は、部分的には成就したといっても良いのではないか。
 
 ### Site Reliability Engineering vs. Site Reliability Engineer
 
