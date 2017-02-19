@@ -16,7 +16,7 @@ O'Reilly の [Site Reliability Engineering](https://landing.google.com/sre/book.
 
 実際に『テストから見えてくるグーグルのソフトウェア開発』の著者のひとりである James Whittaker は、はじめは [Test Director として Google に入社](https://testing.googleblog.com/2009/06/james-whittaker-joins-google.html)し、Google Testing Blog にも精力的に投稿する「テストのひと」だったけど、最終的には Google+ の Development Director というテスト色の薄い ([LinkedIn](https://www.linkedin.com/in/james-whittaker-22987813/) いわく "Engineering Director for Google+ APIs and dev/test tool chain" なのでゼロではないけれど) 仕事につく。
 
-でも、その後には [Google の変化と Google+ に失望](https://blogs.msdn.microsoft.com/jw_on_tech/2012/03/13/why-i-left-google/)して、前職の Microsoft に戻ってしまう。Google Testing Automation Conference 2011 の基調講演が「正しくものを作るまえに、正しいものを作るべきだ」という内容の [Test is Dead](https://www.youtube.com/watch?v=X1jWe5rOu3g) だったことを考えると、Google+ に失望して退職というのは、なかなか苦味のあるはなしだと思う。
+でも、その後には [Google の変化と Google+ に失望](https://blogs.msdn.microsoft.com/jw_on_tech/2012/03/13/why-i-left-google/)して、前職の Microsoft にもどる。Google Testing Automation Conference 2011 の基調講演が「正しくものを作るまえに、正しいものを作るべきだ」という内容の [Test is Dead](https://www.youtube.com/watch?v=X1jWe5rOu3g) だったことを考えると、Google+ に失望して退職というのは、なかなか苦味のあるはなしだと思う。
 
 一方で James Whittaker なき後の Google では、2016年に SET を [SETI (Software Engineer, Tools & Infrastructure) と改名して](https://testing.googleblog.com/2016/03/from-qa-to-engineering-productivity.html)「テスト」を名前から外してしまう。
 
