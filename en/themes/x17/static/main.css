@@ -7,7 +7,8 @@
 /* Typography */
 
 body {
-    font-family: 'Avenir Next', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+
 }
 
 html[lang="en-us"] body {
@@ -163,6 +164,11 @@ article .photo {
 
 h2 {
     margin: 0;
+    font-size: 120%;
+}
+
+h3 {
+    font-size: 100%;
 }
 
 article p {
