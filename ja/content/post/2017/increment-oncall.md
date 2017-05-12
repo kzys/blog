@@ -22,11 +22,11 @@ title = "Increment のオンコール特集号"
 
 ### Increment みどころ
 
-オンコールってなにをすればいいんだろうという人は、オンコール入門的な [What happens when the pager goes off?](https://increment.com/on-call/when-the-pager-goes-off/) と、スタートアップから大企業までどういう仕組みが必要かというのをまとめた [On-call at any size](https://increment.com/on-call/on-call-at-any-size/) あたりから読みはじめるのがいいと思う。
+Increment のオンコール特集号は、オンコール入門から各企業での事例まで、幅広い話題をカバーしている。
+
+オンコールってなにをすればいいんだろうという人は、入門的な [What happens when the pager goes off?](https://increment.com/on-call/when-the-pager-goes-off/) と、スタートアップから大企業までどういう仕組みが必要かというのをまとめた [On-call at any size](https://increment.com/on-call/on-call-at-any-size/) あたりから読みはじめるのがいいと思う。
 
 すでにオンコールをしている人は、Google, Spotify, Airbnb などなどの事例をまとめた [Who owns on-call?](https://increment.com/on-call/who-owns-on-call/) や、オンコールと大変さを軽減するための [Crafting sustainable on-call rotations](https://increment.com/on-call/crafting-sustainable-on-call-rotations/) あたりが参考になる。
-
-野次馬的興味だと、[The benefits of transparency](https://increment.com/on-call/the-benefits-of-transparency/) という、本番データを消してしまったことでおなじみ GitLab の、CEO へのインタビューもあります。
 
 [Who owns on-call?](https://increment.com/on-call/who-owns-on-call/) で紹介されている事例には、結構ばらつきがあるけど
 
