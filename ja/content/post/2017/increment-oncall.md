@@ -1,0 +1,37 @@
++++
+date = "2017-05-11T22:55:17-07:00"
+draft = false
+title = "Increment のオンコール特集号"
++++
+
+課金プラットフォームの Stripe が、なぜだか [Increment というオンライン季刊誌](https://increment.com/) をはじめていた。[創刊の辞](https://stripe.com/blog/increment) いわく
+
+> a software engineering magazine dedicated to providing practical and useful insight into what effective teams are doing so that the rest of us can learn from them more quickly.
+
+チームがどうこういわれると、アジャイルとか心理的安全性のはなしを思い浮かべるけど、創刊号の特集はオンコール! ということで読んでみた。
+
+### オンコールとは
+
+オンコール (on-call) をカタカナで検索すると医療関係の説明がよく引っかかる。たとえば [専門医局](https://www.senmon-i.net/yougo/detail_14.html) というお医者さん向け転職サイトでは
+
+> 医師をはじめ、救急担当やオペ室看護師など、医療従事者が患者の急変時や、救急搬送時に勤務時間外であっても呼ばれればいつでも対応できるように待機していること。
+
+と説明されている。
+
+ソフトウェア業界でいうオンコールもこれと同じで、リクエスト数が急増したとか、みたことないエラーがログに出ているとか、API の応答時間がすごく遅くなっていたりとか、そういうときに緊急の対応をする役割のことをいう。ローテーションを組んで当番制にしているチームが多いと思う。
+
+### Increment みどころ
+
+オンコールってなにをすればいいんだろうという人は、オンコール入門的な [What happens when the pager goes off?](https://increment.com/on-call/when-the-pager-goes-off/) と、スタートアップから大企業までどういう仕組みが必要かというのをまとめた [On-call at any size](https://increment.com/on-call/on-call-at-any-size/) あたりから読みはじめるのがいいと思う。
+
+すでにオンコールをしている人は、Google, Spotify, Airbnb などなどの事例をまとめた [Who owns on-call?](https://increment.com/on-call/who-owns-on-call/) や、オンコールと大変さを軽減するための [Crafting sustainable on-call rotations](https://increment.com/on-call/crafting-sustainable-on-call-rotations/) あたりが参考になる。
+
+野次馬的興味だと、[The benefits of transparency](https://increment.com/on-call/the-benefits-of-transparency/) という、本番データを消してしまったことでおなじみ GitLab の、CEO へのインタビューもあります。
+
+[Who owns on-call?](https://increment.com/on-call/who-owns-on-call/) で紹介されている事例には、結構ばらつきがあるけど
+
+> Increment spoke with over thirty industry leaders about the “who” and the “why”, and what we learned from our conversations about the industry-wide movement to put developers on-call for their software.
+
+開発チームをオンコールにいれるのは業界全体での動きだよ、とされている。流行りの SRE (Site Reliability Engineer) 職についても、Google の SRE は大きなサービスだけだとか、とか、Airbnb では SRE だけがオンコールしないとか、いろいろと知らないことがあった。
+
+オンコール、夜中に起こされるのは大変だけど、一方で自分が開発したソフトウェアを運用するのは良いことで、勤務時間帯に好き勝手やって運用して、夜中だけは他の人が対応するというのは結構なコミットメント不足なので、まあやむなしかなあと思う。
