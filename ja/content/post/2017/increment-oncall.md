@@ -12,7 +12,7 @@ title = "Increment のオンコール特集号"
 
 ### オンコールとは
 
-オンコール (on-call) をカタカナで検索すると医療関係の説明がよく引っかかる。たとえば [専門医局](https://www.senmon-i.net/yougo/detail_14.html) というお医者さん向け転職サイトでは
+オンコール (on-call) をカタカナで検索すると医療関係の説明がよく出てくる。たとえば [専門医局](https://www.senmon-i.net/yougo/detail_14.html) というお医者さん向け転職サイトでは
 
 > 医師をはじめ、救急担当やオペ室看護師など、医療従事者が患者の急変時や、救急搬送時に勤務時間外であっても呼ばれればいつでも対応できるように待機していること。
 
@@ -26,12 +26,12 @@ Increment のオンコール特集号は、オンコール入門から各企業�
 
 オンコールってなにをすればいいんだろうという人は、入門的な [What happens when the pager goes off?](https://increment.com/on-call/when-the-pager-goes-off/) と、スタートアップから大企業までどういう仕組みが必要かというのをまとめた [On-call at any size](https://increment.com/on-call/on-call-at-any-size/) あたりから読みはじめるのがいいと思う。
 
-すでにオンコールをしている人は、Google, Spotify, Airbnb などなどの事例をまとめた [Who owns on-call?](https://increment.com/on-call/who-owns-on-call/) や、オンコールと大変さを軽減するための [Crafting sustainable on-call rotations](https://increment.com/on-call/crafting-sustainable-on-call-rotations/) あたりが参考になる。
+すでにオンコールをしている人は、オンコールと大変さを軽減するための [Crafting sustainable on-call rotations](https://increment.com/on-call/crafting-sustainable-on-call-rotations/) と、様々な会社でだれがどうオンコールをしているのかを聞いてまわった [Who owns on-call?](https://increment.com/on-call/who-owns-on-call/) が参考になるだろう。
 
-[Who owns on-call?](https://increment.com/on-call/who-owns-on-call/) で紹介されている事例には、結構ばらつきがあるけど
+この冒頭では
 
-> Increment spoke with over thirty industry leaders about the “who” and the “why”, and what we learned from our conversations about the industry-wide movement to put developers on-call for their software.
+> It’s difficult to pinpoint exactly when the industry changed its mind about on-call responsibilities, but the “who”, the “where”, and the “why” are relatively straightforward to uncover and understand. To determine the state of the industry, Increment spoke with over thirty industry leaders about the “who” and the “why”, and what we learned from our conversations about the industry-wide movement to put developers on-call for their software.
 
-開発チームをオンコールにいれるのは業界全体での動きだよ、とされている。流行りの SRE (Site Reliability Engineer) 職についても、Google の SRE は大きなサービスだけだとか、とか、Airbnb では SRE だけがオンコールしないとか、いろいろと知らないことがあった。
+開発チームをオンコールにいれるのが業界全体での動きだとされていて、私はちょっとびっくりした。
 
-オンコール、夜中に起こされるのは大変だけど、一方で自分が開発したソフトウェアを運用するのは良いことで、勤務時間帯に好き勝手やって運用して、夜中だけは他の人が対応するというのは結構なコミットメント不足なので、まあやむなしかなあと思う。
+流行りの SRE (Site Reliability Engineer) 職についても、Google の SRE は大きなサービスだけだとか、Airbnb では SRE だけがオンコールしないとか、いろいろと知らないことがあった。
