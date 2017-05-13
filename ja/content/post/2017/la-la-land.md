@@ -8,8 +8,8 @@ title = '四十九日と "La La Land"'
 
 行きの飛行機では "La La Land" をみた。よかった。
 
-最後の[オーディションの場面](https://genius.com/Emma-stone-audition-the-fools-who-dream-annotated)で、なんとなく自分と叔母さんを重ねてしまって、もちろん大企業でプログラマをするのは
+最後の[オーディションの場面](https://genius.com/Emma-stone-audition-the-fools-who-dream-annotated)で、なんとなく自分を重ねてしまって、もちろん私は川に飛び込んだりはしないし、大企業でプログラマをするのは、冒頭の場面に出てくる
 
 > Should’ve been a lawyer. ‘Cause the world needs more lawyers.
 
-という類の選択肢で、 rebel でも crazy でもないのはわかっているけれど。
+という類の、女優になったりするのとは違う、安全側の選択肢だというのはわかっているけど。
