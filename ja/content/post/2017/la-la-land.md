@@ -8,8 +8,10 @@ title = '四十九日と "La La Land"'
 
 行きの飛行機では "La La Land" をみた。よかった。
 
-最後の[オーディションの場面](https://genius.com/Emma-stone-audition-the-fools-who-dream-annotated)で、なんとなく自分を重ねてしまって、もちろん私は川に飛び込んだりはしないし、大企業でプログラマをするのは、冒頭の場面に出てくる
+最後の[オーディションの場面](https://genius.com/Emma-stone-audition-the-fools-who-dream-annotated)で、なんとなく自分を重ねてしまって、もちろん私は川に飛び込んだりはしないし、大企業でプログラマをするのは
 
 > Should’ve been a lawyer. ‘Cause the world needs more lawyers.
 
-という類の、女優になったりするのとは違う、安全側の選択肢だというのはわかっているけど。
+という類の、安全側の選択肢だというのはわかっているけど。
+
+でもまあ、飛行機ではるばる自分の国に帰って、日本に残している家族に色々をまかせてアメリカに戻ったりしていると、ちょっと foolish な感じがしなくもない。
