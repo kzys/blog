@@ -1,50 +1,24 @@
-/*
-
-- Colors are from https://material.io/guidelines/style/color.html
-
-*/
-
-/* Typography */
-
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
-
+    background: #fff;
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
-html[lang="en-us"] body {
-    font-family: Georgia, serif;
+html[lang="ja-jp"] h1 {
+    font-weight: normal;
+    font-size: 120%;
 }
 
-header, h2, .posted, #pagination, footer {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+header .content,
+article .header, article .content,
+#pagination .content, footer .content, #list {
+    max-width: 50rem;
+    margin: 1rem auto;
+    padding: 0;
 }
 
 code {
     font-family: 'Menlo', monospace;
-}
-
-/* Define the color of <footer> */
-html {
-    background: #E0E0E0; /* Gray 400 */
-    color: #212121;
-
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    height: 100%;
-}
-
-/* Define the color of the rest */
-header, main, #pagination {
-    background: #FAFAFA; /* Grey 50 */
-    overflow: hidden;
-}
-
-body {
-    margin: 0;
-    padding: 0;
 }
 
 pre {
@@ -86,27 +60,19 @@ h1 a, h2 a {
     text-decoration: none;
 }
 
-/* basic structure */
-
-article .header, #list {
-    max-width: 45rem;
-    margin-left:  auto;
-    margin-right: auto;
-
-    /* 1rem for a narrow screen such as mobile */
-    padding: 0 1rem;
-}
-
 /* header */
 
 header .content {
-    padding: 1rem;
-    margin: 2rem auto;
+    max-width: 50rem;
+    margin: 1rem auto;
+    padding: 0;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    align-content: flex-end;
 }
+
 
 h1 {
     font-family: 'Hiragino Sans', 'Helvetica Neue', sans-serif;
@@ -115,46 +81,25 @@ h1 {
     font-size: 100%;
 }
 
+/* header */
+
 header .about {
     font-size: 90%;
-    margin-top: .5em;
 }
 
-#menu {
-    clear: both;
-    overflow: hidden;
+header .menu {
     font-size: 90%;
-    border-bottom: 1px solid #ddd;
-}
-
-.menu {
-    margin: 1rem 0;
+    align-self: flex-end;
 }
 
 .menu a {
-    margin-right: 2rem;
+    margin-left: 1rem;
 }
 
 /* article */
 
 article {
     margin: 2rem 0;
-}
-
-article .header {
-    padding: 0 1rem;
-}
-
-/* side margin for mobile devices */
-article .content {
-    margin: 0 1rem;
-}
-
-article .content {
-    max-width: 45rem;
-
-    margin: 1rem auto;
-    padding: 0 1rem;
 }
 
 /* article */
@@ -238,16 +183,12 @@ footer {
 }
 
 footer .content {
-    padding: 1rem;
+    font-size: 90%;
 }
 
 footer a {
     padding-right: 1rem;
     text-decoration: none;
-}
-
-footer {
-    font-size: 90%;
 }
 
 /* list */
@@ -261,24 +202,4 @@ footer {
 
 #list h2 {
     font-size: 1rem;
-}
-
-@media (min-width: 50rem) {
-    header .content {
-        margin: 4rem 0;
-        flex-direction: row;
-    }
-
-    .menu {
-        margin: 0;
-    }
-
-    .menu a {
-        margin-left: 2rem;
-        margin-right: 0;
-    }
-
-    article {
-        margin: 4rem 0;
-    }
 }
