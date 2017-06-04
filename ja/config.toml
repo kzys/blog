@@ -10,7 +10,7 @@ CanonifyUrls = true
 
 [permalinks]
 post  = "/:year/:month/:day/:filename/"
-page  = "/:section/:filename/"
+page  = "/:filename/"
 
 [blackfriday]
 fractions = false

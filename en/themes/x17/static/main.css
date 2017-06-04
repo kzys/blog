@@ -2,6 +2,7 @@ body {
     background: #fff;
     color: #111;
     font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 html[lang="ja-jp"] h1 {
@@ -14,7 +15,7 @@ article .header, article .content,
 #pagination .content, footer .content, #list {
     max-width: 50rem;
     margin: 1rem auto;
-    padding: 0;
+    padding: 0 1rem;
 }
 
 code {
@@ -67,6 +68,10 @@ h1 {
     margin: 0;
     padding: 0;
     font-size: 100%;
+}
+
+header {
+    border-bottom: 1px solid #000;
 }
 
 header .content {
