@@ -152,7 +152,7 @@ h4 {
     margin: 1rem 0;
 }
 
-article p {
+article p, article ul {
     line-height: 1.5;
 }
 
