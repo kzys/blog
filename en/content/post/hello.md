@@ -4,7 +4,7 @@ title = "Hello"
 draft = false
 +++
 
-While Feedly caches a few test entries and I don't know how to delete them,
+While Feedly is caching a few test posts and I don't know how to delete them,
 this is the official first entry of this blog.
 I was previously blogging at 2016.8-p.info, 2015.8-p.info, 2014.8-p.info...
 
