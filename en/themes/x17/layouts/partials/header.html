@@ -44,8 +44,7 @@
       {{ if eq .Site.LanguageCode "en-us" }}
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
       <div class="about">
-        Raw thoughts on
-        catching Exception or throwing UnsupportedOperationException.
+        Seattle-based software developer
       </div>
       {{ else }}
       <h1><a href="{{ .Site.BaseURL }}">
@@ -55,16 +54,18 @@
       {{ end }}
     </div>
 
-    <div class="menu column">
-      {{ if eq .Site.LanguageCode "en-us" }}
-      <a href="{{ .Site.BaseURL }}about/">About</a>
-      <a href="{{ .Site.BaseURL }}post/">Archive</a>
-      <a href="{{ .Site.RSSLink }}">RSS</a>
-      {{ else }}
-      <a href="{{ .Site.BaseURL }}about/">自己紹介</a>
-      <a href="{{ .Site.BaseURL }}post/">過去記事</a>
-      <a href="{{ .Site.RSSLink }}">RSS</a>
-      {{ end }}
+    <div class="column">
+      <div class="menu">
+        {{ if eq .Site.LanguageCode "en-us" }}
+        <a href="{{ .Site.BaseURL }}about/">About</a>
+        <a href="{{ .Site.BaseURL }}post/">Archive</a>
+        <a href="{{ .Site.RSSLink }}">RSS</a>
+        {{ else }}
+        <a href="{{ .Site.BaseURL }}about/">自己紹介</a>
+        <a href="{{ .Site.BaseURL }}post/">過去記事</a>
+        <a href="{{ .Site.RSSLink }}">RSS</a>
+        {{ end }}
+      </div>
     </div>
   </div>
 </header>
