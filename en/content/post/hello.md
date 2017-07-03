@@ -4,10 +4,10 @@ title = "Hello"
 draft = false
 +++
 
-While Feedly is caching a few test posts and I don't know how to delete them,
+While Feedly caches a few test posts and I don't know how to delete them,
 this is the official first entry of this blog.
-I was previously blogging at 2016.8-p.info, 2015.8-p.info, 2014.8-p.info...
 
+I was previously blogging at 2016.8-p.info, 2015.8-p.info, 2014.8-p.info...
 This one-blog-per-year experiment allowed me to explore multiple different things:
 
 - 2008 -- Write my own with Perl + [Catalyst](http://www.catalystframework.org/)
