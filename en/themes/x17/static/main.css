@@ -118,25 +118,6 @@ header .menu {
     margin: 0 1rem 0 0;
 }
 
-/* style for non-mobile */
-@media (min-width: 50rem) {
-    header .content {
-        flex-direction: row;
-    }
-
-    header .about {
-        margin: 0;
-    }
-
-    header .column {
-        align-self: flex-end;
-    }
-
-    .menu a {
-        margin: 0 0 0 1rem;
-    }
-}
-
 /* article */
 
 article {
@@ -188,9 +169,9 @@ h4 {
 /* English version uses bigger serif font, like Medium */
 
 html[lang="en-us"] article .content {
-    font-size: 22px;
-    line-height: 32px;
-    font-family: "serif";
+    font-size: 18px;
+    line-height: 24px;
+    font-family: serif;
 }
 
 html[lang="en-us"] h2 {
@@ -287,3 +268,28 @@ footer a {
 
 #list h2 {
 }
+
+/* style for non-mobile */
+@media (min-width: 50rem) {
+    html[lang="en-us"] article .content {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    header .content {
+        flex-direction: row;
+    }
+
+    header .about {
+        margin: 0;
+    }
+
+    header .column {
+        align-self: flex-end;
+    }
+
+    .menu a {
+        margin: 0 0 0 1rem;
+    }
+}
+
