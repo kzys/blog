@@ -1,12 +1,23 @@
 body {
-    background: #fff;
-    color: #333;
-    margin: 0;
-    font-size: 16px;
-    line-height: 1;
+    background: #f0f0f0;
 }
 
-body, h2, h3, h4 {
+header, main, #pagination {
+    background: #fff;
+    overflow: hidden;
+}
+
+footer {
+    background: #f0f0f0;
+}
+
+
+body {
+    background: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1rex;
     font-family: 'Helvetica Neue', 'Hiragino Sans', sans-serif;
 }
 
@@ -16,18 +27,19 @@ h1, h2, h3, h4 {
 
 html[lang="ja-jp"] h1 {
     font-weight: normal;
-    font-size: 120%;
+    font-size: 1.2rem;
 }
 
 html[lang="en-us"] h1 {
-    font-size: 100%;
+    font-weight: normal;
+    font-size: 1.2rem;
 }
 
 header .content,
 article .header, article .content,
 #pagination .content, footer .content, #list {
-    max-width: 750px;
-    margin: 16px auto;
+    max-width: 40rem;
+    margin: 1rem auto;
     padding: 0 1rem;
 }
 
@@ -52,33 +64,28 @@ pre code {
     font-size: 80%;
 }
 
-/* styles for links are the same as 8-p.info */
-a {
-    text-decoration: none;
-    border-bottom: 2px solid #f0f0f0;
-}
-
+/* back to basics */
 a:link {
-    color: #000;
-    border-color: #f00;
+    color: #009;
 }
 a:visited {
-    color: #000;
-    border-color: #ccc;
+    color: #606;
 }
 a:hover {
-    color: #000;
-    border-color: #f00;
+    color: #00f;
 }
 a:active {
-    color: #000;
-    border-color: #000;
+    color: #00f;
 }
 
 /* cancel the styles */
-h1 a, h2 a {
+h1 a, h2 a{
     color: #000 !important;
-    border: none;
+    text-decoration: none;
+}
+
+footer a{
+    color: #000 !important;
 }
 
 #menu a, #pagination a {
@@ -88,12 +95,14 @@ h1 a, h2 a {
 /* header */
 
 h1 {
-    margin: 0 0 1rem 0;
+    margin: 0;
     padding: 0;
 }
 
 header {
+    background: #fff;
     border-bottom: 1px solid #ccc;
+    overflow: hidden;
 }
 
 header .content {
@@ -102,20 +111,17 @@ header .content {
     justify-content: space-between;
 }
 
-header .about {
+header .menu, header .about {
     font-size: 90%;
-    line-height: 1rem;
-    margin: 0 0 1rem 0;
+    line-height: 2;
 }
 
-header .menu {
-    font-size: 90%;
-    line-height: 1rem;
-    margin: 0;
+header .about {
+    margin-right: 1rem;
 }
 
 .menu a {
-    margin: 0 1rem 0 0;
+    margin-right: 1rem;
 }
 
 /* article */
@@ -150,41 +156,21 @@ article .content {
 
 h2 {
     margin: 0;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 1.4rem;
 }
 
 h3 {
     margin: 0;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.2rem;
 }
 
 h4 {
     margin: 0;
-    font-size: 16px;
-    line-height: 32px;
-}
-
-/* English version uses bigger serif font, like Medium */
-
-html[lang="en-us"] article .content {
-    font-size: 18px;
-    line-height: 28px;
-    font-family: serif;
-}
-
-html[lang="en-us"] h2 {
-    font-size: 28px;
-}
-
-html[lang="en-us"] h3 {
-    font-size: 24px;
 }
 
 article .posted {
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 90%;
+    line-height: 1rex;
     color: #999;
 }
 
@@ -244,17 +230,12 @@ footer {
     padding: 0;
     margin: 0;
     overflow: hidden;
+    background: #f0f0f0;
 }
 
 footer .content {
-    font-size: 14px;
-    line-height: 24px;
-    color: #999;
-}
-
-footer a {
-    padding-right: 1rem;
-    text-decoration: none;
+    font-size: 90%;
+    line-height: 1rex;
 }
 
 /* list */
@@ -272,16 +253,10 @@ footer a {
 /* style for non-mobile */
 @media (min-width: 640px) {
     html[lang="en-us"] article .content {
-        font-size: 24px;
-        line-height: 32px;
     }
 
     header .content {
         flex-direction: row;
-    }
-
-    header .about {
-        margin: 0;
     }
 
     header .column {
