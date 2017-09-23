@@ -10,22 +10,24 @@
 
 <div id="pagination">
   <div class="content">
-    <div class="column prev">
-    {{ if $paginator.HasPrev }}
-    <a href="{{ $paginator.Prev.URL }}">Newer</a>
-    {{ end }}
-    </div>
-
-    <div class="column">
-      <div class="number">
-        {{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}
+    <div class="content-inner">
+      <div class="column prev">
+        {{ if $paginator.HasPrev }}
+        <a href="{{ $paginator.Prev.URL }}">Newer</a>
+        {{ end }}
       </div>
-    </div>
 
-    <div class="column next">
-      {{ if $paginator.HasNext }}
-      <a href="{{ $paginator.Next.URL }}">Older</a>
-      {{ end }}
+      <div class="column">
+        <div class="number">
+          {{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}
+        </div>
+      </div>
+
+      <div class="column next">
+        {{ if $paginator.HasNext }}
+        <a href="{{ $paginator.Next.URL }}">Older</a>
+        {{ end }}
+      </div>
     </div>
   </div>
 </div>

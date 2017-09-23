@@ -7,15 +7,23 @@
   </div>
 
   {{ if and .Params.readmore (not (.Scratch.Get "IsSingle")) }}
+  <!-- with "read more" -->
   <div class="content">
-    {{ .Summary }}
-    <p>
-      {{ if .Truncated }}
-      (<a href="{{ .RelPermalink }}">続きを読む</a>)
-      {{ end }}
-    </p>
+    <div class="content-inner">
+      {{ .Summary }}
+      <p>
+        {{ if .Truncated }}
+        (<a href="{{ .RelPermalink }}">続きを読む</a>)
+        {{ end }}
+      </p>
+    </div>
   </div>
   {{ else }}
-  <div class="content">{{ .Content }}</div>
+  <!-- without "read more" -->
+  <div class="content">
+    <div class="content-inner">
+      {{ .Content }}
+    </div>
+  </div>
   {{ end }}
 </article>

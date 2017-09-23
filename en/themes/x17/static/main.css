@@ -38,7 +38,7 @@ html[lang="en-us"] h1 {
 header .content,
 article .header, article .content,
 #pagination .content, footer .content, #list {
-    max-width: 40rem;
+    max-width: 60rem;
     margin: 1rem auto;
     padding: 0 1rem;
 }
@@ -150,8 +150,40 @@ article .photo {
     margin: 1rem -1rem;
 }
 
+/* footnote */
+
 article .content {
-    line-height: 1.5;
+    position: relative;
+}
+
+article .content-inner {
+    line-height: 1.5rem;
+}
+
+/* footnotes */
+
+article .footnotes {
+    line-height: 1.5rem;
+    font-size: 90%;
+}
+
+article .footnotes hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+
+article sup.footnote-ref {
+    vertical-align: super;
+    font-size: 50%;
+}
+
+article .footnotes ol {
+    margin: 0;
+    padding: 1rem;
+}
+article .footnotes a.footnote-return {
+    display: none;
 }
 
 h2 {
@@ -198,7 +230,9 @@ div.photo {
 
 #pagination .content {
     padding: 0 1rem;
+}
 
+#pagination .content-inner {
     display: flex;
     justify-content: space-between;
 }
@@ -214,7 +248,7 @@ div.photo {
 
 #pagination a {
     color: #333;
-    border: 1px solid #aaa;
+    border: 1px solid #ccc;
 }
 
 #pagination .disabled {
@@ -251,7 +285,7 @@ footer .content {
 }
 
 /* style for non-mobile */
-@media (min-width: 640px) {
+@media (min-width: 800px) {
     html[lang="en-us"] article .content {
     }
 
@@ -265,6 +299,31 @@ footer .content {
 
     .menu a {
         margin: 0 0 0 1rem;
+    }
+
+
+    /* show footnotes as sidenotes */
+    article .footnotes {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20rem;
+    }
+
+    article .footnotes ol {
+        padding: 0;
+    }
+
+    article .footnotes hr {
+        display: none;
+    }
+
+    article .content-inner, #pagination .content-inner {
+        padding-right: 20rem;
+    }
+
+    article .footnotes hr {
+        display: none;
     }
 }
 
