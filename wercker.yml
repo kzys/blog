@@ -4,13 +4,11 @@ build:
   steps:
     - npm-install
     - script:
-        name: Install make
-        code: apt-get -y install build-essential
+        name: Install make and wget
+        code: apt-get update && apt-get install -y make wget
     - script:
         name: Install hugo
-        code: |
-          apt-get install -y wget
-          wget -O - https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-64bit.tgz | tar zxvf -
+        code: wget -O - https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-64bit.tgz | tar zxvf -
     - script:
         name: Build static files
         code: |
@@ -33,7 +31,7 @@ deploy:
   steps:
     - script:
         name: Install s3cmd
-        code: apt-get install -y s3cmd
+        code: apt-get update && apt-get install -y s3cmd
     - s3sync:
         delete-removed: true
         bucket-url: $AWS_BUCKET_URL
