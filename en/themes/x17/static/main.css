@@ -1,5 +1,10 @@
+:root {
+    --footer-color: #f0f0f0;
+    --sidenote-width: 20rem;
+}
+
 body {
-    background: #f0f0f0;
+    background: var(--footer-color);
 }
 
 header, main, #pagination {
@@ -8,12 +13,12 @@ header, main, #pagination {
 }
 
 footer {
-    background: #f0f0f0;
+    background: var(--footer-color);
 }
 
 
 body {
-    background: #f0f0f0;
+    background: var(--footer-color);
     color: #333;
     margin: 0;
     padding: 0;
@@ -160,32 +165,6 @@ article .content-inner {
     line-height: 1.5rem;
 }
 
-/* footnotes */
-
-article .footnotes {
-    line-height: 1.5rem;
-    font-size: 90%;
-}
-
-article .footnotes hr {
-    border: 0;
-    height: 1px;
-    background: #ccc;
-}
-
-article sup.footnote-ref {
-    vertical-align: super;
-    font-size: 50%;
-}
-
-article .footnotes ol {
-    margin: 0;
-    padding: 1rem;
-}
-article .footnotes a.footnote-return {
-    display: none;
-}
-
 h2 {
     margin: 0;
     font-size: 1.4rem;
@@ -200,16 +179,46 @@ h4 {
     margin: 0;
 }
 
-article .posted {
-    font-size: 90%;
-    line-height: 1rex;
-    color: #999;
+article {
+    /* footnotes */
+
+    & .footnotes {
+        line-height: 1.5rem;
+        font-size: 90%;
+
+        & hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+        }
+
+        & ol {
+            margin: 0;
+            padding: 1rem;
+        }
+
+        & a.footnote-return {
+            display: none;
+        }
+    }
+
+    & sup.footnote-ref {
+        vertical-align: super;
+        font-size: 50%;
+    }
+
+    & .posted {
+        font-size: 90%;
+        line-height: 1rex;
+        color: #999;
+    }
+
+    & .photo img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
-article .photo img {
-    max-width: 100%;
-    height: auto;
-}
 
 article blockquote {
     margin: 0 0 0 2em;
@@ -264,7 +273,7 @@ footer {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background: #f0f0f0;
+    background: var(--footer-color);
 }
 
 footer .content {
@@ -307,7 +316,7 @@ footer .content {
         position: absolute;
         top: 0;
         right: 0;
-        width: 20rem;
+        width: var(--sidenote-width);
     }
 
     article .footnotes ol {
@@ -319,7 +328,7 @@ footer .content {
     }
 
     article .content-inner, #pagination .content-inner {
-        padding-right: 20rem;
+        padding-right: var(--sidenote-width);
     }
 
     article .footnotes hr {

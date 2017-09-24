@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/kzys/2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kzys/2017#readme",
+  "dependencies": {
+    "cssnano": "^3.10.0",
+    "postcss": "^6.0.11",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2"
+  }
+}
