@@ -25,9 +25,6 @@ build:
           cd $WERCKER_ROOT/en
           $WERCKER_ROOT/hugo
           cp -r $WERCKER_ROOT/en/public $WERCKER_OUTPUT_DIR/en
-    - script:
-        name: Copy index.html
-        code: cp $WERCKER_ROOT/index.html $WERCKER_OUTPUT_DIR/index.html
 
 deploy:
   steps:
