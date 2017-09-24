@@ -13,6 +13,6 @@ My blog setup is quite complex. This post is a reminder to myself. I'm currently
 * [Amazon API Gateway](https://aws.amazon.com/api-gateway/) and [AWS Lambda](https://aws.amazon.com/lambda/) to serve Hugo's output with my old blog
 * [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) to obtain the SSL certificate
 
-The half of the complexity is coming from the fact that I was using blog.8-p.info for my blog from 2005 to 2011. It was on [Mephisto](https://github.com/mephistorb/mephisto), [WordPress](https://wordpress.org/) and some other blog engines. Now I'm running none of them and the contents are served as static HTML files on S3. [Cool URIs don't change](https://www.w3.org/Provider/Style/URI.html).
+The half of the complexity is coming from the fact that I was using blog.8-p.info for my blog from 2005 to 2011. It was on [Mephisto](https://github.com/mephistorb/mephisto), [WordPress](https://wordpress.org/) and some other blog engines. Now I'm running none of them, but the contents are stored as static HTML files and served as like before. Even nobody read them, [cool URIs don't change](https://www.w3.org/Provider/Style/URI.html).
 
 Therefore there are 2 S3 buckets for blog.8-p.info. One of them is for Hugo and another is for the old files. API Gateway is routing some traffic to the former, and some traffic to the latter. This might not be "API" but it works for me.
