@@ -1,7 +1,8 @@
-box: golang
+box: node:4.2.6-slim
 
 build:
   steps:
+    - npm-install
     - script:
         name: Download
         code: curl -L https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-64bit.tgz | tar zxvf -
