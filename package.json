@@ -14,9 +14,12 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/kzys/2017#readme",
   "dependencies": {
+    "browserify": "^14.4.0",
     "cssnano": "^3.10.0",
     "postcss": "^6.0.11",
     "postcss-cli": "^4.1.1",
-    "postcss-cssnext": "^3.0.2"
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "prismjs": "^1.8.1"
   }
 }
