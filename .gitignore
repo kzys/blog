@@ -2,3 +2,5 @@ ja/public/
 en/public/
 *~
 *.min.js
+*.min.css
+node_modules
