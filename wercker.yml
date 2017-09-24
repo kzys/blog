@@ -1,4 +1,4 @@
-box: node:8.5-alpine
+box: node:8.5-slim
 
 build:
   steps:
@@ -6,7 +6,7 @@ build:
     - script:
         name: Download Hugo
         code: |
-          apk add --update ca-certificates openssl make
+          apt-get install -y make wget
           wget -O - https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-64bit.tgz | tar zxvf -
     - script:
         name: Build static files
@@ -30,7 +30,7 @@ deploy:
   steps:
     - script:
         name: Install s3cmd
-        code: apk add --update s3cmd
+        code: apt-get install -y s3cmd
     - s3sync:
         delete-removed: true
         bucket-url: $AWS_BUCKET_URL
