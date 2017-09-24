@@ -28,6 +28,9 @@ build:
 
 deploy:
   steps:
+    - script:
+        name: Install s3cmd
+        code: apk add --update s3cmd
     - s3sync:
         delete-removed: true
         bucket-url: $AWS_BUCKET_URL
