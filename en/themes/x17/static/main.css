@@ -302,13 +302,12 @@ footer {
         right: 0;
         width: var(--sidenote-width);
 
-        & .footnotes ol {
+        & ol {
             padding: 0;
         }
 
-        & .footnotes hr {
+        & hr {
             display: none;
         }
     }
 }
-
