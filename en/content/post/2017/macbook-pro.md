@@ -38,7 +38,7 @@ The below are minimal tweaks I need.
 * Display
   * Night Shift > Schedule > Sunset to Sunrise
 
-[^2]: The original shortcut is Ctrl-Space, which should not be taken, for Emacs.
+[^2]: The original shortcut is Ctrl-Space, which is Emacs' `set-mark-command`
 
 ### Dock
 
