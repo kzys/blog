@@ -50,6 +50,14 @@ Then I removed various apps from Dock.
 
 I've been using Chrome but I started trying Safari on this MacBook Pro. I'm worrying a bit about Google's dominance.
 
-* Preferences... > Advanced > Show Develop menu in menu bar
+* Preferences...
+  * AutoFill > Uncheck "User names and passwords" because of 1Password
+  * Advanced > Show Develop menu in menu bar
+  * Websites > Auto-Play > iknow.jp > Allow All Auto-Play
 
 Then I installed [WasteNoTime](http://www.bumblebeesystems.com/wastenotime/) and 1Password.
+
+### Terminal
+
+* Preferences... > Profiles > Basic
+  * Shell > When the shell exits: > Close if the shell exited cleanly
