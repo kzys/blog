@@ -6,3 +6,6 @@ theme = "x17"
 [permalinks]
 post  = "/:year/:month/:day/:filename/"
 page  = "/:filename/"
+
+[outputs]
+home = ["html", "rss", "json"]

@@ -14,3 +14,6 @@ page  = "/:filename/"
 
 [blackfriday]
 fractions = false
+
+[outputs]
+home = ["html", "rss", "json"]
