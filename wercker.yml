@@ -8,7 +8,7 @@ build:
         code: apt-get update && apt-get install -y make wget
     - script:
         name: Install hugo
-        code: wget -O - https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-64bit.tgz | tar zxvf -
+        code: wget -O - https://github.com/gohugoio/hugo/releases/download/v0.30.2/hugo_0.30.2_Linux-64bit.tar.gz | tar zxvf -
     - script:
         name: Build static files
         code: |
