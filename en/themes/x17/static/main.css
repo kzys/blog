@@ -16,7 +16,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
-    font-family: 'Helvetica Neue', 'Hiragino Sans', sans-serif;
+    font-family: 'Helvetica Neue', 'Hiragino Kaku Gothic', sans-serif;
 }
 
 footer {
@@ -128,12 +128,12 @@ ul {
 }
 
 h2 {
-    margin: 0;
-    font-size: 1.5rem;
+    margin: 1.5rem 0 0 0;
+    font-size: 1.4rem;
 }
 
 h3 {
-    margin: 0;
+    margin: 1.5rem 0 0 0;
     font-size: 1.2rem;
 }
 
@@ -156,12 +156,8 @@ article {
 
     & .posted {
         font-size: 80%;
-        line-height: 2rem;
+        line-height: 1.5rem;
         color: #999;
-    }
-
-    & p {
-        margin: 1rem 0;
     }
 
     & .content {
@@ -170,6 +166,10 @@ article {
 
     & .content-inner {
         line-height: 1.5rem;
+
+        & p {
+            margin: 1rem 0;
+        }
     }
 
     /* footnotes */
