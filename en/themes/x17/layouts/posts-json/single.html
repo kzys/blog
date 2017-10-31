@@ -1,6 +1,0 @@
-{{ $.Scratch.Add "result" slice }}
-{{- range where .Site.Pages "Section" "post" -}}
-  {{ $.Scratch.Add "result" (dict "title" .Title "published" .Date ) }}
-{{- end -}}
-
-{{ $.Scratch.Get "result" | jsonify }}
