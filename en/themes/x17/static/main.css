@@ -270,7 +270,12 @@ footer {
     padding: 0 1rem;
 
     & article {
+        margin: 1rem 0;
         padding: 0;
+
+        & h2 {
+            font-size: 1rem;
+        }
     }
 }
 
