@@ -15,7 +15,7 @@ date: 2017-12-04T06:16:13-08:00
 
 どれが来るのか、まだわからない。
 
-そもそも誰もベター Java を必要としていなくて Go というのもありえるけど、個人的には map や fold ができるような言語に流行ってほしい。
+そもそも誰もベター Java なんて必要としていなくて、Go が流行りだすというのもありえる、というか現実に起こりつつあるけど、個人的には map や fold ができるような言語にがんばってほしいです。
 
 [EXMIXI]: https://qiita.com/advent-calendar/2017/ex-mixi
 [KOTLIN]: https://qiita.com/kzys/items/0950372c0a3cb2af5dcd
