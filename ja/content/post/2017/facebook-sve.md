@@ -41,5 +41,5 @@ Facebook でも、こういうバックエンドのシステムだったら Hack
 
 単純に「シェアできる状態になる」というのが全体のパイプラインのうち重要なマイルストーンなのかもしれないけど、サービスを特徴づける動詞があって、それをエンジニア側もメトリクスとして使っている、というのは、なんか会社としてちゃんとしていて良いなあと思う。
 
-[^1]: 翻訳を読みたいひともいるかもしれないけど、[プログラマと英語 1: 野良翻訳](http://anemone.dodgson.org/2016/09/10/doing-english-1-translations/)で書かれている色々の懸念もあって、自分はしません。
+[^1]: 翻訳を読みたいひともいるかもしれないけど、[プログラマと英語 1: 野良翻訳](http://anemone.dodgson.org/2016/09/10/doing-english-1-translations/)で書かれている色々に同意する部分もあり、自分では翻訳しません。
 [TMP]: https://blog.acolyer.org/2017/11/27/sve-distributed-video-processing-at-facebook-scale/
