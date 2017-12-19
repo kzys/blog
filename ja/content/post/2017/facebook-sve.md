@@ -11,7 +11,7 @@ SVE は動画を GOP (group of pictures) という短い動画に変換して扱
 
 > The first change is that the client breaks the video up into segments consisting of a group of pictures (GOP), when possible, before uploading the segments to the front-end. Each GOP in a video is separately encoded, so each can be decoded without referencing earlier GOPs.
 
-GOP 分割は必須ではなくて、古いクラアント向けにはフォールバックも用意されている。
+GOP 分割は必須ではなくて、古いクライアント向けにはフォールバックも用意されている。
 
 > Some older clients cannot split videos into GOP segments before uploading. The preprocessor does the GOP splitting for videos from those clients.
 
@@ -19,7 +19,7 @@ GOP 分割は必須ではなくて、古いクラアント向けにはフォー�
 
 > We decrease the latency for uploads through client-side re-encoding of the video to a smaller size when three conditions are met: the raw video is large, the network is bandwidth constrained, and the appropriate hardware and software support exists on the client device. We avoid re-encoding when a video is already appropriately sized or when the client has a high bandwidth connection because these uploads will already complete quickly. Thus, we prefer to avoid using client device resources (e.g., battery) since they will provide little bene t. Requiring all three conditions ensures we only do client-side re-encoding when it meaningfully decreases pre-sharing latency.
 
-私はいまだに「クライアントは非力で API も少ないし、色々複雑な作業はサーバー側でやったほうが、エラーもログも簡単に収集できるし平和だよね」というのを暗黙の前提にしてしまいがちなので、SVE のクライアントが頑張る感じは新鮮だった。
+私はいまだに「クライアントは非力で API も少ないし、色々複雑な作業はサーバー側でやったほうが、エラーもログも簡単に収集できるし平和だよね」というクライアント == ブラウザ時代の空気感を暗黙の前提にしてしまいがちで、SVE のクライアント == スマートフォンむけに Java/Objective-C や C++ で書かれているソフトウェアが頑張る感じは新鮮だった。
 
 ### HHVM と Hack
 
