@@ -44,7 +44,7 @@
       {{ if eq .Site.LanguageCode "en-us" }}
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
       <div class="about">
-        Mostly about coding
+        mostly about technical things
       </div>
       {{ else }}
       <h1><a href="{{ .Site.BaseURL }}">
@@ -57,6 +57,7 @@
     <div class="column">
       <div class="menu">
         {{ if eq .Site.LanguageCode "en-us" }}
+        <a href="{{ .Site.BaseURL }}about/">About</a>
         <a href="{{ .Site.BaseURL }}post/">Archive</a>
         <a href="{{ .Site.RSSLink }}">RSS</a>
         {{ else }}
