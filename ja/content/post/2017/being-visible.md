@@ -1,7 +1,6 @@
 ---
 title: "英語圏での存在感"
-date: 2017-12-23T09:52:31-08:00
-draft: true
+date: 2017-12-25T00:10:46-08:00
 ---
 
 @hardmaru さん経由で、[Making Peace with Personal Branding](http://www.fast.ai/2017/12/18/personal-brand/) を読んだ。Twitter にすら力を入れていて
@@ -20,6 +19,6 @@ draft: true
 
 というのは同世代感があって良い。著者の Andrew さんは [How to start a professional blog: 10 tips for new bloggers](http://andrewchen.co/how-to-start-a-professional-blog-10-tips-for-new-bloggers/) というのも書いていて、これも実践的で良かった。
 
-英語でブログを書くの、たまにやってみてはあまり続かずに日本語に戻ってくるのを繰り返しているけど、それでも2011年とか2013年とかはがんばっていた。
+英語でブログを書くの、たまにやってみてはあまり続かずに日本語に戻ってくるのを繰り返しているけど、それでも2011年とか2013年とかはがんばっていた。さらにいうと、昔に書いたソフトウェアはがんばって英語ページも作っていた。
 
-ブログに限らず、来年は日本語圏の外に届くようなものが作れたらなあと思う。
+来年は、そういう初心を忘れずに、もうちょっと日本語圏の外に届く活動ができればなあと思う。
