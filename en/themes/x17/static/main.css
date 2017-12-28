@@ -37,6 +37,12 @@ html[lang="en-us"] h1 {
     font-size: 1.5rem;
 }
 
+/*
+html[lang="en-us"] article .content-inner {
+    font-family: serif;
+}
+*/
+
 header .content,
 article .header, article .content,
 #pagination .content, footer .content, #list {
@@ -47,6 +53,7 @@ article .header, article .content,
 
 code {
     font-family: 'Menlo', monospace;
+    font-size: 80%;
 }
 
 pre {
@@ -55,6 +62,7 @@ pre {
 
     background: #f5f5f5;
     padding: .5rem;
+    font-size: 80%;
 }
 
 code {
