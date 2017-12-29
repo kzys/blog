@@ -5,7 +5,11 @@ date: 2017-12-22T17:55:06-08:00
 
 今日に聞いた Planet Money は、2015年の再放送で、[サンタスーツと関税](https://www.npr.org/sections/money/2017/12/20/571645063/episode-670-the-santa-suit)の話だった。
 
-サンタのコスチュームは通常は催事用のもの (festive articles) という扱いになって、外国から輸入する際に関税がかからないんだけど、しっかりした作りのものは洋服扱いになって、高い関税がかかってしまう、というので Rubies Costume Company というコスチュームの販売会社のひとが政府に対して訴訟を起こしていたらしい。
+サンタのコスチュームは通常は催事用のもの (festive articles) という扱いになって、外国から輸入する際に関税がかからないんだけど、しっかりした作りのものは洋服扱いになって、高い関税がかかってしまう。
+
+> And customs looks at this nicer Santa suit and says to Marc - this is not a festive article. You made this so nice this is clothes. And clothes go under a different part of the tariff code. To import this suit, Marc has to pay a 32 percent tax on the jacket and a 29.2 percent tax on the pants.
+
+という件で Rubies Costume Company というコスチュームの販売会社のひとが政府に対して訴訟を起こしていたらしい。面白いのは、この人は以前は国内で
 
 ### Planet Money とは
 
