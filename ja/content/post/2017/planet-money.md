@@ -9,7 +9,11 @@ date: 2017-12-22T17:55:06-08:00
 
 > And customs looks at this nicer Santa suit and says to Marc - this is not a festive article. You made this so nice this is clothes. And clothes go under a different part of the tariff code. To import this suit, Marc has to pay a 32 percent tax on the jacket and a 29.2 percent tax on the pants.
 
-という件で Rubies Costume Company というコスチュームの販売会社のひとが政府に対して訴訟を起こしていたらしい。面白いのは、この人は以前は国内で
+という件で Rubies Costume Company というコスチュームの販売会社の人が政府に対して訴訟を起こしていたらしい。ちょっとのネタバレになってしまうけど、面白いのは、この人は以前は国内生産のサンタスーツを売っていて
+
+> Back in the '90s, on the other side was Marc Beige, was Rubie's Costume Company. He has completely switched sides.
+
+そのときはサンタスーツは洋服であるので関税をかけるべきだ、という立場で訴えを起こしていたらしい。
 
 ### Planet Money とは
 
