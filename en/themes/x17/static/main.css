@@ -61,7 +61,7 @@ html[lang="en-us"] article .content-inner {
 header .content,
 article .header, article .content,
 #pagination .content, footer .content, #list {
-    max-width: 60rem;
+    max-width: 80rem;
     margin: 1rem auto;
     padding: 0 1rem;
 }
@@ -339,4 +339,18 @@ footer {
             display: none;
         }
     }
+}
+
+table tr:nth-child(odd)  {
+    background: #f0f0f0;
+}
+
+table {
+    font-size: 90%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+td {
+    padding: .2rem;
 }

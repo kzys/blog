@@ -13,7 +13,11 @@
       {{ .Summary }}
       <p>
         {{ if .Truncated }}
+        {{ if eq .Site.LanguageCode "en-us" }}
+        (<a href="{{ .RelPermalink }}">More...</a>)
+        {{ else }}
         (<a href="{{ .RelPermalink }}">続きを読む</a>)
+        {{ end }}
         {{ end }}
       </p>
     </div>
