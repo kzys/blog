@@ -1,5 +1,5 @@
 +++
-title = "Looking back 2017, through Hacker News stories"
+title = "Looking back 2017, through Hacker News"
 date = 2018-01-01T05:06:37-08:00
 images = [ "/en/image/2018/word3.png" ]
 readmore = true
