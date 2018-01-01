@@ -25,6 +25,7 @@ footer {
 
 h1, h2, h3, h4 {
     color: #000;
+    font-family: 'Helvetica Neue', 'Hiragino Kaku Gothic', sans-serif;
 }
 
 html[lang="ja-jp"] h1 {
@@ -32,9 +33,23 @@ html[lang="ja-jp"] h1 {
     font-size: 1.2rem;
 }
 
-html[lang="en-us"] h1 {
-    font-weight: normal;
-    font-size: 1.5rem;
+html[lang="en-us"] {
+    & h1 {
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+
+    & article {
+        & .content {
+            font-family: georgia, serif;
+        }
+    }
+
+    & .menu a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
 }
 
 /*
@@ -117,14 +132,15 @@ header {
     }
 
     & .about {
-        font-size: 90%;
-        line-height: 2;
+        font-size: 80%;
+        line-height: 2rem;
+        color: #999;
     }
 }
 
 .menu {
     font-size: 90%;
-    line-height: 2;
+    line-height: 2rem;
 
     & a {
         margin: 0 1rem 0 0;
@@ -270,7 +286,7 @@ footer {
     background: var(--footer-color);
 
     & .content {
-        font-size: 90%;
+        font-size: 80%;
     }
 }
 
