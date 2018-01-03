@@ -233,7 +233,7 @@ article {
     }
 }
 
-.fig {
+div.fig {
     & img {
         max-width: 100%;
         height: auto;
@@ -347,7 +347,7 @@ footer {
         }
     }
 
-    .fig {
+    div.fig {
         & img {
             max-width: none;
         }
