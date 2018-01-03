@@ -4,6 +4,8 @@ title = "Kazu's Log"
 theme = "x17"
 paginate = 5
 
+canonifyURLs = true
+
 [permalinks]
 post  = "/:year/:month/:day/:filename/"
 page  = "/:filename/"

@@ -128,18 +128,18 @@ Also note that the top of the actual result was "no domain", that means "Show HN
 
 I might be a visual thinker, or simply bad at understanding numbers. Let's have a scatter plot to see the relationship between the two variables.
 
-<div class="fig"><img src="/en/image/2018/domain1.png"/></div>
+<div class="fig"><img src="/image/2018/domain1.png"/></div>
 
 While GitHub was still the king of Hacker News in term of the number of upvotes, Medium was the most shared domain in 2017.
 
 The unreadable chuck on the above graph had below. There were a lot of commercial news sites from tech-focused ones (e.g. Verge, Wired) to newspapers (e.g. Wall Street Journal, Washington Post). Also you can see URL shorteners in the frequenty shared but rarely upvoted area.
 
-<div class="fig"><img src="/en/image/2018/domain2.png"/></div>
+<div class="fig"><img src="/image/2018/domain2.png"/></div>
 
 The area also had
  [Tech in Asia](https://news.ycombinator.com/from?site=techinasia.com), [iAfrikan](https://news.ycombinator.com/from?site=iafrikan.com) and [Security Affairs](https://news.ycombinator.com/from?site=securityaffairs.co), which were constantly shared by few users. The opposite side of the domains are corporate blogs (blog.google, blog.,sdn.microsoft.com) which were not shared frequently, but earned relatively a lot of upvotes.
 
-<div class="fig"><img src="/en/image/2018/domain3.png"/></div>
+<div class="fig"><img src="/image/2018/domain3.png"/></div>
 
 ### Commonly Used/Upvoted Words
 
@@ -219,15 +219,15 @@ Compared to Deddy's analysis, the lack of "startup" is sad to mention. [Is the g
 
 Let's make a scatter plot again. Here is the big picture.
 
-<div class="fig"><img src="/en/image/2018/word1.png"/></div>
+<div class="fig"><img src="/image/2018/word1.png"/></div>
 
 In below, the contrast between "learning" vs. "ai" is interesting. There were a lot of stories about "ai", but they didn't get much upvotes compared to "learning", which would be a part of "machine learning" or "deep learning".
 
-<div class="fig"><img src="/en/image/2018/word2.png"/></div>
+<div class="fig"><img src="/image/2018/word2.png"/></div>
 
 You can find four programming languages here; JavaScript, Go and Python. There were a lot of JavaScript stories, but they didn't get much upvotes, compared to Go and Python. [JavaScript Fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4)? Go would have Amazon Go and Go as a borad game though.
 
-<div class="fig"><img src="/en/image/2018/word3.png"/></div>
+<div class="fig"><img src="/image/2018/word3.png"/></div>
 
 ### What's next?
 
