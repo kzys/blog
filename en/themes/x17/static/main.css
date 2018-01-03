@@ -233,6 +233,13 @@ article {
     }
 }
 
+.fig {
+    & img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 div.photo {
     margin-top: 1em;
 }
@@ -337,6 +344,12 @@ footer {
 
         & hr {
             display: none;
+        }
+    }
+
+    .fig {
+        & img {
+            max-width: none;
         }
     }
 }
