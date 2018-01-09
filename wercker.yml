@@ -33,7 +33,7 @@ deploy:
         name: Install s3cmd
         code: apt-get update && apt-get install -y s3cmd
     - s3sync:
-        delete-removed: true
+        delete-removed: false
         bucket-url: $AWS_BUCKET_URL
         key-id: $AWS_ACCESS_KEY_ID
         key-secret: $AWS_SECRET_ACCESS_KEY
