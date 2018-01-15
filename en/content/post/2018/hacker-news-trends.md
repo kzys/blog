@@ -44,6 +44,8 @@ However "startup" (technically the sum of "startup" and "startups") is in downtr
 
 <div class="fig"><img alt="Mega corps vs. startup"src="/image/2018/companies.png" srcset="/image/2018/companies-2x.png 2x"/></div>
 
+<!--more-->
+
 ### Programming Languages
 
 I thought Go or JavaScript would be the most popular language (and it was at 2015), but now Python is the top!
