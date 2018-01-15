@@ -2,6 +2,7 @@
 title: "Hacker News Trends"
 date: 2018-01-15T07:56:06-08:00
 images: [ "/en/image/2018/languages.png" ]
+readmore: true
 ---
 
 Previously, I compared [Hacker News' commonly upvoted words in 2018](https://blog.8-p.info/en/2018/01/01/hacker-news-2017/) and [Deedy Das's 9 years analysis from 2006 to 2015](http://debarghyadas.com/writes/looking-back-at-9-years-of-hacker-news/). In this post, I will take a look annual trends from 2006 to 2017.
