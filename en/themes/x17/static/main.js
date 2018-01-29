@@ -1,4 +1,5 @@
 require('prismjs')
+require('prismjs/components/prism-python')
 
 function moveFootnotesToRight() {
   var xs = document.querySelectorAll("article a[rel='footnote']")
