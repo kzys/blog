@@ -1,7 +1,6 @@
 ---
 title: "Angular vs. Vue: Types of Changes"
-date: 2018-02-05T22:27:45-08:00
-draft: true
+date: 2018-02-05T22:54:16-08:00
 images: [ "/en/image/2018/angular-commits-2x.png" ]
 ---
 
