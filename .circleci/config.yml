@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:7.10
+      - image: circleci/node:9.5
 
     working_directory: ~/work
 
@@ -39,7 +39,7 @@ jobs:
             - ja
   deploy:
     docker:
-      - image: circleci/node:7.10
+      - image: circleci/node:9.5
     working_directory: ~/work
     steps:
       - attach_workspace:
