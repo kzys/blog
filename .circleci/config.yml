@@ -50,6 +50,12 @@ jobs:
           name: "Install AWS CLI"
           command: sudo apt-get -y -qq install awscli
       - run: aws s3 sync public/ s3://blog.8-p.info-2017/
+      - run:
+          name: Invalidate /en/
+          command: aws cloudfront create-invalidation --distribution-id EZLOTA1EGTZ45 --paths '/en/*'
+      - run:
+          name: Invalidate /ja/
+          command: aws cloudfront create-invalidation --distribution-id EZLOTA1EGTZ45 --paths '/ja/*'
 
 workflows:
   version: 2
