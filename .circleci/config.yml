@@ -25,4 +25,8 @@ jobs:
       # download hugo
       - run: wget -O - https://github.com/gohugoio/hugo/releases/download/v0.30.2/hugo_0.30.2_Linux-64bit.tar.gz | tar zxvf -
       - run: cd en && ../hugo
+      - store_artifacts:
+          path: en/public
       - run: cd ja && ../hugo
+      - store_artifacts:
+          path: ja/public
