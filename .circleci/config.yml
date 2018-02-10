@@ -12,18 +12,18 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}
+          - deps-{{ checksum ".circleci/config.yml" }}-{{ checksum "package.json" }}
           # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+          - deps-
 
+      # download hugo
+      - run: ls -l hugo || wget -O - https://github.com/gohugoio/hugo/releases/download/v0.30.2/hugo_0.30.2_Linux-64bit.tar.gz | tar zxvf -
       - run: npm install
 
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-      # download hugo
-      - run: wget -O - https://github.com/gohugoio/hugo/releases/download/v0.30.2/hugo_0.30.2_Linux-64bit.tar.gz | tar zxvf -
+          key: deps-{{ checksum ".circleci/config.yml" }}-{{ checksum "package.json" }}
       - run:
           name: "Build static files"
           command: make
@@ -32,8 +32,6 @@ jobs:
           command: mkdir public
       - run: cd en && ../hugo && cp -r public ../public/en
       - run: cd ja && ../hugo && cp -r public ../public/ja
-      - store_artifacts:
-          path: public
       - persist_to_workspace:
           root: ~/work/public
           paths:
