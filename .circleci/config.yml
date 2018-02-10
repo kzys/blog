@@ -34,11 +34,15 @@ jobs:
       - run: cd ja && ../hugo && cp -r public ../public/ja
       - store_artifacts:
           path: public
+      - persist_to_workspace:
+          root: public
   deploy:
     docker:
       - image: circleci/node:7.10
     working_directory: ~/work
     steps:
+      - attach_workspace:
+          at: public
       - run:
           name: "Install AWS CLI"
           command: sudo apt-get -y -qq install awscli
