@@ -39,6 +39,9 @@ jobs:
       - image: circleci/node:7.10
     working_directory: ~/work
     steps:
+      - run:
+          name: "Install AWS CLI"
+          command: sudo apt-get -y -qq install awscli
       - run: aws s3 sync public/ s3://blog.8-p.info-2017/
 
 workflows:
