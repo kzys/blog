@@ -27,6 +27,9 @@ jobs:
       - run:
           name: "Build static files"
           command: make
+      - run:
+          name: "Prepare public/"
+          command: mkdir public
       - run: cd en && ../hugo && cp -r public ../public/en
       - run: cd ja && ../hugo && cp -r public ../public/ja
       - store_artifacts:
