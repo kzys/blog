@@ -12,3 +12,6 @@ page  = "/:filename/"
 
 [outputs]
 home = ["html", "rss", "json"]
+
+[params]
+SourceRoot = "https://github.com/kzys/blog/tree/master/en"

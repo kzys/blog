@@ -132,9 +132,9 @@ header {
     }
 
     & .about {
-        font-size: 80%;
+        font-size: 90%;
         line-height: 2rem;
-        color: #999;
+        color: #666;
     }
 }
 
@@ -183,13 +183,31 @@ article {
     }
 
     & .posted {
-        font-size: 80%;
-        line-height: 1.5rem;
-        color: #999;
+        font-size: 90%;
+        line-height: 2rem;
+        color: #666;
+    }
+
+    & .source {
+        font-size: 90%;
+        color: #666;
+
+        & a {
+            color: #666 !important;
+            text-decoration: none;
+        }
     }
 
     & .content {
         position: relative;
+
+        & .footer {
+            font-size: 80%;
+            font-family: monospace;
+            border: 1px solid #000;
+            margin: 2rem 0;
+            padding: .5rem;
+        }
     }
 
     & .content-inner {
