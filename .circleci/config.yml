@@ -39,7 +39,7 @@ jobs:
             - ja
   deploy:
     docker:
-      - image: circleci/ubuntu:16.04
+      - image: ubuntu:16.04
     working_directory: ~/work
     steps:
       - attach_workspace:
