@@ -24,9 +24,10 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
       # download hugo
       - run: wget -O - https://github.com/gohugoio/hugo/releases/download/v0.30.2/hugo_0.30.2_Linux-64bit.tar.gz | tar zxvf -
-      - run: cd en && ../hugo
+      - run:
+          name: "Build static files"
+          command: make
+      - run: cd en && ../hugo && cp -r public ../public/en
+      - run: cd ja && ../hugo && cp -r public ../public/ja
       - store_artifacts:
-          path: en/public
-      - run: cd ja && ../hugo
-      - store_artifacts:
-          path: ja/public
+          path: public
