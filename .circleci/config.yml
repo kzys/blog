@@ -51,7 +51,7 @@ jobs:
       - run:
           name: "Install AWS CLI"
           command: sudo pip install -q awscli --upgrade
-      - run: aws s3 sync --acl public --size-only public/ s3://blog.8-p.info-2017/
+      - run: aws s3 sync --acl public-read --size-only public/ s3://blog.8-p.info-2017/
       - run:
           name: Invalidate /en/
           command: aws cloudfront create-invalidation --distribution-id EZLOTA1EGTZ45 --paths '/en/*'
