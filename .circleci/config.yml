@@ -39,14 +39,17 @@ jobs:
             - ja
   deploy:
     docker:
-      - image: ubuntu:16.04
+      - image: circleci/node:9.5
     working_directory: ~/work
     steps:
       - attach_workspace:
           at: ~/work/public
       - run:
+          name: "Install pip"
+          command: sudo apt-get install -qq -y python-pip libpython-dev
+      - run:
           name: "Install AWS CLI"
-          command: sudo apt-get -y -qq install awscli
+          command: sudo pip install -q awscli --upgrade
       - run: aws s3 sync public/ s3://blog.8-p.info-2017/
       - run:
           name: Invalidate /en/
