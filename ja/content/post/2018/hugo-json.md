@@ -11,7 +11,7 @@ date: 2018-05-26T08:53:52-07:00
 
 そういうことを Hugo でやるためにはどうすればいいのか、という話。
 
-## Custom Output Formats
+### Custom Output Formats
 
 Hugo には [Output Formats](https://gohugo.io/templates/output-formats/) という仕組みがあって、この種類のページには、こういうフォーマットでも出力してください、ということを指定できる。テンプレートファイルをどこに配置するかは、[Templates for Your Output Formats](https://gohugo.io/templates/output-formats/#templates-for-your-output-formats) という章で例示をまじえて説明されている。
 
@@ -24,7 +24,7 @@ home = ["html", "rss", "json"]
 
 というのを書き足して、自作テーマの一部として `themes/x17/layouts/index.json` というファイルを作成した。
 
-## テンプレートのなかみ
+### テンプレートのなかみ
 
 Hugo のテンプレートは Go の [html/template](https://golang.org/pkg/html/template/) をベースにしつつも、多様な要望に応えるためのミニプログラミング言語化しつつあり、正直ちょっと厳しい。
 
