@@ -1,35 +1,38 @@
 <article>
   <div class="header">
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    {{ if (eq .Type "post") }}
-    <div class="posted">{{ .Date.Format "Jan 2, 2006" }}</div>
-    {{ end }}
+    <div class="content">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ if (eq .Type "post") }}
+      <div class="posted">{{ .Date.Format "Jan 2, 2006" }}</div>
+      {{ end }}
+    </div>
   </div>
 
   <div class="content">
-    {{ if and .Params.readmore (not (.Scratch.Get "IsSingle")) }}
-    <!-- with "read more" -->
-    <div class="content-inner">
-      {{ .Summary }}
-      <p>
-        {{ if .Truncated }}
-        {{ if eq .Site.LanguageCode "en-us" }}
-        (<a href="{{ .RelPermalink }}">More...</a>)
-        {{ else }}
-        (<a href="{{ .RelPermalink }}">続きを読む</a>)
-        {{ end }}
-        {{ end }}
-      </p>
+    <div class="body">
+      {{ if and .Params.readmore (not (.Scratch.Get "IsSingle")) }}
+        <!-- with "read more" -->
+        {{ .Summary }}
+        <div class="more">
+          {{ if .Truncated }}
+            {{ if eq .Site.LanguageCode "en-us" }}
+            (<a href="{{ .RelPermalink }}">More...</a>)
+            {{ else }}
+            (<a href="{{ .RelPermalink }}">続きを読む</a>)
+            {{ end }}
+          {{ end }}
+        </div>
+      {{ else }}
+        <!-- without "read more" -->
+        {{ .Content }}
+      {{ end }}
     </div>
-    {{ else }}
-    <!-- without "read more" -->
-    <div class="content-inner">{{ .Content }}</div>
-    {{ end }}
 
     {{ if (.Scratch.Get "IsSingle") }}
     <div class="source">
       Source: <a href="{{ .Site.Params.SourceRoot }}/content/{{ .File.Path }}">{{ .File.Path }}</a>
     </div>
     {{ end }}
+  </div>
   </div>
 </article>

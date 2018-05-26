@@ -25,7 +25,7 @@ function moveFootnotesToBottom() {
 }
 
 function moveFootnotes() {
-  if (document.body.offsetWidth < 800) {
+  if (document.body.offsetWidth < 1200) {
     moveFootnotesToBottom();
   } else {
     moveFootnotesToRight();

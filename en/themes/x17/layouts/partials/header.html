@@ -38,14 +38,24 @@
 </script>
 <!-- Google Analytics -->
 
+
 <header>
+  <div class="content">
+    <div class="column">
+          <a class="blog" href="//blog.8-p.info">blog.</a><a href="https://8-p.info/">8-p.info</a>
+      </div>
+      <div id="menu" class="column">
+          <a href="https://8-p.info/me/">Kazuyoshi Kato</a>
+      </div>
+  </div>
+</header>
+
+<div id="subheader">
   <div class="content">
     <div class="column">
       {{ if eq .Site.LanguageCode "en-us" }}
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-      <div class="about">
-        A software developer in Seattle
-      </div>
+      <div class="about">A software developer, Japanese and Seattle transplant</div>
       {{ else }}
       <h1><a href="{{ .Site.BaseURL }}">
           滞<ruby>舎路<rp>(</rp><rt>シアトル</rt><rp>)</rp></ruby>日記
@@ -54,18 +64,14 @@
       {{ end }}
     </div>
 
-    <div class="column">
-      <div class="menu">
-        {{ if eq .Site.LanguageCode "en-us" }}
-        <a href="{{ .Site.BaseURL }}about/">About</a>
-        <a href="{{ .Site.BaseURL }}post/">Archive</a>
-        <a href="{{ .Site.RSSLink }}">RSS</a>
-        {{ else }}
-        <a href="{{ .Site.BaseURL }}about/">自己紹介</a>
-        <a href="{{ .Site.BaseURL }}post/">過去記事</a>
-        <a href="{{ .Site.RSSLink }}">RSS</a>
-        {{ end }}
-      </div>
+    <div class="column menu">
+      {{ if eq .Site.LanguageCode "en-us" }}
+      <a href="{{ .Site.BaseURL }}post/">Archive</a>
+      <a href="{{ .Site.RSSLink }}">RSS</a>
+      {{ else }}
+      <a href="{{ .Site.BaseURL }}post/">過去記事</a>
+      <a href="{{ .Site.RSSLink }}">RSS</a>
+      {{ end }}
     </div>
   </div>
-</header>
+</div>

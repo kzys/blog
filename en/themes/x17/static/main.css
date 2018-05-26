@@ -1,13 +1,28 @@
 @import "prismjs/themes/prism.css";
 
 :root {
-    --footer-color: #f0f0f0;
+    --footer-color: #333;
     --sidenote-width: 20rem;
 }
 
-header, main, #pagination {
-    background: #fff;
-    overflow: hidden;
+.content {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* back to basics */
+a:link {
+    color: #009;
+}
+a:visited {
+    color: #606;
+}
+a:hover {
+    color: #00f;
+}
+a:active {
+    color: #00f;
 }
 
 body {
@@ -19,8 +34,57 @@ body {
     font-family: 'Helvetica Neue', 'Hiragino Kaku Gothic', sans-serif;
 }
 
+main {
+    background: #fff;
+    padding: 1rem 0 0 0;
+    overflow: hidden;
+}
+
+/* header */
+
+header {
+    background: #f0f0f0;
+    clear: both;
+    float: none;
+
+    & .content {
+        font-size: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    & a {
+        color: #111 !important;
+        text-decoration: none;
+    }
+
+    & a.blog {
+        font-weight: bold;
+    }
+    
+    & div.column {
+        padding: 1rem 0;
+    }
+}
+
+#subheader {
+    background: #fff;
+    padding: 1rem 0;
+
+    & .about {
+        font-size: 80%;
+        line-height: 1rem;
+        color: #666;
+    }
+
+    & .content {
+        align-items: flex-end;
+    }
+}
+
 footer {
     background: var(--footer-color);
+    color: #999;
 }
 
 h1, h2, h3, h4 {
@@ -58,6 +122,7 @@ html[lang="en-us"] article .content-inner {
 }
 */
 
+/*
 header .content,
 article .header, article .content,
 #pagination .content, footer .content, #list {
@@ -65,6 +130,7 @@ article .header, article .content,
     margin: 1rem auto;
     padding: 0 1rem;
 }
+*/
 
 code {
     font-family: 'Menlo', monospace;
@@ -89,20 +155,6 @@ pre code {
     font-size: 80%;
 }
 
-/* back to basics */
-a:link {
-    color: #009;
-}
-a:visited {
-    color: #606;
-}
-a:hover {
-    color: #00f;
-}
-a:active {
-    color: #00f;
-}
-
 /* cancel the styles */
 h1 a, h2 a{
     color: #000 !important;
@@ -120,6 +172,7 @@ h1 {
     padding: 0;
 }
 
+/*
 header {
     background: #fff;
     border-bottom: 1px solid #ccc;
@@ -131,16 +184,12 @@ header {
         justify-content: space-between;
     }
 
-    & .about {
-        font-size: 90%;
-        line-height: 2rem;
-        color: #666;
-    }
 }
+*/
 
 .menu {
-    font-size: 90%;
-    line-height: 2rem;
+    font-size: 80%;
+    line-height: 1rem;
 
     & a {
         margin: 0 1rem 0 0;
@@ -183,13 +232,14 @@ article {
     }
 
     & .posted {
-        font-size: 90%;
+        font-size: 80%;
         line-height: 2rem;
         color: #666;
     }
 
     & .source {
-        font-size: 90%;
+        margin: 1rem 0;
+        font-size: 80%;
         color: #666;
 
         & a {
@@ -198,9 +248,11 @@ article {
         }
     }
 
-    & .content {
-        position: relative;
+    & .body {
+        line-height: 2;        
+    }
 
+    & .content {
         & .footer {
             font-size: 80%;
             font-family: monospace;
@@ -222,7 +274,7 @@ article {
 
     & .footnotes {
         line-height: 1.5rem;
-        font-size: 90%;
+        font-size: 80%;
 
         & hr {
             border: 0;
@@ -332,15 +384,19 @@ footer {
     }
 }
 
+@media (min-width: 1200px) {
+    article .footnotes ol {
+        margin-left: 50rem;
+    }
+}
+
+
 /* style for non-mobile */
 @media (min-width: 800px) {
-    header {
+    #subheader {
         & .content {
-            flex-direction: row;
-        }
-
-        & .column {
-            align-self: flex-end;
+            display: flex;
+            justify-content: space-between;
         }
     }
 
@@ -348,18 +404,7 @@ footer {
         margin: 0 0 0 1rem;
     }
 
-    /* show footnotes as sidenotes */
-    article .content-inner,
-    #pagination .content-inner {
-        padding-right: var(--sidenote-width);
-    }
-
     article .footnotes {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: var(--sidenote-width);
-
         & li {
             margin: 0 1rem;
         }
