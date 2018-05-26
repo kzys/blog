@@ -22,7 +22,7 @@ Hugo には [Output Formats](https://gohugo.io/templates/output-formats/) とい
 home = ["html", "rss", "json"]
 ```
 
-というのを書き足して、さらにブログで使っている自作テーマの一部として `themes/x17/layouts/index.json` というファイルを作成した。
+というのを書き足して、自作テーマの一部として `themes/x17/layouts/index.json` というファイルを作成した。
 
 ## テンプレートのなかみ
 
@@ -41,8 +41,8 @@ Hugo のテンプレートは Go の [html/template](https://golang.org/pkg/html
 今回のテンプレートはこんな感じで
 
 * Scratch はローカル変数を宣言する代わりに使える連想配列
-* slice, dict などは、それぞれ Hugo の定義している [テンプレート関数](https://gohugo.io/functions/) で、リスト、連想配列などを返す。
-* .Data.Pages などは Hugo が用意している [テンプレート変数](https://gohugo.io/variables/) で、記事のデータにアクセスするために使う。
+* slice, dict, range などは、それぞれ Hugo の定義している [テンプレート関数](https://gohugo.io/functions/) で、リスト、連想配列などを返す。
+* .Data.Pages は Hugo が用意している [テンプレート変数](https://gohugo.io/variables/) のひとつで、記事のデータにアクセスするために使う。
 
 といったことがわかれば、なんとなく雰囲気で読めると思う。
 
