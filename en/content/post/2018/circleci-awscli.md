@@ -8,7 +8,7 @@ CircleCI's AWS CLI is old. That's why people installs the CLI from Python's pip 
 
 Technically speaking, there is no "CircleCI's AWS CLI". CircleCI uses Docker, and there are [pre-build Docker images][1], which use Debian 8 (Jessie) and Debian 9 (Stretch) currently. Debian 9's AWS CLI is [1.11.13][2] and Debian 8's CLI is [1.4.2][3]. They are really old. CloudFront was "preview" at that time.
 
-So, it is better to ignore these ancient versions. Just install the latest CLI from pip.
+It is better to ignore these ancient versions. Just install the latest CLI from pip.
 
 [1]: https://circleci.com/docs/2.0/circleci-images/
 [2]: https://packages.debian.org/stretch/awscli
