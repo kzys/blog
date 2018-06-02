@@ -46,15 +46,12 @@ jobs:
       - attach_workspace:
           at: ~/work/public
       - run:
-          name: "Install s3deploy"
-          command: wget -O - https://github.com/bep/s3deploy/releases/download/v2.0.2/s3deploy_2.0.2_Linux-64bit.tar.gz | tar zxvf -
-      - run:
           name: "Install pip"
-          command: sudo apt-get install -qq -y python-pip libpython-dev
+          command: sudo apt-get install -qq -y python-pip libpython-dev s3cmd
       - run:
           name: "Install AWS CLI"
           command: sudo pip install -q awscli --upgrade
-      - run: ./s3deploy -source=public/ -bucket=blog.8-p.info-2017 -region=us-east-1
+      - run: s3cmd sync --acl-public --no-mime-magic --guess-mime-type --default-mime-type=text/html public/ s3://blog.8-p.info-2017/
       - run:
           name: Invalidate /en/
           command: aws cloudfront create-invalidation --distribution-id EZLOTA1EGTZ45 --paths '/en/*'
