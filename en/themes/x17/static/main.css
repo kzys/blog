@@ -37,7 +37,7 @@ body {
 
 main {
     background: #fff;
-    padding: 1rem 0 0 0;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -77,7 +77,7 @@ header {
 
     & .about {
         font-size: 80%;
-        line-height: 1rem;
+        line-height: 2rem;
         color: #666;
     }
 
@@ -193,7 +193,7 @@ header {
 
 .menu {
     font-size: 80%;
-    line-height: 1rem;
+    line-height: 2rem;
 
     & a {
         margin: 0 1rem 0 0;
