@@ -1,4 +1,5 @@
 @import "prismjs/themes/prism.css";
+@import "normalize.css";
 
 :root {
     --footer-color: #333;
@@ -46,6 +47,9 @@ header {
     background: #f0f0f0;
     clear: both;
     float: none;
+
+    font-family: 'Helvetica Neue', sans-serif;
+
 
     & .content {
         font-size: 90%;
