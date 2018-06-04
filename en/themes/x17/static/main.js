@@ -1,21 +1,23 @@
 require('prismjs')
 require('prismjs/components/prism-python')
 
+function getFootnotes() {
+  return document.querySelectorAll("sup.footnote-ref a")
+}
+
 function moveFootnotesToRight() {
-  var xs = document.querySelectorAll("article a[rel='footnote']")
-  xs.forEach(function (a) {
+  getFootnotes().forEach(function (a) {
     var href = a.hash.split(/:/)
     var id = 'fn:' + href[1];
 
     var li = document.getElementById(id);
     li.style.position = 'absolute';
-    li.style.top = a.offsetTop + 'px';
+    li.style.top = a.parentNode.offsetTop + 'px';
   });
 }
 
 function moveFootnotesToBottom() {
-  var xs = document.querySelectorAll("article a[rel='footnote']")
-  xs.forEach(function (a) {
+  getFootnotes().forEach(function (a) {
     var href = a.hash.split(/:/)
     var id = 'fn:' + href[1];
 

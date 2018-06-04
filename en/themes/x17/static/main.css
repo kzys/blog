@@ -388,14 +388,11 @@ footer {
 }
 
 @media (min-width: 1200px) {
-    article .footnotes ol {
-        margin-left: 50rem;
-    }
 }
 
 
 /* style for non-mobile */
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
     #subheader {
         & .content {
             display: flex;
@@ -405,6 +402,10 @@ footer {
 
     .menu a {
         margin: 0 0 0 1rem;
+    }
+
+    article .footnotes ol {
+        margin-left: 50rem;
     }
 
     article .footnotes {
