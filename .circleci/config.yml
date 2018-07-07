@@ -45,6 +45,7 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/work/public
+      - run: sudo apt-get update -qq -y
       - run:
           name: "Install pip"
           command: sudo apt-get install -qq -y python-pip libpython-dev s3cmd
