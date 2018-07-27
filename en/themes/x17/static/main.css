@@ -86,6 +86,11 @@ header {
     }
 }
 
+#about {
+    background: #fff;
+    padding: 1rem 0;
+}
+
 footer {
     background: var(--footer-color);
     color: #999;
