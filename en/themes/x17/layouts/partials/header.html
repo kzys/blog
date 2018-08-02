@@ -39,8 +39,8 @@
 <!-- Google Analytics -->
 
 <div id="subheader">
-  <div class="content">
-    <div class="column">
+    <div class="content">
+        <div class="column">
       {{ if eq .Site.LanguageCode "en-us" }}
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
       {{ else }}
@@ -51,7 +51,7 @@
 
     <div class="column menu">
       {{ if eq .Site.LanguageCode "en-us" }}
-      <a href="{{ .Site.BaseURL }}post/">Archive</a>
+      <a href="{{ .Site.BaseURL }}post/">Posts</a>
       <a href="{{ .Site.RSSLink }}">RSS</a>
       {{ else }}
       <a href="{{ .Site.BaseURL }}post/">過去記事</a>
@@ -60,10 +60,12 @@
     </div>
   </div>
 </div>
-<!--
+
 <div id="about">
   <div class="content">
-    <p>Hello. I'm learning a programming language called <strong>Rust</strong> and have been blogging about the path I'm taking.</p>
+    Hello. I'm a software developer in Seattle, Washington.
+    <!--
+    Hello. I'm learning a programming language called <strong>Rust</strong> and have been blogging about the path I'm taking.
+    -->
   </div>
 </div>
--->
