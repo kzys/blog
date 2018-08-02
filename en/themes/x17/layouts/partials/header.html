@@ -63,9 +63,13 @@
 
 <div id="about">
   <div class="content">
+    {{ if eq .Site.LanguageCode "en-us" }}
     Hello. I'm a software developer in Seattle, Washington.
     <!--
     Hello. I'm learning a programming language called <strong>Rust</strong> and have been blogging about the path I'm taking.
     -->
+    {{ else }}
+    <!-- not so sure... -->
+    {{ end }}
   </div>
 </div>
