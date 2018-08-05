@@ -75,17 +75,16 @@ header {
     background: #fff;
     padding: 1rem 0;
 
-    & .about {
-        font-size: 80%;
-        color: #666;
-    }
-
     & .content {
         align-items: flex-end;
     }
 }
+#about1 {
+    font-size: 80%;
+    color: #666;
+}
 
-#about {
+#about2 {
     background: #fff;
     padding: 0;
 }
@@ -313,6 +312,10 @@ article {
             height: auto;
         }
     }
+}
+
+article .header .content {
+    border-top: 1px solid #ccc;
 }
 
 div.fig {

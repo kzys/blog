@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<main>
+<main class="index">
   {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
   {{ range $paginator.Pages }}
   {{ .Scratch.Set "IsSingle" false }}

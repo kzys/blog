@@ -45,7 +45,10 @@
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
       {{ else }}
       <h1><a href="{{ .Site.BaseURL }}">滞<ruby>舎路<rp>(</rp><rt>シアトル</rt><rp>)</rp></ruby>日記</a></h1>
-      <div class="about">シアトルで働く日本人プログラマの日記です</div>
+      <div id="about1">
+        シアトルで働く日本人プログラマの日記です。
+        <!-- 英語がちょっとできる人むけに本や動画などを紹介しています。-->
+      </div>
       {{ end }}
     </div>
 
@@ -61,15 +64,14 @@
   </div>
 </div>
 
-<div id="about">
+{{ if eq .Site.LanguageCode "en-us" }}
+<div id="about2">
   <div class="content">
-    {{ if eq .Site.LanguageCode "en-us" }}
     Hello. I'm a software developer in Seattle, Washington.
     <!--
     Hello. I'm learning a programming language called <strong>Rust</strong> and have been blogging about the path I'm taking.
     -->
-    {{ else }}
-    <!-- not so sure... -->
-    {{ end }}
   </div>
 </div>
+{{ else }}
+{{ end }}
