@@ -2,7 +2,7 @@ baseurl = "https://blog.8-p.info/en/"
 languageCode = "en-us"
 title = "Kazu's Log"
 theme = "x17"
-paginate = 5
+paginate = 3
 
 canonifyURLs = true
 
