@@ -88,7 +88,7 @@ header {
     background: #fff;
     font-size: 1rem;
     line-height: 1.4;
-    padding: 0;
+    padding: 0 0 1rem 0;
 }
 
 footer {
@@ -319,6 +319,10 @@ article {
 
 article .header .content {
     border-top: 1px solid #ccc;
+}
+
+main article:first-child {
+    margin-top: 0;
 }
 
 div.fig {
