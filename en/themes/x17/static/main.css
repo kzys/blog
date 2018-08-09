@@ -73,7 +73,7 @@ header {
 
 #subheader {
     background: #fff;
-    padding: 1rem 0;
+    padding: 0;
 
     & .content {
         align-items: flex-end;
@@ -86,6 +86,8 @@ header {
 
 #about2 {
     background: #fff;
+    font-size: 1rem;
+    line-height: 1.4;
     padding: 0;
 }
 
@@ -107,7 +109,7 @@ html[lang="ja-jp"] h1 {
 
 html[lang="en-us"] {
     & h1 {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         line-height: 2rem;
     }
 
@@ -195,9 +197,10 @@ header {
 */
 
 .menu {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 2rem;
     padding-top: 1rem;
+    
     & a {
         margin: 0 1rem 0 0;
     }
@@ -397,23 +400,23 @@ footer {
 @media (min-width: 1200px) {
 }
 
+#subheader {
+    & .content {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.menu a {
+    margin: 0 0 0 1rem;
+}
 
 /* style for non-mobile */
 @media (min-width: 1200px) {
-    #subheader {
-        & .content {
-            display: flex;
-            justify-content: space-between;
-        }
-    }
-
     .menu {
         padding: 0;
     }
 
-    .menu a {
-        margin: 0 0 0 1rem;
-    }
 
     article .footnotes ol {
         margin-left: 50rem;
