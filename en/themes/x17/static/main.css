@@ -107,6 +107,11 @@ html[lang="ja-jp"] h1 {
     line-height: 2rem;
 }
 
+html[lang="ja-jp"] #subheader {
+    padding-top: 1rem;
+}
+
+
 html[lang="en-us"] {
     & h1 {
         font-size: 0.8rem;
