@@ -14,9 +14,7 @@ Manning を「中堅どころ」と形容している。
 
 ### Write for Us
 
-Manning のサイトには [Write for Us](https://www.manning.com/write-for-us) というページがあり、Manning から本を出すまでのプロセスが詳細に説明されている。
-
-ここからリンクされている企画提案書には
+Manning のサイトには [Write for Us](https://www.manning.com/write-for-us) というページがあり、Manning から本を出すまでのプロセスが詳細に説明されている。特に面白いのが最初に著者が提出しなくてはいけない企画の提案書で、そこには
 
 1. Tell us about yourself. 
 2. Tell us about the book’s topic. 
@@ -41,7 +39,7 @@ Tell us about your readers なら
 
 こういった感じ。[マッハ新書](https://booth.pm/topics/mach_digital_paperback)のような自費出版が話題をあつめる2018年には、すこし慎重すぎるような感じも否めないけれど、これで選別した企画にさらに編集者がついて質を担保するのが、インターネットで無料の情報が得られる時代に、出版社が担うべき役割だとも思う。
 
-この企画提案書を送ると、Manning と外部の人々からのフィードバックが著者に送られる。
+この提案書を送ると、Manning と外部の人々からのフィードバックが著者に送られる。
 
 > After we have had a chance to review your submission, we will send you feedback, both from us and from outside experts. As a rule, you can expect to revise your proposal several times during the discussions.
 
@@ -49,6 +47,8 @@ Tell us about your readers なら
 
 ### まとめ
 
-Manning というアメリカの技術系出版社についてと、その出版社が公開している企画提案書について紹介しました。ちなみに、提案書を送ったあとの流れについても事細かにプロセスが明示されていて、読んでみるとなかなか感心します。日本の出版社でも同じようなものはあるんだろうけど、私はそういうものを目にする立場にないので新鮮でした。
+Manning というアメリカの技術系出版社についてと、その出版社が公開している企画提案書について紹介しました。
+
+ちなみに、提案書を送ったあとの流れについてもシステマチックに流れが決まっていて、読んでみるとなかなか感心します。日本の出版社でも同じようなプロセスは決められているんだろうけど、私はそういうものを目にする立場にないので新鮮でした。
 
 こういう質問を自問自答してみるのは、例えば自分でブログや YouTube チャンネルをはじめて、そのリーチを伸ばしたいときにも役に立つんじゃないかと思う。そこまでかっちりしたくないですかそうですか。
