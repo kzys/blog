@@ -6,7 +6,7 @@
 }
 
 :root {
-    --footer-color: #333;
+    --footer-color: #f0f0f0;
     --sidenote-width: 20rem;
 }
 
@@ -100,9 +100,21 @@ main {
     border-top: 1px solid #ddd;
 }
 
+/* footer */
+
 footer {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
     background: var(--footer-color);
-    color: #999;
+}
+
+footer .content {
+    font-size: 0.8rem;
+}
+
+footer h2 {
+    font-size: 0.8rem;
 }
 
 h1, h2, h3, h4 {
@@ -402,18 +414,6 @@ div.photo {
 
     & .active {
         font-weight: bold;
-    }
-}
-
-    
-footer {
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    background: var(--footer-color);
-
-    & .content {
-        font-size: 80%;
     }
 }
 
