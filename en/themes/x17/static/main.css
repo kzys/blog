@@ -110,7 +110,10 @@ footer {
 }
 
 footer .content {
+    max-width: none;
     font-size: 0.8rem;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 footer h2 {
@@ -428,7 +431,10 @@ div.photo {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
+    footer .content {
+        display: flex;
+    }
 }
 
 #subheader {
