@@ -39,10 +39,15 @@ body {
     font-family: 'Helvetica Neue', 'Hiragino Kaku Gothic', sans-serif;
 }
 
+/* main */
 main {
     background: #fff;
     padding: 0;
     overflow: hidden;
+}
+
+main .content {
+    margin-top: 2rem;
 }
 
 /* header */
