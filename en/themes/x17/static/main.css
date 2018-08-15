@@ -73,7 +73,7 @@ header {
 
 #subheader {
     background: #fff;
-    padding: 0;
+    padding: 1rem 0 0 0;
 
     & .content {
         align-items: flex-end;
@@ -114,8 +114,8 @@ html[lang="ja-jp"] #subheader {
 
 html[lang="en-us"] {
     & h1 {
-        font-size: 0.8rem;
-        line-height: 2rem;
+        font-size: 1.2rem;
+        line-height: 3rem;
     }
 
     & article {
@@ -203,7 +203,7 @@ header {
 
 .menu {
     font-size: 0.8rem;
-    line-height: 2rem;
+    line-height: 3rem;
     padding-top: 1rem;
     
     & a {
