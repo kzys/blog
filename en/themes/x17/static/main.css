@@ -1,6 +1,10 @@
 @import "prismjs/themes/prism.css";
 @import "normalize.css";
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --footer-color: #333;
     --sidenote-width: 20rem;
@@ -78,6 +82,7 @@ header {
     & .content {
         align-items: flex-end;
     }
+
 }
 #about1 {
     font-size: 80%;
@@ -88,7 +93,11 @@ header {
     background: #fff;
     font-size: 1rem;
     line-height: 1.4;
-    padding: 0 0 1rem 0;
+    padding: 0 0 2rem 0;
+}
+
+main {
+    border-top: 1px solid #ddd;
 }
 
 footer {
@@ -220,7 +229,7 @@ li ul {
 }
 
 h2 {
-    margin: 1.5rem 0 0 0;
+    margin: 1rem 0 0 0;
     font-size: 1.4rem;
 }
 
@@ -240,8 +249,6 @@ blockquote {
 }
 
 article {
-    margin: 2rem 0;
-
     & .header {
         margin: 0 auto;
     }
@@ -322,12 +329,26 @@ article {
     }
 }
 
-article .header .content {
-    border-top: 1px solid #ccc;
+main {
+    padding: 0;
+    margin: 0;
 }
 
-main article:first-child {
-    margin-top: 0;
+/* article */
+
+article {
+    margin: 2rem 0;
+    padding: 0;
+}
+
+article .header .content {
+    border-top: 1px solid #ddd;
+    padding-top: 2rem;
+}
+
+main article:first-child .header .content {
+    border: none;
+    padding-top: 0;
 }
 
 div.fig {
@@ -384,6 +405,7 @@ div.photo {
     }
 }
 
+    
 footer {
     padding: 0;
     margin: 0;
