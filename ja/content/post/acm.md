@@ -15,4 +15,13 @@ CACM が毎月とどいて、Safari の一部を読めて、それで毎年 $99 
 [Safari の iOS/Android むけアプリケーション](https://www.safaribooksonline.com/apps/) には Safari Queue という現行のものと、Safari To Go という古いものがあって、残念ながら ACM の Safari は後者にしか対応していない。
 
 そもそも iPad も Android タブレットも手元にないので、いまは Safari のウェブ版を Fire で読んでいる。わるくない、けどもうちょっと画面の大きなタブレットがほしい気もする。
-<!--more-->
+
+### 2018-09-02: 追記
+
+その後に改訂があって
+
+[Check Out the New Enhanced Safari Learning Platform](https://www.acm.org/articles/bulletins/2017/june/safari-learning-platform)
+
+> Your ACM Professional Membership now gives you access to the new Safari Learning Platform. This means that you will now have access to Safari’s entire collection of 40,000+ online books from O'Reilly and other top publishers; 4,900+ video courses and O'Reilly conference videos; 200+ learning paths; 300+ live online training classes; and more new features, including the new mobile Safari Queue app for iOS and Android with enhanced functionality.
+
+Safari もすべて読めるようになったし、Safari Queue も使えるようになりました。
