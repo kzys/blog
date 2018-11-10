@@ -16,6 +16,11 @@
     padding: 0 1rem;
 }
 
+header .content {
+    max-width: none;
+    padding-bottom: 1rem;
+}
+
 /* back to basics */
 a:link {
     color: #009;
@@ -47,58 +52,18 @@ main {
 }
 
 main .content {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 /* header */
-
 header {
-    background: #f0f0f0;
-    clear: both;
-    float: none;
-
-    font-family: 'Helvetica Neue', sans-serif;
-
-
-    & .content {
-        font-size: 90%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    & a {
-        color: #111 !important;
-        text-decoration: none;
-    }
-
-    & a.blog {
-        font-weight: bold;
-    }
-    
-    & div.column {
-        padding: 1rem 0;
-    }
-}
-
-#subheader {
     background: #fff;
     padding: 1rem 0 0 0;
-
-    & .content {
-        align-items: flex-end;
-    }
-
 }
-#about1 {
-    font-size: 80%;
+#about {
+    font-size: 90%;
     color: #666;
-}
-
-#about2 {
-    background: #fff;
-    font-size: 1rem;
-    line-height: 1.4;
-    padding: 0 0 2rem 0;
+    margin: .5rem 0;
 }
 
 main {
@@ -116,7 +81,7 @@ footer {
 
 footer .content {
     max-width: none;
-    font-size: 0.8rem;
+    font-size: 90%;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -143,19 +108,12 @@ html[lang="ja-jp"] #subheader {
 
 html[lang="en-us"] {
     & h1 {
-        font-size: 1.2rem;
-        line-height: 3rem;
+        font-size: 150%;
+        line-height: 2rem;
     }
 
-    & article {
-        & .content {
-            font-family: georgia, serif;
-        }
-    }
-
-    & .menu a {
-        color: black;
-        text-decoration: none;
+    & article .body {
+        font-family: georgia, serif;
     }
 }
 
@@ -231,13 +189,28 @@ header {
 */
 
 .menu {
-    font-size: 0.8rem;
-    line-height: 3rem;
-    padding-top: 1rem;
-    
-    & a {
-        margin: 0 1rem 0 0;
-    }
+    font-weight: bold;
+    font-size: 90%;
+    line-height: 2rem;
+    text-transform: uppercase;
+}
+.menu a {
+    text-decoration: none;
+    color: #000 !important;
+    padding: 1rem;
+    transition: color 200ms linear;
+}
+.menu a:first-child {
+    padding-left: 0;
+}
+.menu a:last-child {
+    padding-right: 0;
+}
+.menu:hover a {
+    color: #999 !important;
+}
+.menu:hover a:hover {
+    color: #000 !important;
 }
 
 ul {
@@ -264,7 +237,7 @@ h4 {
 
 blockquote {
     margin: 0 0 0 2em;
-    font-size: 90%;
+    font-size: 95%;
     line-height: 1.5rem;
 }
 
@@ -274,8 +247,8 @@ article {
     }
 
     & .posted {
-        font-size: 80%;
-        line-height: 2rem;
+        font-size: 90%;
+        line-height: 1.5rem;
         color: #666;
     }
 
@@ -296,7 +269,7 @@ article {
 
     & .content {
         & .footer {
-            font-size: 80%;
+            font-size: 90%;
             font-family: monospace;
             border: 1px solid #000;
             margin: 2rem 0;
@@ -440,17 +413,14 @@ div.photo {
     footer .content {
         display: flex;
     }
-}
 
-#subheader {
-    & .content {
+    header .content {
         display: flex;
-        justify-content: space-between;
     }
 }
 
-.menu a {
-    margin: 0 0 0 1rem;
+header .content {
+    justify-content: space-between;
 }
 
 /* style for non-mobile */

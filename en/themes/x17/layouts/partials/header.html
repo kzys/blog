@@ -38,28 +38,29 @@
 </script>
 <!-- Google Analytics -->
 
-<div id="subheader">
+<header>
     <div class="content">
-        <div class="column">
+    <div class="column">
       {{ if eq .Site.LanguageCode "en-us" }}
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+      <div id="about">A software developer, Japanese and Seattle transplant</div>
       {{ else }}
       <h1><a href="{{ .Site.BaseURL }}">滞<ruby>舎路<rp>(</rp><rt>シアトル</rt><rp>)</rp></ruby>日記</a></h1>
-      <div id="about1">シアトルで働く日本人プログラマの日記です。</div>
+      <div id="about">シアトルで働く日本人プログラマの日記です。</div>
       {{ end }}
     </div>
 
-    <div class="column menu">
-      {{ if eq .Site.LanguageCode "en-us" }}
-      <a href="{{ .Site.BaseURL }}post/">Posts</a>
-      <a href="{{ .Site.RSSLink }}">RSS</a>
-      {{ else }}
-      <a href="{{ .Site.BaseURL }}post/">過去記事</a>
-      <a href="{{ .Site.RSSLink }}">RSS</a>
-      {{ end }}
+    <div class="column">
+      <div class="menu">
+        {{ if eq .Site.LanguageCode "en-us" }}
+        <a href="{{ .Site.BaseURL }}post/">Archive</a>
+        <a href="/ja/">Japanese Blog</a>
+        <a href="{{ .Site.RSSLink }}">RSS</a>
+        {{ else }}
+        <a href="{{ .Site.BaseURL }}post/">過去記事</a>
+        <a href="{{ .Site.RSSLink }}">RSS</a>
+        {{ end }}
+      </div>
     </div>
   </div>
-</div>
-
-<div id="about2">
-</div>
+</header>
