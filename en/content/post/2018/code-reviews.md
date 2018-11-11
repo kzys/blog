@@ -1,7 +1,6 @@
 ---
 title: "Links for Code Reviews"
-date: 2018-11-10T00:04:41-08:00
-draft: true
+date: 2018-11-11T09:07:15-08:00
 ---
 
 I have a bunch of links which I often cite during code reviews. It might sound pedantic, but simply, there are a lot of good writings about software development, and some of them are freely available on the internet. Why do I keep them secret?
