@@ -8,31 +8,31 @@
     </div>
   </div>
 
-  <div class="content">
-    <div class="body">
-      {{ if and .Params.readmore (not (.Scratch.Get "IsSingle")) }}
-        <!-- with "read more" -->
-        {{ .Summary }}
-        <div class="more">
-          {{ if .Truncated }}
-            {{ if eq .Site.LanguageCode "en-us" }}
-            (<a href="{{ .RelPermalink }}">More...</a>)
-            {{ else }}
-            (<a href="{{ .RelPermalink }}">続きを読む</a>)
-            {{ end }}
+  <!-- don't use .content here -->
+  <div class="body">
+    {{ if and .Params.readmore (not (.Scratch.Get "IsSingle")) }}
+      <!-- with "read more" -->
+      {{ .Summary }}
+      <div class="more">
+        {{ if .Truncated }}
+          {{ if eq .Site.LanguageCode "en-us" }}
+          (<a href="{{ .RelPermalink }}">More...</a>)
+          {{ else }}
+          (<a href="{{ .RelPermalink }}">続きを読む</a>)
           {{ end }}
-        </div>
-      {{ else }}
-        <!-- without "read more" -->
-        {{ .Content }}
-      {{ end }}
-    </div>
+        {{ end }}
+      </div>
+    {{ else }}
+      <!-- without "read more" -->
+      {{ .Content }}
+    {{ end }}
+  </div>
 
-    {{ if (.Scratch.Get "IsSingle") }}
+  {{ if (.Scratch.Get "IsSingle") }}
+  <div class="content">
     <div class="source">
       Source: <a href="{{ .Site.Params.SourceRoot }}/content/{{ .File.Path }}">{{ .File.Path }}</a>
     </div>
-    {{ end }}
   </div>
-  </div>
+  {{ end }}
 </article>

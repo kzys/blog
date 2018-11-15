@@ -322,6 +322,30 @@ article {
     }
 }
 
+article .body > * {
+    max-width: 50rem;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+
+article .body > blockquote {
+    padding: 0 1rem 0 2rem;
+}
+
+article .body > ul {
+    padding: 0 1rem 0 4rem;
+}
+
+article .body > div.fig {
+    max-width: none;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+article .body > pre {
+    padding: 1rem;
+}
+
 main {
     padding: 0;
     margin: 0;
