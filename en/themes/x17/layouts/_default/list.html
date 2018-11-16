@@ -1,15 +1,15 @@
 {{ partial "header.html" . }}
 
-<main>
+<main id="list">
   <div class="content">
-    <div id="list">
+    <ul>
       {{ range .Data.Pages }}
-      <article>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <div class="posted">{{ .Date.Format "Jan 2, 2006" }}</div>
-      </article>
+      <li>
+        <div class="posted">{{ .Date.Format "Jan 02, 2006" }}</div>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
       {{ end }}
-    </div>
+    </ul>
   </div>
 </main>
 
