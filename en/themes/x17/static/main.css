@@ -83,22 +83,17 @@ footer .content {
     align-items: flex-end;
 }
 
-footer h2 {
-    font-size: 0.8rem;
+h1 {
+    font-size: 200%;
 }
 
 h1, h2, h3, h4 {
     color: #000;
 }
 
+/* Japanese */
 html[lang="ja-jp"] h1 {
     font-weight: normal;
-    font-size: 1.2rem;
-    line-height: 2rem;
-}
-
-html[lang="ja-jp"] #subheader {
-    padding-top: 1rem;
 }
 
 /* English */
@@ -110,11 +105,6 @@ html[lang="en-us"] h4 {
 
 html[lang="en-us"] article .body {
     font-family: Georgia, serif;
-}
-
-html[lang="en-us"] h1 {
-    font-size: 250%;
-    line-height: 1;
 }
 
 code {
