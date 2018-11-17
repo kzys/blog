@@ -60,10 +60,11 @@ header {
     background: #fff;
     padding: 1rem 0;
 }
+
 #about {
     font-size: 90%;
     color: #666;
-    margin: .5rem 0;
+    margin: 1rem 0;
 }
 
 /* footer */
@@ -84,6 +85,8 @@ footer .content {
 
 h1 {
     font-size: 150%;
+    margin: 0 0 .5rem 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4 {
@@ -148,16 +151,11 @@ footer a{
 }
 
 /* header */
-
-h1 {
-    margin: 0;
-    padding: 0;
-}
-
 .menu {
     font-size: 90%;
-    line-height: 2;
+    margin-top: 1rem;
 }
+
 .menu a {
     text-decoration: none;
     color: #000 !important;
@@ -407,17 +405,18 @@ div.photo {
 
 @media (min-width: 800px) {
     header {
-        padding: 2rem 0;
-    }
-
-    header .content {
-        display: flex;
-        justify-content: space-between;
+        padding-top: 2rem;
     }
 
     header .content,
     footer .content {
         padding: 0 2rem;
+    }
+
+    .menu {
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
     }
 }
 
