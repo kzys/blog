@@ -1,5 +1,5 @@
 ---
-title: "Have some momentum going"
+title: "Momentum"
 date: 2018-11-09T01:08:12-08:00
 ---
 While I have [another blog in Japanese](https://blog.8-p.info/ja/) where I write about more random thoughts, I wanted to make this blog "themed". It was visualiation from January to Februray, then Rust from July to August, but then I haven't posted for more than two months...
