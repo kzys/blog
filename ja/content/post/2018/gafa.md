@@ -15,7 +15,7 @@ Google, Apple, Facebook, Amazon をまとめた "GAFA" という言葉、ジャ�
 
 ### FANG, FAANG, GAFAM, ...
 
-"GAFA" みたいなテック企業の頭文字をつなげた頭字語には色々あって、一昔前は FANG というのもよく目にした。このあたりの経緯は、Quora の [Why is Microsoft not counted as one of the Big Four Tech companies (GAFA)?](https://www.quora.com/Why-is-Microsoft-not-counted-as-one-of-the-Big-Four-Tech-companies-GAFA) (2017) によくまとまっている。
+"GAFA" みたいなテック企業の頭文字をつなげた頭字語には色々あって、一昔前は "FANG" というのもよく目にした。このあたりの経緯は、Quora の [Why is Microsoft not counted as one of the Big Four Tech companies (GAFA)?](https://www.quora.com/Why-is-Microsoft-not-counted-as-one-of-the-Big-Four-Tech-companies-GAFA) (2017) によくまとまっている。
 
 > Because GAFA does not describe the “Big Four Tech companies”. If it did, it would probably include both Microsoft and IBM. It’s actually about share trading….
 
@@ -26,7 +26,7 @@ Google, Apple, Facebook, Amazon をまとめた "GAFA" という言葉、ジャ�
 - さらに、JP Morgan も同じ企業群を FAAMA (Google を Alphabet といいかえ) と命名する。
 - 2012年に、Bruce Sterling が Google, Apple, Facebook, Amazon, Microsoft を、垂直に統合されたテクノロジースタックを有する企業としてまとめるが、GAFAM とは命名しなかった。
 
-と言った歴史があるらしい。SF 作家である Bruce Sterling を除いてはそろいもそろって金融業界からの命名で、テック業界の人々の混乱もやむをえない感がある。
+と言った歴史があるらしい。SF 作家である Bruce Sterling を除いては、そろいもそろって金融業界からの命名で、テック業界の人々の混乱もやむをえない感がある。
 
 回答者の Jack Schofield は The Guardian や ZDNet にも書いているジャーナリストで、ZDNet のほうにも [Can't tell your FANG from your FAAMG? And should you be worried?](https://www.zdnet.com/article/cant-tell-your-fang-from-your-faamg-and-should-you-be-worried/) (2017) という記事を書いている。
 
@@ -48,7 +48,7 @@ Google, Apple, Facebook, Amazon をまとめた "GAFA" という言葉、ジャ�
 
 この記事によると、例えば Le Monde に "GAFA" というタイトルがはじめて登場したのは、2012年の12月のことらしい。
 
-こうした感覚はヨーロッパ全体にも広がっているのか、イギリスの The Guardian なんかも "GAFA" というくくりで企業をまとめることがある。
+フランスでの流行はヨーロッパ全体にも広がっているのか、イギリスの The Guardian なんかも "GAFA" というくくりで企業をまとめることがある。
 
 [The Guardian view on big tech: a new era needs new rules](https://www.theguardian.com/commentisfree/2018/mar/21/the-guardian-view-on-big-tech-a-new-era-needs-new-rules) (2018)
 
@@ -58,7 +58,7 @@ Google, Apple, Facebook, Amazon をまとめた "GAFA" という言葉、ジャ�
 
 > There is a fissure growing between European and US attitudes towards these global super-platforms – “the Gafa” as Brussels calls them (Google, Apple, Facebook, Amazon) – and the UK will soon need to decide on which side it sits.
 
-多国籍巨大テック企業 vs. 国家というのは今後も議論が活発になりそうなトピックで、金融業界では、色々ある頭字語の一つだった "GAFA" が、ここでは一躍主役に踊り出ているのはちょっと面白い。
+多国籍巨大テック企業 vs. 国家というのは、今後も議論が活発になりそうなトピックだと思う。金融業界では、色々ある頭字語の一つだった "GAFA" が、ここでは一躍主役に踊り出ているのはちょっと面白い。
 
 ### おまけ: Eric Schmidt 曰く
 
@@ -66,7 +66,7 @@ Google, Apple, Facebook, Amazon をまとめた "GAFA" という言葉、ジャ�
 
 > The Big Four are four tech companies described by Eric Schmidt, Phil Simon, and Scott Galloway as driving a large amount of growth in technology.
 
-"The Age of the Platform" (未訳?) の Phil Simon, "The Four" が邦訳にあたり『the four GAFA』になった Scott Galloway に加えて、Google の Eric Schmidt の名が挙げられている。[Eric Schmidt's Gang Of Four: Google, Apple, Amazon, And Facebook](https://techcrunch.com/2011/05/31/schmidt-gang-four-google-apple-amazon-facebook/) (2011) を読んでみると、確かに Google, Apple, Amazon, Facebook をインターネット時代に、消費者向けサービスを提供して急成長した会社としてあげている。
+"The Age of the Platform" (未訳?) の Phil Simon と、"The Four" が邦訳にあたり『the four GAFA』になった Scott Galloway に加えて、Google の Eric Schmidt の名が挙げられている。[Eric Schmidt's Gang Of Four: Google, Apple, Amazon, And Facebook](https://techcrunch.com/2011/05/31/schmidt-gang-four-google-apple-amazon-facebook/) (2011) を読んでみると、確かに Google, Apple, Amazon, Facebook を、インターネット時代に消費者向けサービスを提供して急成長した会社としてあげている。
 
 > Every technology era has its four horsemen driving growth and innovation. In the 1990s it was Microsoft, Intel, Cisco, and Dell. Today, there is anew “gang of four,” as Google chairman Eric Schmidt puts it. They are Google (of course), Apple, Amazon and Facebook, and they are behind the consumer revolution on the Internet today. Not only are all four companies “growing at incredible rates.”
 
@@ -77,5 +77,5 @@ Google, Apple, Facebook, Amazon をまとめた "GAFA" という言葉、ジャ�
 - GAFA といっているのは日本人だけではなくて、金融業界やフランスの人々もいっているよ
 - インターネット時代の消費者向けサービスで大成功した、という意味では4社に共通項もあるよ (と Eric Schmidt が昔いっていたよ)
 
-多国籍巨大テック企業は本当に良いものなのか、というのはヨーロッパだけじゃなくて世界全体で議論されるであろうトピックで、こうなるとアメリカに GAFA が輸入される可能性もあるかもなと思いました。
+多国籍巨大テック企業は本当に良いものなのか、というのはヨーロッパだけじゃなくて世界全体で議論されるであろうトピックで、規制の文脈で、これからアメリカに GAFA が輸入される可能性もあるかもなと思いました。
 
