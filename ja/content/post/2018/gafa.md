@@ -44,11 +44,11 @@ Google, Apple, Facebook, Amazon をまとめた "GAFA" という言葉、[林信
 
 こういった背景もあってか、例えばイギリスの Guardian なんかも "GAFA" というまとめかたをすることがある。
 
-[The Guardian view on big tech: a new era needs new rules ](https://www.theguardian.com/commentisfree/2018/mar/21/the-guardian-view-on-big-tech-a-new-era-needs-new-rules) (2018)
+[The Guardian view on big tech: a new era needs new rules](https://www.theguardian.com/commentisfree/2018/mar/21/the-guardian-view-on-big-tech-a-new-era-needs-new-rules) (2018)
 
 > Google, Amazon, Facebook, Apple – or Gafa as they have come to be known – represent something entirely new and all too familiar.
 
-[Society will be defined by how we deal with tech giants ](https://www.theguardian.com/commentisfree/2017/apr/01/brexit-britain-respond-tech-giants-civic-role-google-apple-facebook-amazon-eu) (2017)
+[Society will be defined by how we deal with tech giants](https://www.theguardian.com/commentisfree/2017/apr/01/brexit-britain-respond-tech-giants-civic-role-google-apple-facebook-amazon-eu) (2017)
 
 > There is a fissure growing between European and US attitudes towards these global super-platforms – “the Gafa” as Brussels calls them (Google, Apple, Facebook, Amazon) – and the UK will soon need to decide on which side it sits.
 
@@ -64,7 +64,7 @@ EU およびフランスの "GAFA tax" のおかげで、この単語の国際�
 
 > Every technology era has its four horsemen driving growth and innovation. In the 1990s it was Microsoft, Intel, Cisco, and Dell. Today, there is anew “gang of four,” as Google chairman Eric Schmidt puts it. They are Google (of course), Apple, Amazon and Facebook, and they are behind the consumer revolution on the Internet today. Not only are all four companies “growing at incredible rates.”
 
-当時の Google 会長が賞賛兼自画自賛していたのが、巡りめぐって EU の規制対象と一致しているのはちょっと皮肉ですね。
+当時の Google 会長が賞賛兼自画自賛していたのが、巡りめぐって EU の規制対象と一致しているのはちょっと皮肉。
 
 ### まとめ
 
