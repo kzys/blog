@@ -1,5 +1,5 @@
 ---
-title: 忙しさから脱して大事なことに集中する "Make Time" を読んだ
+title: 忙しさから脱して大事なことに集中するには? "Make Time" を読んだ
 date: 2018-12-26T07:56:12-08:00
 ---
 しばらく前に、Jake Knapp と John Zeratsky の [Make Time - How to Focus on What Matters Every Day](https://maketimebook.com/) を読んだ。
