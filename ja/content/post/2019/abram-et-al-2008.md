@@ -9,7 +9,7 @@ draft: true
 
 結論からいうと、インデントの総量 (SUM) と、標準偏差 (STD) は比較的高い相関係数を示したとのこと。一方で単純に行数を数えただけ (LOC) でも複雑さを示す指標にそれなりに相関があるのはすこし拍子抜け。
 
-著者の [Abram Hindle][Abram], [Michael W. Godfrey][Michael], [Ric Holt][Ric] は、その後もソフトウェアの開発プロセスに関する論文を色々と書いているので、色々と読んでみるのも面白そう。
+著者の [Abram Hindle][Abram], [Michael W. Godfrey][Michael], [Ric Holt][Ric] は、その後もソフトウェアの開発プロセスに関する論文を色々と書いているので、読んでみるのも面白そう。
 
 [Abram_et_al_2008]: https://plg.uwaterloo.ca/~migod/papers/2008/icpc08-abram.pdf
 [Abram]: https://softwareprocess.es/static/SoftwareProcess.es.html
