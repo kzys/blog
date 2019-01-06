@@ -1,5 +1,5 @@
 ---
-title: "Reading Beside the Lines: Indentation as a Proxy for Complexity Metrics" を読んだ
+title: '"Reading Beside the Lines: Indentation as a Proxy for Complexity Metrics" を読んだ'
 date: 2019-01-05T15:51:07-08:00
 draft: true
 ---
