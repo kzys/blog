@@ -1,7 +1,6 @@
 ---
 title: '"Reading Beside the Lines: Indentation as a Proxy for Complexity Metrics" を読んだ'
-date: 2019-01-05T15:51:07-08:00
-draft: true
+date: 2019-01-07T19:30:10-08:00
 ---
 去年に The Pragmatic Bookshelf から出ている "Software Design X-Rays" という本を読んだけど、そこで紹介されていた論文の一つ、[Reading Beside the Lines: Indentation as a Proxy for Complexity Metrics][Abram_et_al_2008] を読んだ。
 
