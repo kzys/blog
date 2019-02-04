@@ -27,6 +27,13 @@ http://pixijs.download/release/docs/index.html
 
 どちらのバックエンドに対しても、Widget はかなりが boilerplate だし、シーングラフ変換部分もだいぶさっぱりしている。移植という観点でいうと、なぜか SVG が登場するところがちょっと不吉で、CanvasJS 側では [canvg](https://github.com/canvg/canvg) を、PixiJS 側では data スキーム経由で SVG をレンダリングしようとしている。
 
-### 共通部分
+### VirtualNodeBuilder
 
-あとで書く
+というわけで、ロジックの多くは VirtualNodeBuilder の方にある。ここでは、KaTeX の __renderToHTMLTree を呼び出して構築した木を、_createRenderingState で再帰的に処理して、結果を _state に保存している。
+
+この _state は、いわゆるバッファ的な扱いをされていて、最終的には _state.vlist からまた別の木を作っている。
+
+
+
+
+
