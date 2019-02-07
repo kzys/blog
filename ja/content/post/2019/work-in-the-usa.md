@@ -37,7 +37,7 @@ Fair Labor Standards Act に [Computer Employee Exemption](https://www.dol.gov/w
 
 ### フェアネスと合理性
 
-フェア、というのはアメリカの人々には大事な概念らしいのだけど、日本人の私にはその重さが今ひとつわからなくて、あんまり日常では使わないようにしている。"it is unfair" というより "it is not apples to apples" くらいにしておいた方が波風が立たなそうな気がする、けど思い込みかもしれない。
+フェア、というのはアメリカの人々には大事な概念らしいのだけど、日本人の私にはその重さが今ひとつわからなくて、あんまり日常では使わないようにしている。"it is an unfair comparison" というより、"it is not apples to apples" くらいにしておいた方が波風が立たなそうな気がする、けど思い込みかもしれない。
 
 セーフティーネットがないのを「合理的」と呼んでいいのか、というのは議論があるところで、例えば、最近人気のある Alexandria Ocasio-Cortez 下院議員は深夜番組のインタビューで、最低賃金を引き上げるのは経済的にもプラスの効果がある、という[話をしていた](https://youtu.be/dUmIdCClbTE?t=274)。彼女はそもそも、社会として医療保険を提供することや、労働組合の重要性を訴える [Democratic Socialists of America](https://www.dsausa.org) に所属していて、民主社会主義派を名乗るくらいなので、政策も左側に傾いている。
 
