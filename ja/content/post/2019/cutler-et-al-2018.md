@@ -12,6 +12,6 @@ GC があるのは当然なんだけど
 
 > Goroutine scheduling decisions and the context switch implementation live in the runtime, not in Biscuit. One consequence is that Biscuit does not control scheduling policy; it inherits the runtime’s policy. 
 
-Goroutine のスケジューリングが、そのままカーネルのスケジューリングになってるのは、ちょっと Go らしくて面白い。
+Goroutine のスケジューリングが、そのままカーネルのスケジューリングになっているあたりは、Go らしさがあって面白い。
 
 ちなみに、著者のうち2人は Russ Cox と共に [xv6](https://pdos.csail.mit.edu/6.828/2018/xv6.html) の開発にも関わっていて、そのうちの1人 Robert Morris は、あの Morris ワームの Robert Morris です。
