@@ -141,7 +141,7 @@ pre code {
 }
 
 /* cancel the styles */
-h1 a, h2 a{
+h1 a, h2 a {
     color: #000 !important;
     text-decoration: none;
 }
@@ -199,81 +199,69 @@ blockquote {
     line-height: 1.5rem;
 }
 
-article {
-    & .header {
-        margin: 0 auto;
-    }
+article .header {
+    margin: 0 auto;
+}
 
-    & .posted {
-        font-size: 90%;
-        line-height: 1.5rem;
-        color: #666;
-    }
+article .posted {
+    font-size: 90%;
+    line-height: 1.5rem;
+    color: #666;
+}
 
-    & .source {
-        margin: 1rem 0;
-        font-size: 80%;
-        color: #666;
+article .source {
+    margin: 1rem 0;
+    font-size: 80%;
+    color: #666;
+}
 
-        & a {
-            color: #666 !important;
-            text-decoration: none;
-        }
-    }
+article .source a {
+    color: #666 !important;
+    text-decoration: none;
+}
 
-    & .content {
-        & .footer {
-            font-size: 90%;
-            font-family: monospace;
-            border: 1px solid #000;
-            margin: 2rem 0;
-            padding: .5rem;
-        }
-    }
+article .content .footer {
+    font-size: 90%;
+    font-family: monospace;
+    border: 1px solid #000;
+    margin: 2rem 0;
+    padding: .5rem;
+}
 
-    & .content-inner {
-        line-height: 1.5rem;
+/* footnotes */
 
-        & p {
-            margin: 1rem 0;
-        }
-    }
+.footnotes {
+    line-height: 1.5rem;
+    font-size: 80%;
+}
 
-    /* footnotes */
+.footnotes hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
 
-    & .footnotes {
-        line-height: 1.5rem;
-        font-size: 80%;
+.footnotes ol {
+    margin: 0;
+    padding: 1rem;
+}
 
-        & hr {
-            border: 0;
-            height: 1px;
-            background: #ccc;
-        }
+a.footnote-return {
+    display: none;
+}
 
-        & ol {
-            margin: 0;
-            padding: 1rem;
-        }
+sup.footnote-ref {
+    vertical-align: super;
+    font-size: 50%;
+}
 
-        & a.footnote-return {
-            display: none;
-        }
-    }
+.photo {
+    margin: 1rem -1rem;
+}
 
-    & sup.footnote-ref {
-        vertical-align: super;
-        font-size: 50%;
-    }
-
-    & .photo {
-        margin: 1rem -1rem;
-
-        & img {
-            max-width: 100%;
-            height: auto;
-        }
-    }
+.photo img {
+    max-width: 100%;
+    height: auto;
 }
 
 article .body {
@@ -326,11 +314,9 @@ main article:first-child .header .content {
     padding-top: 0;
 }
 
-div.fig {
-    & img {
-        max-width: 100%;
-        height: auto;
-    }
+div.fig img {
+    max-width: 100%;
+    height: auto;
 }
 
 div.photo {
@@ -341,43 +327,43 @@ div.photo {
     background: #fff;
     margin: 0;
     padding: 0 0 1rem 0;
+}
 
-    a {
-        text-decoration: none;
-    }
+#pagination a {
+    text-decoration: none;
+}
 
-    & .content {
-        padding: 0 1rem;
-    }
+#pagination .content {
+    padding: 0 1rem;
+}
 
-    & .content-inner {
-        display: flex;
-        justify-content: space-between;
-    }
+#pagination .content-inner {
+    display: flex;
+    justify-content: space-between;
+}
 
-    & .column {
-        text-align: center;
-    }
+#pagination .column {
+    text-align: center;
+}
 
-    & a {
-        display: block;
-        padding: 0.5rem;
-        color: #333;
-        border: 1px solid #ccc;
-    }
+#pagination a {
+    display: block;
+    padding: 0.5rem;
+    color: #333;
+    border: 1px solid #ccc;
+}
 
-    & .number {
-        display: block;
-        padding: 0.5rem;
-    }
+#pagination .number {
+    display: block;
+    padding: 0.5rem;
+}
 
-    & .disabled {
-        display: none;
-    }
+#pagination .disabled {
+    display: none;
+}
 
-    & .active {
-        font-weight: bold;
-    }
+#pagination .active {
+    font-weight: bold;
 }
 
 #list ul {
@@ -427,24 +413,20 @@ div.photo {
     }
 
 
-    article .footnotes ol {
+    .footnotes ol {
         margin-left: 50rem;
     }
 
-    article .footnotes {
-        & li {
-            margin: 0 1rem;
-        }
-
-        & hr {
-            display: none;
-        }
+    .footnotes  li {
+        margin: 0 1rem;
     }
 
-    div.fig {
-        & img {
-            max-width: none;
-        }
+    .footnotes hr {
+        display: none;
+    }
+
+    div.fig img {
+        max-width: none;
     }
 }
 
