@@ -26,9 +26,6 @@ jobs:
             - node_modules
           key: deps-{{ checksum ".circleci/config.yml" }}-{{ checksum "package.json" }}
       - run:
-          name: "Build static files"
-          command: make
-      - run:
           name: "Prepare public/"
           command: mkdir public
       - run: cd en && ../hugo && cp -r public ../public/en

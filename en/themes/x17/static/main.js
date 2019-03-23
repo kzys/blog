@@ -1,6 +1,3 @@
-require('prismjs')
-require('prismjs/components/prism-python')
-
 function getFootnotes() {
   return document.querySelectorAll("sup.footnote-ref a")
 }
