@@ -8,23 +8,9 @@ jobs:
 
     steps:
       - checkout
-
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - deps-{{ checksum ".circleci/config.yml" }}-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - deps-fallback
-
       - run:
           name: "Install Hugo"
           command: ls -l hugo || wget -O - https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.tar.gz | tar zxvf -
-      - run: npm install
-
-      - save_cache:
-          paths:
-            - node_modules
-          key: deps-{{ checksum ".circleci/config.yml" }}-{{ checksum "package.json" }}
       - run:
           name: "Prepare public/"
           command: mkdir public
