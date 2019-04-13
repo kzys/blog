@@ -14,4 +14,4 @@ First, I've been building some proprietary applications atop of open source soft
 
 Second, I want to have something that I can point and say "this is my work". I probably can become a good software developer by doing what I've been doing, but I cannot become a great software developer. Great like Matz, Tim Bray or Mike Bostock.
 
-I was trying squeeze them into my spare time, but it wasn't working. So I'm going to change some of the things, slowly, to see how it goes.
+Squeezing them into my spare time didn't work. So, I need to try something different.
