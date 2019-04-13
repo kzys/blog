@@ -12,6 +12,6 @@ There are 2 reasons;
 
 First, I've been building some proprietary applications atop of open source software and not giving back much. The entire industry is kind of doing that for years, and I'm not a big fan of that.
 
-Second, I want to have something that I can point and say "this is my work". I probably can become a good software developer by doing what I've been doing, but I cannot become a great software developer. Great like Matz, Tim Bray or Mike Bostock.
+Second, I want to have something that I can point and say "this is my work". I probably can become a good software developer by doing what I've been doing, but I cannot become a great one. Great like Matz, Tim Bray or Mike Bostock.
 
 Squeezing them into my spare time didn't work. So, I need to try something different.
