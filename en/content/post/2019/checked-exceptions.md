@@ -9,4 +9,5 @@ I recently learned that AWS SDK for Java's official Developer Guide is having a 
 
 > In general, checked exceptions work well on small scales, but can become troublesome as applications grow and become more complex.
 
-In v1 SDK, [the section had links to a few references](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-exceptions.html), including Anders Hejlsberg's interview in 2003.
+In v1 SDK, [the section had links to three references](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-exceptions.html), including Anders Hejlsberg's interview in 2003. This would be handy when you need to convince someone regarding exceptions.
+
