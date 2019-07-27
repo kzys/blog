@@ -16,7 +16,7 @@ Nuxt.js is not bad, but using that for one-man websites is overkill. I see the n
 
 ### Bad
 
-- blog.8-p.info doesn't list old articles without JavaScript. It has to be pre-rendered without JavaScript, which I haven't implemented by using Hugo's template. I agree that isomorphic rendering as makes sense, compared to implement something in different languages.
+- blog.8-p.info doesn't list old articles without JavaScript. It has to be pre-rendered without JavaScript, which I haven't implemented by using Hugo's template. I agree that isomorphic rendering makes sense, compared to implement something in different languages.
 - Go's template is awkward
 
 Overall I like Hugo better, even for non-blog websites. I also want to go further -- how about getting rid of Google Analytics and custom fonts?
