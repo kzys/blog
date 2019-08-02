@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 
-  {{ if .RSSLink }}
-  <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml"
-        title="{{ .Site.Title }}" />
+  {{ with .OutputFormats.Get "RSS" }}
+  <link href="{{ .RelPermalink  }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
   {{ end }}
+
   <link rel="stylesheet" href="{{ .Site.BaseURL }}main.css">
   <title>
     {{ if eq .Title .Site.Title }}
@@ -20,7 +20,7 @@
     {{ .Title }} - {{ .Site.Title }}
     {{ end }}
   </title>
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
 </head>
@@ -42,11 +42,13 @@
       {{ if eq .Site.LanguageCode "en-us" }}
       <a href="{{ .Site.BaseURL }}post/">Archive</a>
       <a href="https://blog.8-p.info/ja/">Japanese Blog</a>
-      <a href="{{ .Site.RSSLink }}">RSS</a>
       {{ else }}
       <a href="{{ .Site.BaseURL }}post/">過去記事</a>
       <a href="https://blog.8-p.info/en/">英語ブログ</a>
-      <a href="{{ .Site.RSSLink }}">RSS</a>
+      {{ end }}
+
+      {{ with .OutputFormats.Get "RSS" }}
+      <a href="{{ .RelPermalink }}">RSS</a>
       {{ end }}
     </div>
 </div>
