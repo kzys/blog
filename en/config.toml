@@ -7,8 +7,8 @@ paginate = 3
 canonifyURLs = true
 
 [permalinks]
-post  = "/:year/:month/:day/:filename/"
-page  = "/:filename/"
+posts  = "/:year/:month/:day/:filename/"
+pages  = "/:filename/"
 
 [outputs]
 home = ["html", "rss", "json"]
