@@ -10,7 +10,7 @@ jobs:
       - checkout
       - run:
           name: "Install Hugo"
-          command: ls -l hugo || wget -O - https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.tar.gz | tar zxvf -
+          command: ls -l hugo || wget -O - https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.tar.gz | tar zxvf -
       - run:
           name: "Prepare public/"
           command: mkdir public
