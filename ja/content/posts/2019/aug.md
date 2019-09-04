@@ -35,7 +35,7 @@ date: 2019-09-03T17:25:41-07:00
 * 『老人喰い -- 高齢者を狙う詐欺の正体』
 * "Zero to FIve -- 70 Essential Parenting Tips Based on Science"
 
-[にゃるらさんの感想](https://note.mu/nyalra2/n/n39ecbfef9996) をきっかけで前者を読んで、そういえば気になっていたので後者も読んだ。認知に問題のある人が「つい」法に触れることをしてしまうのが前者の世界で、はっきりした認知と計画性でもって老人むけの犯罪をしているのが後者、というわけで対照的な話だった。
+[にゃるらさんの感想](https://note.mu/nyalra2/n/n39ecbfef9996) をきっかけでひとつめを読んで、そういえばと気になっていたふたつめも読んだ。認知に問題のある人が「つい」法に触れることをしてしまうのが前者の世界で、はっきりした認知と計画性でもって老人むけの犯罪をしているのが後者、というわけで対照的な本だった。
 
 "Zero to Five" はところどころ飛ばしつつ、やっと最後まで読めた。これはとても良かったので、なんとか記憶にとどめて実践する仕掛けを作りたい。
 
@@ -45,7 +45,7 @@ NPR の [Planet Money](https://www.npr.org/podcasts/510289/planet-money/) と [
 
 Hidden Brain の [Deep Work 回](https://www.npr.org/2019/08/26/754336716/you-2-0-deep-work) と、Changelog の [Entropy 回](https://changelog.com/news/federating-javascripts-language-commons-with-entropic-WRPX) は良かった。
 
-子育てがテーマの [The Longest Shortest Time](https://longestshortesttime.com) が終わってしまうのは残念。残念といいつつあんまりコンスタントには聞けていなかったけど。
+子育てがテーマの [The Longest Shortest Time](https://longestshortesttime.com) が終わってしまうのは残念。残念といいつつあまりコンスタントには聞けていなかったけど。
 
 ### 週報から
 
