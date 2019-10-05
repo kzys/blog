@@ -15,16 +15,16 @@ date: 2019-10-05T12:22:22-07:00
 * [Enable FastBoot](https://github.com/rust-lang/crates.io/pull/1715) -> マージされてリリースされるも、メモリを使いすぎていて revert
 * [Use docker-compose to run crates.io inside Travis](https://github.com/rust-lang/crates.io/pull/1814) -> マージされず
 
-どちらも結果として取り込まれず。FastBoot のメモリ使用量のついてはなんとか削減できたので、10月中にマージされてほしい。
+どちらも結果として取り込まれず。FastBoot のメモリ使用量は削減できたので、10月中にマージされてほしい。
 
 ### 読んだ本
 
 * Cal Newport "Digital Minimalism"
 * 西村直人ほか『Scrum Boot Camp The Book』
 
-"Digital Minimalism" は良かった。影響されて、Feedly や Pocket Casts もしばらくお休みしている。ここらへん、自分の中では (Facebook や Twitter に比べて) 良いインプットという位置付けだったんだけど、そもそもそこまで四六時中インプットせず、なにもしない休憩時間と、考える時間を増やしたほうが良さそうだと、今は思っている。
+"Digital Minimalism" は良かった。影響されて、Feedly や Pocket Casts もしばらくお休みしている。ここらへん、自分の中では (Facebook や Twitter に比べて) 良いインプットという位置付けだったんだけど、そもそもそこまで四六時中インプットせず、なにもしない時間や、考える時間を増やしたほうが良さそうだと、今は思っている。
 
-『Scrum Boot Camp The Book』は、仕事よりはプライベートの色々で、プロジェクトを進める「型」みたいなものを作るための参考として読んだ。
+『Scrum Boot Camp The Book』は、仕事よりはプライベートの色々で、プロジェクトを進める「型」みたいなものを作る参考として読んだ。
 
 ### ポッドキャスト
 
