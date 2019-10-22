@@ -34,7 +34,8 @@ tmp/cf-invalidation.json:
 
 upload: tmp/cf-invalidation.json
 	aws cloudfront wait invalidation-completed \
-		--distribution-id $(cf_dist_id) --id $(shell jq -r .Invalidation.Id tmp/invalidation.json)
+		--distribution-id $(cf_dist_id) \
+		--id $(shell jq -r .Invalidation.Id $<)
 
 clean:
 	rm -fr public
