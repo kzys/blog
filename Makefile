@@ -20,7 +20,8 @@ public:
 hugo:
 	curl -L $(hugo_url) | tar zxvf -
 
-invalidate:
+upload:
+	aws s3 sync --acl public-read --size-only public/ s3://blog.8-p.info-2017
 	aws cloudfront create-invalidation --distribution-id EZLOTA1EGTZ45 --paths '/en/*'
 	aws cloudfront create-invalidation --distribution-id EZLOTA1EGTZ45 --paths '/ja/*'
 
