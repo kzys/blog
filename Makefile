@@ -22,7 +22,7 @@ public:
 
 $(hugo_bin):
 	mkdir tmp
-	curl --silent -L $(hugo_url) | tar -x -C tmp -f -
+	curl --silent -L $(hugo_url) | tar -zx -C tmp -f -
 
 upload:
 	aws s3 sync --acl public-read --size-only public/ s3://blog.8-p.info-2017
