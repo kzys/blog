@@ -1,5 +1,6 @@
 cwd=$(shell pwd)
 hugo_bin=$(cwd)/tmp/hugo
+cf_dist_id=EZLOTA1EGTZ45
 
 ifeq ($(shell uname),Darwin)
 hugo_url=https://github.com/gohugoio/hugo/releases/download/v0.59.0/hugo_0.59.0_macOS-64bit.tar.gz
@@ -21,12 +22,17 @@ public:
 	mkdir public
 
 $(hugo_bin):
-	mkdir tmp
+	mkdir -p tmp
 	curl --silent -L $(hugo_url) | tar -zx -C tmp -f -
 
 upload:
+	mkdir -p tmp
 	aws s3 sync --acl public-read --size-only public/ s3://blog.8-p.info-2017
-	aws cloudfront create-invalidation --distribution-id EZLOTA1EGTZ45 --paths '/en/*' '/ja/*'
+	aws cloudfront create-invalidation \
+		--distribution-id $(cf_dist_id) \
+		--paths '/en/*' '/ja/*' > tmp/invalidation.json
+	aws cloudfront wait invalidation-completed \
+		--distribution-id $(cf_dist_id) --id $(shell jq -r .Invalidation.Id tmp/invalidation.json)
 
 clean:
 	rm -fr public
