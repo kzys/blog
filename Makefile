@@ -25,12 +25,14 @@ $(hugo_bin):
 	mkdir -p tmp
 	curl --silent -L $(hugo_url) | tar -zx -C tmp -f -
 
-upload:
+tmp/cf-invalidation.json:
 	mkdir -p tmp
 	aws s3 sync --acl public-read --size-only public/ s3://blog.8-p.info-2017
 	aws cloudfront create-invalidation \
 		--distribution-id $(cf_dist_id) \
-		--paths '/en/*' '/ja/*' > tmp/invalidation.json
+		--paths '/en/*' '/ja/*' > $@
+
+upload: tmp/cf-invalidation.json
 	aws cloudfront wait invalidation-completed \
 		--distribution-id $(cf_dist_id) --id $(shell jq -r .Invalidation.Id tmp/invalidation.json)
 
