@@ -10,14 +10,13 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install Hugo
-      run:
-        wget -O - https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.tar.gz | tar zxvf -
+      run: wget -O - https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.tar.gz | tar zxvf -
     - run: mkdir public
     - name: Build en/
-      run:
+      run: |
         cd en && ../hugo
         mv en/public public/en
     - name: Build ja/
-      run:
+      run: |
         cd ja && ../hugo
         mv ja/public public/ja
