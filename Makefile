@@ -20,5 +20,9 @@ public:
 hugo:
 	curl -L $(hugo_url) | tar zxvf -
 
+invalidate:
+	aws cloudfront create-invalidation --distribution-id EZLOTA1EGTZ45 --paths '/en/*'
+	aws cloudfront create-invalidation --distribution-id EZLOTA1EGTZ45 --paths '/ja/*'
+
 clean:
 	rm -fr public
