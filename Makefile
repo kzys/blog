@@ -1,3 +1,6 @@
+cwd=$(shell pwd)
+hugo_bin=$(cwd)/tmp/hugo
+
 ifeq ($(shell uname),Darwin)
 hugo_url=https://github.com/gohugoio/hugo/releases/download/v0.59.0/hugo_0.59.0_macOS-64bit.tar.gz
 else
@@ -6,19 +9,20 @@ endif
 
 all: public/en public/ja
 
-public/en: hugo public
-	cd en && ../hugo
+public/en: $(hugo_bin) public
+	cd en && $(hugo_bin)
 	mv en/public public/en
 
-public/ja: hugo public
-	cd ja && ../hugo
+public/ja: $(hugo_bin) public
+	cd ja && $(hugo_bin)
 	mv ja/public public/ja
 
 public:
 	mkdir public
 
-hugo:
-	curl -L $(hugo_url) | tar zxvf -
+$(hugo_bin):
+	mkdir tmp
+	curl --silent -L $(hugo_url) | tar -x -C tmp -f -
 
 upload:
 	aws s3 sync --acl public-read --size-only public/ s3://blog.8-p.info-2017
