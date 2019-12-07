@@ -38,7 +38,7 @@ Cal Newport "Digital Minimalism: Choosing a Focused Life in a Noisy World" (2019
 
 最近は、近所の図書館でみかけた Clay Johnson "The Information Diet: A Case for Conscious Consumption" (2011) を読んでいる。
 
-### 無関心の居心地の悪さ
+### 無関心
 
 結果として無関心のすすめになっているので、そこに居心地の悪さは感じる。
 
@@ -47,3 +47,11 @@ Cal Newport "Digital Minimalism: Choosing a Focused Life in a Noisy World" (2019
 一方で、Twitter で怒ってリツイートしたり、Facebook のプロフィール画像をワンクリックで何かに変えてみたりすることに、何か意味があるのかなあ、というと、社会に対する参加のしかたとして、もうちょっと何かあるだろうとも思う。
 
 これについては答えは出ていない。
+
+### 孤独
+
+あんまり昔のものばっかり参照するのはどうかと思うんだけど、昔に [brazil さんが書いていた](http://web.archive.org/web/20100511010342/http://to.tumblr.com/post/8716641)
+
+> 僕も、前提として、まず独りの時間というものがきちんとあるべきだと思う。
+
+とか、吉本隆明の『ひきこもれ―ひとりの時間をもつということ』(2002) とかも思い出したりもした。
