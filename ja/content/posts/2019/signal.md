@@ -54,5 +54,4 @@ Cal Newport "Digital Minimalism: Choosing a Focused Life in a Noisy World" (2019
 
 > 僕も、前提として、まず独りの時間というものがきちんとあるべきだと思う。
 
-とか、吉本隆明の『ひきこもれ―ひとりの時間をもつということ』(2002) とかも思い出したりもした。
-この本は、[アンカテの紹介](https://essa.hatenablog.com/entry/20030222/p1)を読んで買った記憶がある。
+とか、吉本隆明の『ひきこもれ―ひとりの時間をもつということ』(2002) とかも思い出したりもした。この本は、[アンカテの紹介](https://essa.hatenablog.com/entry/20030222/p1)を読んで買った記憶がある。
