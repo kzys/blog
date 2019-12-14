@@ -1,6 +1,6 @@
 baseurl = "https://blog.8-p.info/ja/"
 languageCode = "ja-jp"
-title = "滞舎路日記"
+title = "blog.8-p.info"
 theme = "x17"
 
 Paginate = 5
