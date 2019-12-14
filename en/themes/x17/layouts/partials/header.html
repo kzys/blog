@@ -29,12 +29,6 @@
   <div class="content">
     {{ if eq .Site.LanguageCode "en-us" }}
     <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-    <div id="about">
-      Kazuyoshi Kato is a Japanese software developer in Seattle, Washington.
-    </div>
-    {{ else }}
-    <h1><a href="{{ .Site.BaseURL }}">滞<ruby>舎路<rp>(</rp><rt>シアトル</rt><rp>)</rp></ruby>日記</a></h1>
-    <div id="about">シアトルで働く日本人プログラマの日記です。</div>
     {{ end }}
 
     <div class="menu">
