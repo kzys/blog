@@ -1,3 +1,7 @@
+/*
+https://jgthms.com/web-design-in-4-minutes/
+*/
+
 @import "prismjs/themes/prism.css";
 @import "normalize.css";
 
@@ -6,18 +10,7 @@
 }
 
 :root {
-    --footer-color: #f0f0f0;
     --sidenote-width: 20rem;
-}
-
-.content {
-    max-width: 50rem;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
-header .content {
-    max-width: none;
 }
 
 /* back to basics */
@@ -35,7 +28,7 @@ a:active {
 }
 
 body {
-    background: var(--footer-color);
+    background: #f0f0f0;
     color: #333;
     margin: 0;
     padding: 0;
@@ -45,8 +38,9 @@ body {
 
 /* main */
 main {
+    line-height: 2;
     background: #fff;
-    padding: 0;
+    padding: 0 1rem;
     overflow: hidden;
     border-top: 1px solid #ddd;
 }
@@ -58,13 +52,14 @@ main .content {
 /* header */
 header {
     background: #fff;
-    padding: 1rem 0;
 }
 
-#about {
-    font-size: 90%;
-    color: #666;
-    margin: 1rem 0;
+header .content {
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 100%;
 }
 
 /* footer */
@@ -73,49 +68,14 @@ footer {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background: var(--footer-color);
 }
 
 footer .content {
     max-width: none;
     font-size: 90%;
-    justify-content: space-between;
-    align-items: flex-end;
+    margin: 1rem;
 }
 
-h1 {
-    font-size: 150%;
-    margin: 0 0 .5rem 0;
-    padding: 0;
-}
-
-h1, h2, h3, h4 {
-    color: #000;
-}
-
-/* Japanese */
-html[lang="ja-jp"] h1 {
-    font-weight: normal;
-}
-
-html[lang="ja-jp"] main {
-    line-height: 1.8;
-}
-
-/* English */
-html[lang="en-us"] body,
-html[lang="en-us"] h3,
-html[lang="en-us"] h4 {
-    font-family: 'Helvetica Neue', sans-serif;
-}
-
-html[lang="en-us"] main {
-    line-height: 1.6;
-}
-
-html[lang="en-us"] article .body {
-    font-family: Georgia, serif;
-}
 
 code {
     font-family: 'Menlo', monospace;
@@ -181,16 +141,6 @@ ul {
 
 li ul {
     margin: .2rem 0;
-}
-
-h2 {
-    margin: 1rem 0 0 0;
-    font-size: 150%;
-    line-height: 1;
-}
-
-h4 {
-    margin: 0;
 }
 
 blockquote {
@@ -264,56 +214,7 @@ sup.footnote-ref {
     height: auto;
 }
 
-article .body {
-    padding: 0 1rem;
-}
-
-article .body > * {
-    max-width: 48rem;
-    margin: .5rem auto;
-}
-
-article .body > h3 {
-    margin: 2rem auto 1rem auto;
-    font-size: 120%;
-    line-height: 1;
-}
-
-article .body > blockquote {
-    padding: 0 1rem 0 2rem;
-}
-
-article .body > ul {
-    padding: 0 1rem 0 4rem;
-}
-
-article .body > div.fig {
-    max-width: none;
-    text-align: center;
-    margin: 1rem 0;
-}
-
-article .body > pre {
-    padding: 1rem;
-}
-
 /* article */
-
-article {
-    margin: 2rem 0;
-    padding: 0;
-}
-
-article .header .content {
-    border-top: 1px solid #ddd;
-    padding-top: 2rem;
-}
-
-main article:first-child .header .content {
-    border: none;
-    padding-top: 0;
-}
-
 div.fig img {
     max-width: 100%;
     height: auto;
@@ -390,15 +291,6 @@ div.photo {
 }
 
 @media (min-width: 800px) {
-    header {
-        padding-top: 2rem;
-    }
-
-    header .content,
-    footer .content {
-        padding: 0 2rem;
-    }
-
     .menu {
         position: absolute;
         top: 1rem;
@@ -408,13 +300,20 @@ div.photo {
 
 /* style for non-mobile */
 @media (min-width: 1200px) {
-    .menu {
-        padding: 0;
+    article .body {
+        position: relative;
+        padding-right: 20rem;
     }
 
+    .footnotes {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20rem;
+    }
 
-    .footnotes ol {
-        margin-left: 50rem;
+    .menu {
+        padding: 0;
     }
 
     .footnotes  li {
