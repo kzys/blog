@@ -38,7 +38,7 @@
       <a href="https://blog.8-p.info/en/">英語ブログ</a>
       {{ end }}
 
-      {{ with .OutputFormats.Get "RSS" }}
+      {{ with $.Site.Home.OutputFormats.Get "RSS" }}
       <a href="{{ .RelPermalink }}">RSS</a>
       {{ end }}
     </div>
