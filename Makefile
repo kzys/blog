@@ -1,11 +1,14 @@
 cwd=$(shell pwd)
+
 hugo_bin=$(cwd)/tmp/hugo
+hugo_version=0.61.0
+
 cf_dist_id=EZLOTA1EGTZ45
 
 ifeq ($(shell uname),Darwin)
-hugo_url=https://github.com/gohugoio/hugo/releases/download/v0.59.0/hugo_0.59.0_macOS-64bit.tar.gz
+hugo_url=https://github.com/gohugoio/hugo/releases/download/v$(hugo_version)/hugo_$(hugo_version)_macOS-64bit.tar.gz
 else
-hugo_url=https://github.com/gohugoio/hugo/releases/download/v0.59.0/hugo_0.59.0_Linux-64bit.tar.gz
+hugo_url=https://github.com/gohugoio/hugo/releases/download/v$(hugo_version)/hugo_$(hugo_version)_Linux-64bit.tar.gz
 endif
 
 all: public/en public/ja
