@@ -11,6 +11,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
     - run: python -m pip install --user --upgrade nb2hugo
     - run: make
     - run: make upload
