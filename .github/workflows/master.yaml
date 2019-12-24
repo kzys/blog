@@ -14,7 +14,8 @@ jobs:
     - uses: actions/setup-python@v1
       with:
         python-version: '3.x'
-    - run: python -m pip install --user --upgrade nb2hugo
+    - run: python -m pip install --user --upgrade https://github.com/kzys/nb2hugo/tarball/blog
+    - run: PATH=~/.local/bin:$PATH ./nb2hugo.sh
     - run: make
     - run: make upload
       env:
