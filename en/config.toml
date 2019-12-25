@@ -6,6 +6,9 @@ paginate = 5
 
 canonifyURLs = true
 
+[markup.highlight]
+style = "github"
+
 [permalinks]
 posts  = "/:year/:month/:day/:filename/"
 pages  = "/:filename/"
