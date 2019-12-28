@@ -31,7 +31,7 @@ containerd は Docker などでも使われているコンテナ実行環境で�
 
 という動作を実装している。
 
-以前はこれに加えて snapshotter と呼ばれる、Docker における graphdriver に対応するものの、Firecracker 向けに都合の良い実装もレポジトリにあった。ただ、これは無事に containerd 1.3 から本体に含まれるようになったので、firecracker-containerd のレポジトリからは削除された。
+以前はこれに加えて snapshotter と呼ばれる、Docker における graphdriver に対応するものの、Firecracker 向けに都合の良い実装も2つレポジトリに存在していた。ただ、このうち Linux の Device Mapper を使うものが、無事に containerd 本体に取り込まれたので、これらは firecracker-containerd 側からは削除された。
 
 ### まとめ
 
