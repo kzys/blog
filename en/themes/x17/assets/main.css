@@ -2,9 +2,6 @@
 https://jgthms.com/web-design-in-4-minutes/
 */
 
-@import "prismjs/themes/prism.css";
-@import "normalize.css";
-
 * {
     box-sizing: border-box;
 }
