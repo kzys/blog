@@ -38,7 +38,7 @@ body {
 
 /* main */
 main {
-    line-height: 2;
+    line-height: 1.8;
     background: #fff;
     padding: 0 1rem;
     overflow: hidden;
@@ -215,8 +215,7 @@ div.photo {
 
 #pagination {
     background: #fff;
-    margin: 0;
-    padding: 0 0 1rem 0;
+    padding: 1rem 0;
 }
 
 #pagination a {
