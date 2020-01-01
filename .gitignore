@@ -4,3 +4,4 @@ en/public/
 *.min.js
 *.min.css
 node_modules
+.ipynb_checkpoints/
