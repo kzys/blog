@@ -9,6 +9,9 @@ canonifyURLs = true
 [markup.highlight]
 style = "github"
 
+[markup.goldmark.renderer]
+unsafe = false
+
 [permalinks]
 posts  = "/:year/:month/:day/:filename/"
 pages  = "/:filename/"
