@@ -10,7 +10,7 @@ canonifyURLs = true
 style = "github"
 
 [markup.goldmark.renderer]
-unsafe = false
+unsafe = true
 
 [permalinks]
 posts  = "/:year/:month/:day/:filename/"
