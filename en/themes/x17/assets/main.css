@@ -101,7 +101,7 @@ footer a{
 .menu a {
     text-decoration: none;
     color: #000 !important;
-    padding: 1rem;
+    padding: .5rem;
     transition: color 200ms linear;
 }
 .menu a:first-child {
@@ -279,7 +279,7 @@ div.photo {
     .menu {
         position: absolute;
         top: 1rem;
-        right: 2rem;
+        right: 1rem;
     }
 }
 

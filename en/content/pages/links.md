@@ -3,7 +3,7 @@ title: "Links"
 date: 2019-10-23T23:58:54-07:00
 ---
 
-Links I find useful.
+This is a collection of random links I find useful and/or interesting.
 
 ### Software Development
 
