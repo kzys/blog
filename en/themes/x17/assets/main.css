@@ -53,10 +53,12 @@ header {
 
 header .content {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 header h1 {
-    font-size: 100%;
+    font-size: 200%;
 }
 
 /* footer */
@@ -95,13 +97,12 @@ footer a{
 /* header */
 .menu {
     font-size: 90%;
-    margin-top: 1rem;
 }
 
 .menu a {
     text-decoration: none;
     color: #000 !important;
-    padding: .5rem;
+    padding: 0 .2rem;
     transition: color 200ms linear;
 }
 .menu a:first-child {
@@ -276,12 +277,14 @@ div.photo {
 }
 
 @media (min-width: 800px) {
-    .menu {
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
+    header .content {
+        padding: 1rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
 }
+
 
 /* style for non-mobile */
 @media (min-width: 1200px) {
@@ -295,10 +298,6 @@ div.photo {
         top: 0;
         right: 0;
         width: 20rem;
-    }
-
-    .menu {
-        padding: 0;
     }
 
     .footnotes  li {
