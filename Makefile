@@ -42,3 +42,6 @@ upload: tmp/cf-invalidation.json
 
 clean:
 	rm -fr public
+
+venv:
+	python3 -m virtualenv venv

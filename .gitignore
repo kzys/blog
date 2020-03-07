@@ -1,7 +1,7 @@
-ja/public/
-en/public/
+public
 *~
 *.min.js
 *.min.css
 node_modules
 .ipynb_checkpoints/
+venv/
