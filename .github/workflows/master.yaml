@@ -1,5 +1,8 @@
 name: master
 
+env:
+  PATH: $HOME/.local/bin:$PATH
+
 on:
   push:
     branches:
@@ -16,7 +19,7 @@ jobs:
         python-version: '3.x'
     - run: python -m pip install --user --upgrade https://github.com/kzys/nb2hugo/tarball/blog
     - run: python -m pip install --user s3cmd
-    - run: PATH=~/.local/bin:$PATH ./nb2hugo.sh
+    - run:  ./nb2hugo.sh
     - run: make
     - run: make upload
       env:
