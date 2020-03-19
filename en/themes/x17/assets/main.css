@@ -6,10 +6,6 @@ https://jgthms.com/web-design-in-4-minutes/
     box-sizing: border-box;
 }
 
-:root {
-    --sidenote-width: 20rem;
-}
-
 /* back to basics */
 a:link {
     color: #009;
