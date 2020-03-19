@@ -30,7 +30,9 @@ $(hugo_bin):
 
 tmp/cf-invalidation.json:
 	mkdir -p tmp
-	s3cmd sync --guess-mime-type --acl-public public/ s3://blog.8-p.info-2017/
+	s3cmd sync \
+		--guess-mime-type --no-mime-magic \
+		--acl-public public/ s3://blog.8-p.info-2017/
 	aws cloudfront create-invalidation \
 		--distribution-id $(cf_dist_id) \
 		--paths '/en/*' '/ja/*' > $@
