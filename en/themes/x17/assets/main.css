@@ -136,13 +136,15 @@ article {
     border-bottom: 1px solid #ddd;
 }
 
+article h2 {
+    margin: 0;
+}
+
 article .header {
     margin: 0 auto;
 }
 
 article .posted {
-    font-size: 90%;
-    line-height: 1.5rem;
     color: #666;
 }
 
