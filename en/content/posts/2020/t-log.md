@@ -11,4 +11,4 @@ Finally!
 
 Previously `t.Log()` and `t.Logf()` buffer the output till the end of a test, which was pretty surprising to me. That forced me to use `fmt.Printf()` or whatever a logger available all the time.
 
-[The issue](https://github.com/golang/go/issues/24929) has been opened since 2018 and it has finally landed on Go 1.14!
+[The issue](https://github.com/golang/go/issues/24929) has been opened since 2018 and it has finally landed on Go 1.14.
