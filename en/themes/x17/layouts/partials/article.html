@@ -2,7 +2,7 @@
   <div class="header">
     <div class="content">
       <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      {{ if (eq .Type "post") }}
+      {{ if (eq .Type "posts") }}
       <div class="posted">{{ .Date.Format "Jan 2, 2006" }}</div>
       {{ end }}
     </div>
