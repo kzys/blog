@@ -1,18 +1,17 @@
 ---
 title: "How Go's testing works (1)"
-date: 2020-04-21T20:46:49-07:00
-draft: true
+date: 2020-04-21T22:52:57-07:00
 ---
 
 I've been using primarily Go at work since last summer and Go's testing package bit me a few times. Do you know that `FailNow()` is killing a goroutine? I didn't even know that killing a goroutine is possible.
 
-In this series, I will explain how `go test` works, from `go test` command to `testing` package by peeking into the implementations.
+In this series, I will explain how Go's testing works, from `go test` command to `testing` package by peeking into the implementations.
 
 ### Let's start from "go test"!
 
 In Go, a lot of official toolchain is invoked through the go command and testing is no exception. Let's start from `go test`.
 
-[src/cmd/go/main.go](https://github.com/golang/go/blob/go1.14.2/src/cmd/go/main.go) has the go command's main function. Unlike Git where all subcommands are actually different binaries. The go command has all subcommands inside.
+[src/cmd/go/main.go](https://github.com/golang/go/blob/go1.14.2/src/cmd/go/main.go) has the go command's main function. Unlike Git where all subcommands are different binaries. The go command has all subcommands inside.
 
 ```go
 func init() {
@@ -168,13 +167,13 @@ type Builder struct {
     ...
 ```
 
-And Do() is in [src/cmd/go/internal/work/exec.go](https://github.com/golang/go/blob/go1.14.2/src/cmd/go/internal/work/exec.go). While the function itself does some stuff, it really doesn't do much for testing specifically.
+And Do() is in [src/cmd/go/internal/work/exec.go](https://github.com/golang/go/blob/go1.14.2/src/cmd/go/internal/work/exec.go). While the function itself does some stuff, it doesn't do much for testing specifically.
 
 ### Trivia Time!
 
 Before heading over to the `testing` package. There are two interesting implementation details I'd like to share.
 
-First, if you explicitly disables Go's test timeout, it still kills your test after [almost one century](https://github.com/golang/go/blob/go1.14.2/src/cmd/go/internal/test/test.go#L567).
+First, if you explicitly disable Go's test timeout, it still kills your test after [almost one century](https://github.com/golang/go/blob/go1.14.2/src/cmd/go/internal/test/test.go#L567).
 
 ```
 		// An explicit zero disables the test timeout.
