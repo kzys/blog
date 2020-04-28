@@ -5,7 +5,7 @@ date: 2020-04-28T01:03:49-07:00
 
 The New Yorker の [Seattle’s Leaders Let Scientists Take the Lead. New York’s Did Not](https://www.newyorker.com/magazine/2020/05/04/seattles-leaders-let-scientists-take-the-lead-new-yorks-did-not) を読んだ。
 
-アメリカでも初期のコロナウィルス症例があった (私の住んでいる) シアトルは、専門家主導で感染を抑えることについて一定の成果をあげつつあるけれど、一方のニューヨークでは、衛生局と市長の不仲や、市長と知事との役割分担の不明確さなどが、初動の遅れやメッセージングの不明確さが生じてしまったのだよ、という話。
+アメリカでも初期のコロナウィルス症例があったシアトルは、専門家主導で感染を抑えることについて一定の成果をあげつつあるけれど、一方のニューヨークでは、衛生局と市長の不仲や、市長と知事との役割分担の不明確さなどが、初動の遅れやメッセージングの不明確さが生じてしまったのだよ、という話。
 
 個人的に興味を引かれたのは、
 
@@ -17,7 +17,7 @@ CDC [^CDC] の "Field Epidemiology Manual" (実地疫学マニュアル) の存�
 
 例えば、人々があるリスクを受け入れるか否かは、リスクが自発的なものか、自分のコントロール下にあるか、明確な利益があるか、自然に起こったものであるか、子供ではなく大人に主に影響するか、などなどの因子に影響するらしい。
 
-あるいは、Risk Communication Messaging Tips and Examples (リスクコミュニケーションの伝えかたの勘所と実例) として挙げられている
+あるいは、Risk Communication Messaging Tips and Examples として挙げられている
 
 * 共感と理解を表明する
 * 安心させすぎない
