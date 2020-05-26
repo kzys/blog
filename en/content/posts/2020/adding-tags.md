@@ -1,6 +1,6 @@
 ---
 title: "Adding tags"
-date: 2020-05-25T21:24:14-07:00
+date: 2020-05-25T23:51:53-07:00
 tags: ["100DaysToOffload", "Hugo"]
 ---
 Despite the fact that this Hugo instance has been around for 3 years, I've never added tags on my posts. It is bit awkward to manually add "Go" when a post itself contains "Go".
