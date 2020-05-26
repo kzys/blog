@@ -1,6 +1,7 @@
 ---
 title: "100 Days to Offload - Day 1"
 date: 2020-05-21T22:49:49-07:00
+tags: ["100DaysToOffload"]
 ---
 
 I've found [100 Days to Offload](https://100daystooffload.com/) via [Blogging is not dead](https://www.garron.blog/en/blog/blogging.html).
@@ -14,5 +15,3 @@ For me, having 100 posts in a year is definitely a stretch goal. I used to write
 On the other hand, my day job is mostly writing open-source software. It is possible to write about what I did. For example, I cherry-picked [Maksym's fix](https://github.com/containerd/containerd/pull/4195) on containerd from `master` to `release/1.3` and [the PR](https://github.com/containerd/containerd/pull/4278) has been merged today. Well, this one may not be that interesting, since I literally did `git cherry-pick` three times and that's all.
 
 Anyway I will write more often here! Do or do not. There is no try.
-
-[#100DaysToOffload](https://100daystooffload.com/) - 1/100

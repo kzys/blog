@@ -2,8 +2,15 @@
   <div class="header">
     <div class="content">
       <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      {{ if (eq .Type "posts") }}
-      <div class="posted">{{ .Date.Format "Jan 2, 2006" }}</div>
+      <div class="meta">
+        {{ if (eq .Type "posts") }}
+        <div class="posted">{{ .Date.Format "Jan 2, 2006" }}</div>
+        <div class="tags">
+          {{ range (.GetTerms "tags") }}
+          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+          {{ end }}
+        </div>
+      </div>
       {{ end }}
     </div>
   </div>

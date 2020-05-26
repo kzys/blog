@@ -140,8 +140,17 @@ article .header {
     margin: 0 auto;
 }
 
-article .posted {
-    color: #666;
+article .meta {
+    display: flex;
+    color: #999;
+    font-size: 90%;
+}
+article .meta > div {
+    margin-right: 1rem;
+}
+article .meta a {
+    text-decoration: none;
+    color: #999 !important;
 }
 
 article .source {
