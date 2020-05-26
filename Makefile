@@ -1,7 +1,7 @@
 cwd=$(shell pwd)
 
 hugo_bin=$(cwd)/tmp/hugo
-hugo_version=0.61.0
+hugo_version=0.71.1
 
 cf_dist_id=EZLOTA1EGTZ45
 
