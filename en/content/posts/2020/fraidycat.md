@@ -1,6 +1,7 @@
 ---
 title: "Fraidycat"
 date: 2020-05-30T22:58:40-07:00
+tags: ["100DaysToOffload"]
 ---
 
 I still read Hacker News. This week I found [Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/) there. The post itself is something I can relate to. And then on [the HN thread](https://news.ycombinator.com/item?id=23326329), I found [Fraidycat](https://fraidyc.at/).
