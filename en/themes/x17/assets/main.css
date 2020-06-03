@@ -33,7 +33,6 @@ body {
 main {
     line-height: 1.8;
     background: #fff;
-    padding: 0 1rem;
     overflow: hidden;
     border-top: 1px solid #ddd;
 }
@@ -54,7 +53,8 @@ header .content {
 }
 
 header h1 {
-    font-size: 200%;
+    font-size: 120%;
+    margin: 1rem 0;
 }
 
 /* footer */
@@ -92,7 +92,8 @@ footer a{
 
 /* header */
 .menu {
-    font-size: 90%;
+    font-size: 80%;
+    margin: 1rem 0;
 }
 
 .menu a {
@@ -283,21 +284,29 @@ div.photo {
     line-height: 1;
 }
 
-@media (min-width: 800px) {
+header .content, article .header .content, article .body {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+}
+
+/* style for non-mobile */
+@media (min-width: 1000px) {
     header .content {
-        padding: 1rem;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
-}
 
-
-/* style for non-mobile */
-@media (min-width: 1200px) {
+    header .content, article .header .content, article .body {
+        max-width: 60rem;
+        padding: 0;
+    }
+    
     article .body {
         position: relative;
-        padding-right: 20rem;
+        padding-right: 22rem;
     }
 
     .footnotes {
