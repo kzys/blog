@@ -16,7 +16,7 @@
   </div>
 
   <!-- don't use .content here -->
-  <div class="body">
+  <div class="body content">
     {{ if and .Params.readmore (not (.Scratch.Get "IsSingle")) }}
       <!-- with "read more" -->
       {{ .Summary }}
