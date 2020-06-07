@@ -1,6 +1,7 @@
 ---
 title: "Black Lives Matter"
 date: 2020-06-07T07:52:52-07:00
+tags: ["100DaysToOffload"]
 ---
 It is.
 
