@@ -15,4 +15,4 @@ Now I'm trying Fraidycat on Firefox. I like it so far.
 * All sites only have 2 lines, no matter how frequently people update. There is no "Twitterstorm" problem.
 * The small sparklines, the cat, and the colors. It has some "why the lucky stiff" feeling.
 
-I’ve been using Feedly after Google Reader’s shutdown. Before that, I was using livedoor Reader and Bloglines. I may switch from Feedly.
+I’ve been using Feedly after Google Reader’s shutdown. Before that, I was using livedoor Reader and Bloglines. I may switch from Feedly to Fraidycat.
