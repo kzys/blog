@@ -13,7 +13,7 @@ On FreeBSD, according to [unix(4)](https://www.freebsd.org/cgi/man.cgi?query=uni
 
 > UNIX-domain addresses are variable-length file system pathnames of at most 104 characters.
 
-It is consistent on [NetBSD](https://netbsd.gw.com/cgi-bin/man-cgi?unix+4+NetBSD-current) and [OpenBSD](https://man.openbsd.org/unix.4).
+It is consistent with [NetBSD](https://netbsd.gw.com/cgi-bin/man-cgi?unix+4+NetBSD-current) and [OpenBSD](https://man.openbsd.org/unix.4).
 
 So, it is 2020 and I need to put something in around 100 bytes! That was shorter than the original Tweet length.
 
