@@ -17,4 +17,4 @@ It is consistent with [NetBSD](https://netbsd.gw.com/cgi-bin/man-cgi?unix+4+NetB
 
 So, it is 2020 and I need to put something in around 100 bytes! That was shorter than the original Tweet length.
 
-firecracker-containerd was having this issue and put [a workaround](https://github.com/firecracker-microvm/firecracker-containerd/pull/270).
+I realized this limitation recently because of firecracker-containerd. It has [a workaround](https://github.com/firecracker-microvm/firecracker-containerd/pull/270) which [I copied to another part of the codebase](https://github.com/firecracker-microvm/firecracker-containerd/pull/270).
