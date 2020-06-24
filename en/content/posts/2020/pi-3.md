@@ -1,6 +1,7 @@
 ---
 title: "Setting up Raspberry Pi 3 as a Linux server"
 date: 2020-06-23T23:36:17-07:00
+tags: ["100DaysToOffload", "Linux"]
 ---
 I was mindlessly searching about Linux laptops, [Pinebook Pro](https://www.pine64.org/pinebook-pro/) and [Dell's refurbished laptops](https://www.dellrefurbished.com/). After joining AWS, my work is more and more Linux-focused. Several coworkers are even using Linux laptops.
 
