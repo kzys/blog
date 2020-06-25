@@ -284,7 +284,7 @@ div.photo {
     line-height: 1;
 }
 
-header .content, article .content {
+header .content, article .content, #list .content, footer .content {
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
@@ -299,7 +299,7 @@ header .content, article .content {
         justify-content: space-between;
     }
 
-    header .content, article .content {
+    header .content, article .content, #list .content, footer .content {
         max-width: 60rem;
         padding: 0;
     }
