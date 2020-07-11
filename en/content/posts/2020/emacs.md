@@ -1,6 +1,7 @@
 ---
 title: "Emacs"
 date: 2020-07-10T22:37:43-07:00
+tags: ["100DaysToOffload"]
 ---
 I've been using Emacs for more than a decade. In the very beginning, I was using Meadow, which was Emacs 20's fork, for Windows, which supports Japanese and other languages better than the original at that time. I might have used Mule for Win32 for a moment, but I cannot recall.
 
