@@ -2,9 +2,18 @@
 
 <main id="list">
   <div class="content">
+    {{ if eq $.Page.Title "100DaysToOffload" }}
+    <p>
+      I'm participating <a href="https://100daystooffload.com/">100 Days To Offload</a>.
+      A simple challenge to publish 100 posts on a personal blog in a year.
+      I've written {{ len .Pages }}/100 posts so far.
+    </p>
+    {{ else }}
+    <p>{{ len .Pages }} posts</p>
+    {{ end  }}
+
     {{ range .Data.Pages.GroupByDate "2006" }}
     <h2>{{ .Key }}</h2>
-    <p>{{ len .Pages }} posts</p>
     <ul>
       {{ range .Pages }}
       <li>
