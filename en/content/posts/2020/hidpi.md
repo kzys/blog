@@ -9,4 +9,4 @@ For example, System76's laptops are mostly Full HD. [Adder WS](https://system76.
 
 In this regard, I still like Apple laptops. The cheapest MacBook Air is $999 but has "Retina" display (2560 x 1600), which is slightly taller than WQHD (2560 x 1440).
 
-As a spoiled Apple user, I hope manufacturers see HiDPI as normal. Even my [OnePlus 5T](https://www.gsmarena.com/oneplus_5t-8912.php), 2017 "flahship killer" budget phone has Full HD+ (2160 x 1080). [Nokia 6.2](https://www.gsmarena.com/nokia_6_2-9834.php), 2019 budget phone is Full HD+ (1080 x 2280). Full HD is for hand-held devices! Laptops must have more pixels to be "crisp" for eyes. Please!
+As a spoiled Apple user, I hope manufacturers see HiDPI as normal. Even my [OnePlus 5T](https://www.gsmarena.com/oneplus_5t-8912.php), 2017 "flahship killer" budget phone has Full HD+ (2160 x 1080). [Nokia 6.2](https://www.gsmarena.com/nokia_6_2-9834.php), 2019 budget phone is Full HD+ (1080 x 2280). So, Full HD is for hand-held devices! Laptops must have more pixels to be "crisp" for eyes. Please!
