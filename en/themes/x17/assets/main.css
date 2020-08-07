@@ -94,12 +94,14 @@ footer a{
 .menu {
     font-size: 80%;
     margin: 1rem 0;
+    display: flex;
 }
 
 .menu a {
+    display: block;
     text-decoration: none;
     color: #000 !important;
-    padding: 0 .2rem;
+    padding: 0 1rem;
     transition: color 200ms linear;
 }
 .menu a:first-child {

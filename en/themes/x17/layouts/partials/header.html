@@ -35,11 +35,17 @@
       {{ if eq .Site.LanguageCode "en-us" }}
       <a href="{{ .Site.BaseURL }}about/">About</a>
       <a href="{{ .Site.BaseURL }}posts/">Posts</a>
-      <a href="https://blog.8-p.info/ja/">Japanese Blog</a>
+      <a href="https://blog.8-p.info/ja/">
+        Japanese /
+        日本語
+      </a>
       {{ else }}
       <a href="{{ .Site.BaseURL }}about/">このブログについて</a>
       <a href="{{ .Site.BaseURL }}posts/">過去記事</a>
-      <a href="https://blog.8-p.info/en/">英語ブログ</a>
+      <a href="https://blog.8-p.info/en/">
+        英語 /
+        English
+      </a>
       {{ end }}
 
       {{ with $.Site.Home.OutputFormats.Get "RSS" }}
