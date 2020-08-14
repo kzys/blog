@@ -1,11 +1,11 @@
 ---
-title: "Action Dash didn't work for me"
+title: "ActionDash didn't work for me"
 date: 2020-08-13T20:46:46-07:00
 tags: ["100DaysToOffload", "Android"]
 ---
-[Action Dash](https://actiondash.com/) is an alternative of Google's Digital Wellbeing app. It works on non-Google phones, including my OnePlus 5T.
+[ActionDash](https://actiondash.com/) is an alternative of Google's Digital Wellbeing app. The Wellbeing only works on Android 8.0 Oreo or newer versions, whereas ActionDash supports older phones, including my OnePlus 5T.
 
-I was using Action Dash to limit my time on Chrome and Gmail, but I tended to change the setting to allow a bit of time after hitting the limit, especially regarding Chrome. I have terrible self-control.
+I was using ActionDash to limit my time on Chrome and Gmail, but I tended to change the setting to allow a bit of time after hitting the limit, especially regarding Chrome. I have terrible self-control.
 
 So, I've just uninstalled Chrome once again.
 
