@@ -37,6 +37,10 @@ main {
     border-top: 1px solid #ddd;
 }
 
+html[lang="en-us"] main {
+    line-height: 1.5;
+}
+
 main .content {
     margin-top: 1rem;
 }
@@ -72,12 +76,9 @@ footer .content {
 }
 
 pre {
-    white-space: pre-wrap;
-    word-break: break-all;
-
-    padding: .5rem;
+    padding: 1rem 0;
     font-size: 90%;
-    border: 1px solid #f0f0f0;
+    width: min-content;
 }
 
 /* cancel the styles */
@@ -305,7 +306,7 @@ header .content, article .content, #list .content, footer .content {
         max-width: 60rem;
         padding: 0;
     }
-    
+
     article .body {
         position: relative;
         padding-right: 22rem;
