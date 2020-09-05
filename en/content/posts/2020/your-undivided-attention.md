@@ -5,7 +5,7 @@ tags: ["100DaysToOffload"]
 ---
 Tristan Harris, a former Google employee who is appeared in Cal Newport's Digital Minimalism has been doing a podcast with Aza Raskin.
 
-The podcast, [Your Undivided Attention](https://www.humanetech.com/podcast) is long and often dark. It is more like [Througline](https://www.npr.org/podcasts/510333/throughline) than [Planet Money](https://www.npr.org/podcasts/510289/planet-money/). Anyway the podcast is really interesting and relevant. I've listened [Mr. Harris Goes to Washington](https://www.humanetech.com/podcast/13-mr-harris-goes-to-washington) recently. The episode is a good recap of what's they are discussing and worrying about.
+The podcast, [Your Undivided Attention](https://www.humanetech.com/podcast) is long and often dark. It is more like [Througline](https://www.npr.org/podcasts/510333/throughline) than [Planet Money](https://www.npr.org/podcasts/510289/planet-money/). That being said, the podcast is really interesting and relevant. I've listened [Mr. Harris Goes to Washington](https://www.humanetech.com/podcast/13-mr-harris-goes-to-washington) recently. The episode is a good recap of what's they are discussing and worrying about.
 
 I especially like this part.
 
