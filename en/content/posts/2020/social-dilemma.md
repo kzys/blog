@@ -11,6 +11,6 @@ So, to be fair, watching this documentary is pretty much confirming my biases.
 
 The documentary is overall good. It is not new for me due to the reasons above. That "three people control the pity boy" part is a bit cheesy though.
 
-It is really shallow about the way to deal with social networking services. Probably because some of the people who appeared in the documentary call government regulations. While I can agree we are powerless compared to big-tech companies, I'm not so sure what would be effective regulations. If you want to know how to deal with online social networking services, I'd recommend "Make Time" and "Digital Minimalism" than this documentary. 
+It is really shallow about the way to deal with social networking services. Probably because some of the people who appeared in the documentary call government regulations. While I can agree we are powerless compared to big-tech companies, I'm not so sure what would be effective regulations.
 
-Also regarding kids, I was helped by the internet when I was a teenager. No, my parents were great, but I didn't like schools much at that time. While I could agree with them regarding the principles, seeing good parents make the internet away from their kids make me sad.
+Also regarding kids, I was helped by the internet when I was a teenager. No, my parents were great, but I didn't like schools much at that time. Seeing good parents make the internet away from their kids make me sad.
