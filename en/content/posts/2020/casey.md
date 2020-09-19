@@ -7,7 +7,7 @@ tags: ["100DaysToOffload"]
 
 If you don't know Casey Neistat, he is *the* vlogger. While he wouldn't be the first vlogger on the earth, he could be considered as the godfather of modern, DSLR-holding vlogging.
 
-I'm unsure what he would do. The last "368" season was ended abruptly by Casey's move from New York City. Is the space still open? What was the project with Jack Conte? But since this is a vlog, not a TV series, I don't think these cliffhangers wouldn't be answered. I'm fine with that. I'm happy to see Casey again anyway.
+I'm unsure what he would do. The last "368" season was ended abruptly by Casey's move from New York City. Is the space still open? What was the project with Jack Conte? But since this is a vlog, not a TV series, I don't think these cliffhangers would be answered. I'm fine with that. I'm happy to see Casey's vlog again anyway.
 
 The rest of this post is my Casey Neistat bookmarks :)
 
