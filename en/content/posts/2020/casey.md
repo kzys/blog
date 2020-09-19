@@ -11,7 +11,7 @@ That being said, I'm happy to see that he is staring a new vlog again!
 
 The rest of this post is my Casey Neistat bookmarks :)
 
-## Meta
+### Meta
 
 I like his "meta" backstage-ish vlogs.
 
@@ -19,7 +19,7 @@ I like his "meta" backstage-ish vlogs.
 * [Casey Neistat's Guide to Filmmaking](https://www.youtube.com/watch?v=nLSUrTxquyE)
 * [WHY I ALWAYS WEAR SUNGLASSES](https://www.youtube.com/watch?v=xFbJoXJBIIA): Pretty practical.
 
-## Studio
+### Studio
 
 His studio is great.
 
