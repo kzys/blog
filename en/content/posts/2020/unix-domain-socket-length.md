@@ -1,7 +1,7 @@
 ---
 title: "Don't create a Unix domain socket in a deep directory"
 date: 2020-06-11T20:29:37-07:00
-tags: ["100DaysToOffload"]
+tags: ["100DaysToOffload", "Unix"]
 ---
 Creating a Unix domain socket in a deep directory is a bad idea, or at least causes a tricky problem. Because the maximum length of the socket path is around 100 bytes.
 

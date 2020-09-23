@@ -1,6 +1,7 @@
 ---
 title: "(expected, actual) or (actual, expected) ?"
 date: 2020-02-02T07:30:49-08:00
+tags: ["Cheatsheet"]
 ---
 
 I use multiple programming languages and writing automated tests is one of the confusing parts. This is a cheat sheet to quickly check the difference of testing libraries.

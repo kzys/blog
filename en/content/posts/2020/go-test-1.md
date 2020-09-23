@@ -1,6 +1,7 @@
 ---
 title: "How Go's testing works (1)"
 date: 2020-04-21T22:52:57-07:00
+tags: ["Go"]
 ---
 
 I've been using primarily Go at work since last summer and Go's testing package bit me a few times. Do you know that `FailNow()` is killing a goroutine? I didn't even know that killing a goroutine is possible.

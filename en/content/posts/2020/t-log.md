@@ -1,6 +1,7 @@
 ---
 title: "t.Log() and t.Logf() act like actual logging since Go 1.14"
 date: 2020-03-06T22:54:53-08:00
+tags: ["Go"]
 ---
 
 [Go 1.14 Release Notes](https://golang.org/doc/go1.14#go-test)

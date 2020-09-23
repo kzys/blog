@@ -1,7 +1,7 @@
 ---
 title: "Pipe is a thing"
 date: 2020-06-16T18:55:44-07:00
-tags: ["100DaysToOffload", "unix"]
+tags: ["100DaysToOffload", "Unix"]
 ---
 
 For years, I thought that `|` (pipe) was a notation which connects the left side's stdout to the right side's stdin. For example,

@@ -1,6 +1,7 @@
 ---
 title: "Fargate PV 1.4.0"
 date: 2020-04-09T07:14:53-07:00
+tags: ["Container"]
 ---
 Fargate's platform version 1.4.0 has been released yesterday.
 
