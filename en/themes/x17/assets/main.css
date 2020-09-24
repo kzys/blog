@@ -278,13 +278,15 @@ div.photo {
 #list a {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
 }
 
 #list .posted {
     font-size: 90%;
     color: #666;
     line-height: 1;
+}
+#list .tags {
+    font-size: 80%;
 }
 
 header .content, article .content, #list .content, footer .content {

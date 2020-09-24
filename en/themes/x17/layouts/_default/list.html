@@ -19,6 +19,11 @@
       <li>
         <div class="posted">{{ .Date.Format "Jan 02, 2006" }}</div>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="tags">
+          {{ range (.GetTerms "tags") }}
+          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+          {{ end }}
+        </div>
       </li>
       {{ end }}
     </ul>
