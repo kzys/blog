@@ -3,7 +3,7 @@ title = "Looking back 2017, through Hacker News"
 date = 2018-01-01T05:06:37-08:00
 images = [ "/en/image/2018/word3.png" ]
 readmore = true
-tags: ["Python"]
+tags = ["Python"]
 +++
 
 How was 2017 for you? Have you learned Rust? Have you invested in Bitcoin? Was it the year of Linux desktop (again)?
