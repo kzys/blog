@@ -1,6 +1,7 @@
 ---
 title: "New Macbook Pro"
 date: 2017-10-06T20:16:00-07:00
+tags: ["Mac"]
 ---
 
 I bought MacBook Pro (13-inch, 2017). I had thought that having MacBook *Pro* for personal use was luxury. Then I realized that MacBook Pro's price was the same as MacBook [^1]. So, what's the point of having the slower one?

@@ -1,6 +1,7 @@
 ---
 title: "Hacktoberfest 2017"
 date: 2017-10-22T07:43:07-07:00
+tags: ["Go"]
 ---
 
 Hacktoberfest is a month-long event organized by DigitalOcean. The rules are,

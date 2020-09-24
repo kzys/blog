@@ -1,6 +1,7 @@
 ---
 title: "My Blog Setup"
 date: 2017-09-23T23:29:57-07:00
+tags: ["Meta"]
 ---
 
 My blog setup is quite complex. This post is a reminder to myself. I'm currently using the below;

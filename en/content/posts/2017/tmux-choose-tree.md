@@ -1,6 +1,7 @@
 ---
 title: "Can't use C-n/C-p on tmux 2.6's choose-tree"
 date: 2017-12-27T18:41:39-08:00
+tags: ["Unix"]
 ---
 
 tmux 2.6 introduced `choose-tree` which is the new way of choosing windows/sessions. However, you can't use Emacs-like Ctrl-n/Ctrl-p on `choose-tree`.
