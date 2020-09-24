@@ -13,7 +13,15 @@
     {{ end  }}
 
     {{ range .Data.Pages.GroupByDate "2006" }}
+
     <h2>{{ .Key }}</h2>
+
+    {{ range .Pages.GroupByDate "2006-01" }}
+
+    <h3>{{ (index .Pages 0).Date.Format "January" }}</h3>
+    {{ if (ne (len .Pages) 1) }}
+    <p>{{len .Pages }} posts</p>
+    {{ end }}
     <ul>
       {{ range .Pages }}
       <li>
@@ -27,6 +35,9 @@
       </li>
       {{ end }}
     </ul>
+
+    {{ end }}
+
     {{ end }}
   </div>
 </main>
