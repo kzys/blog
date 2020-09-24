@@ -18,10 +18,17 @@
 
     {{ range .Pages.GroupByDate "2006-01" }}
 
-    <h3>{{ (index .Pages 0).Date.Format "January" }}</h3>
-    {{ if (ne (len .Pages) 1) }}
-    <p>{{len .Pages }} posts</p>
-    {{ end }}
+    <h3>
+      <div class="month">{{ (index .Pages 0).Date.Format "January" }}</div>
+      <div class="count">
+        {{len .Pages }}
+        {{ if eq (len .Pages) 1}}
+        post
+        {{else}}
+        posts
+        {{end}}
+      </div>
+    </h3>
     <ul>
       {{ range .Pages }}
       <li>
