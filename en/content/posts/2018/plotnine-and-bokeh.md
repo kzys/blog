@@ -1,6 +1,7 @@
 ---
 title: "Plotnine and Bokeh on Datalab"
 date: 2018-01-08T17:42:36-08:00
+tags: ["Python"]
 ---
 
 [Cloud Datalab](https://cloud.google.com/datalab/) is Google's Jupyter fork, which is provided as a part of Google Cloud.

@@ -3,6 +3,7 @@ title: "Loading Git into Pandas' dataframe"
 date: 2018-01-29T06:20:29-08:00
 images: [ "/en/image/2018/react-commits-email.png" ]
 readmore: true
+tags: ["Python"]
 ---
 
 I recently finished Udacity's [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120), while I haven't finished the final assignment yet. The next step may be learning Deep Neural Network but before that, I'd like to see what I can do with what I've learned.

@@ -1,6 +1,7 @@
 ---
 title: "Book: Software Design X-Rays"
 date: 2018-11-18T07:03:47-08:00
+tags: ["Book"]
 ---
 
 I finished reading "Software Design X-Rays". The book is about "behavioral" code analysis. While traditional static code analysis treats source code as a set of files, behavioral code analysis focuses the files' history inside a version control system such as Git, which shows developers' behaviors in addition to the artifacts.

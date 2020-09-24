@@ -1,6 +1,7 @@
 ---
 title: "Joining AWS"
 date: 2019-07-03T18:37:45-07:00
+tags: ["Amazon"]
 ---
 I'm going to join Amazon Web Services from next week to work on containers.
 

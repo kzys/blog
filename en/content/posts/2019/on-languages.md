@@ -1,6 +1,7 @@
 ---
 title: "On Languages"
 date: 2019-03-27T00:08:04-07:00
+tags: ["Go", "Java"]
 ---
 
 My "feelings" regarding programming languages.

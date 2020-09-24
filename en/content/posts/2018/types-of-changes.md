@@ -2,6 +2,7 @@
 title: "Angular vs. Vue: Types of Changes"
 date: 2018-02-05T22:54:16-08:00
 images: [ "/en/image/2018/angular-commits.png" ]
+tags: ["Python"]
 ---
 
 Compared to React, [Angular's commit message guidelines are very detailed](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines), 

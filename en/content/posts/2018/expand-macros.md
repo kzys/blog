@@ -1,6 +1,7 @@
 ---
 title: "Expanding Rust macros"
 date: 2018-07-29T14:39:15-07:00
+tags: ["Rust"]
 ---
 
 I was using dlopen 0.1.2 and had the below error.

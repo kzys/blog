@@ -1,6 +1,7 @@
 ---
 title: "Getting Retina images from Plotnine"
 date: 2018-01-22T23:53:19-08:00
+tags: ["Python"]
 ---
 
 Just a small tip, which I didn't know in the beginning.
