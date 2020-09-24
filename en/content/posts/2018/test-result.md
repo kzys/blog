@@ -1,6 +1,7 @@
 ---
 title: "Using Result<T, E> on unit tests"
 date: 2018-08-06T23:04:10-07:00
+tags: ["Rust"]
 ---
 
 [Since Rust 1.28.0](https://github.com/rust-lang/rust/blob/master/RELEASES.md#version-1280-2018-08-02), unit tests can return Result<T, E>. In other words, you can use `?` on unit tests' functions.

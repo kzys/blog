@@ -1,6 +1,7 @@
 ---
 title: "Writing my Pomodoro timer app in Swift"
 date: 2018-04-02T22:21:55-07:00
+tags: ["Mac"]
 ---
 
 For next two or three months, I'm going to write a Pomodoro timer app in Swift. I've been using [JustFocus](https://itunes.apple.com/us/app/just-focus/id1142151959) as my Pomodoro timer. While I am satisified about 90% of the app, I sometimes forgot to start the timer, mostly after meetings where I tend to cancel an ongoing pomdoro.

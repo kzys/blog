@@ -1,7 +1,7 @@
 ---
 title: "Work from home"
 date: 2020-03-29T07:48:40-07:00
-tags: ["WFH"]
+tags: ["Work"]
 ---
 
 I work from home for weeks due to COVID-19. I bought a few stuff and learned a bit about how to work from home.

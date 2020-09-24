@@ -1,6 +1,7 @@
 ---
 title: "Back to Web Basics"
 date: 2019-07-27T00:56:33-07:00
+tags: ["Web"]
 ---
 I have migrated both 8-p.info and blog.8-p.info from Nuxt.js to Hugo.
 

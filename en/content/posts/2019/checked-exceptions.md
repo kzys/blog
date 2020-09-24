@@ -1,6 +1,7 @@
 ---
 title: "Say No to Checked Exceptions"
 date: 2019-07-04T00:48:34-07:00
+tags: ["Java"]
 ---
 
 I recently learned that AWS SDK for Java's official Developer Guide is having a section about checked exceptions -- basically why it doesn't use checked exceptions.

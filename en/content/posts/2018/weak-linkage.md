@@ -1,6 +1,7 @@
 ---
 title: "Weak Linkage in Rust"
 date: 2018-08-13T23:16:10-07:00
+tags: ["Rust"]
 ---
 
 [reqwest](https://github.com/seanmonstar/reqwest), Rust's HTTP crate [doesn't support HTTP/2](https://github.com/seanmonstar/reqwest/issues/292) yet. There might be multiple missing pieces, but one of them is the lack of ALPN support. So, I'm working on that these days.

@@ -1,6 +1,7 @@
 ---
 title: "Philips Brilliance, MacBook Pro and 4k 60Hz"
 date: 2020-04-20T21:20:45-07:00
+tags: ["Mac"]
 ---
 To improve my working from home situation, I bought Philips Brilliance 27 inch 4k monitor with USB-C docking (272P7VUBNB). This monitor is 4k, USB Type-C and sub-$350. I'm not picky about color. It looks good to me.
 
