@@ -356,3 +356,8 @@ table {
 td {
     padding: .2rem;
 }
+
+code {
+    font-family: Monaco, monospace;
+    font-size: .8em;
+}
