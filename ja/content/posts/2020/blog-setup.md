@@ -10,9 +10,9 @@ r7kamura さんの[このサイトの実装 2020年版](https://r7kamura.com/art
 
 S3 + CloudFront で静的ファイルを配信している。
 
-AWS 社員としてドッグフード[^dogfood]しています! といっても S3 にはじめてブログをおいたのは2011年なので、Amazon に転職するよりずっと前である。そのころは [S3 の静的サイトホスティング](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/dev/WebsiteHosting.html)を使っていて、手軽でよかった。
+Jekyll をはじめて使ったのが2011年なので Amazon に転職する前から S3、と思っていたけれど、当時の [Makefile](https://github.com/kzys/2011/blob/master/Makefile) を確認すると、どこかの VPS の Nginx に rsync していた。というわけで、S3 を使い出したのは Amazon に転職したあとに、ドッグフード[^dogfood]精神ではじめたみたい。
 
-CloudFront を入れたのは、高速化というよりかは HTTPS 化のため。
+最初は、[S3 の静的サイトホスティング](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/dev/WebsiteHosting.html)だけを使っていて、最近になってから HTTPS 対応するべく、CloudFront を追加した。
 
 ### ドメイン
 
