@@ -1,5 +1,5 @@
 function getFootnotes() {
-  return document.querySelectorAll("sup.footnote-ref a")
+  return document.querySelectorAll("sup a.footnote-ref")
 }
 
 function moveFootnotesToRight() {
@@ -24,17 +24,28 @@ function moveFootnotesToBottom() {
 }
 
 function moveFootnotes() {
-  if (document.body.offsetWidth < 1200) {
+  if (document.body.offsetWidth < 1000) {
     moveFootnotesToBottom();
   } else {
     moveFootnotesToRight();
   }
 }
 
+function debounce(f) {
+  var x;
+
+  return function() {
+    if (x) {
+      clearTimeout(x);
+    }
+    x = setTimeout(f, 500);
+  }
+}
+
 window.addEventListener('resize', function () {
-  moveFootnotes();
+  debounce(moveFootnotes)();
 });
 
 setTimeout(function () {
   moveFootnotes();
-}, 1);
+}, 100);
