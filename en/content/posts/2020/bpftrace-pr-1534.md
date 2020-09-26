@@ -4,7 +4,7 @@ date: 2020-09-25T21:18:24-07:00
 tags: ["100DaysToOffload", "C++"]
 ---
 
-[Support old C++ compilers that don't have <filesystem>](https://github.com/iovisor/bpftrace/pull/1534)
+[Support old C++ compilers that don't have `<filesystem>`](https://github.com/iovisor/bpftrace/pull/1534)
 
 bpftrace uses `<filesystem>` which is relatively new in the C++ world. Amazon Linux 2 has g++ 7.x, which doesn't have `<filesystem>` but has `<experimental/filesystem>` instead.
 
