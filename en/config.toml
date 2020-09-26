@@ -21,3 +21,14 @@ home = ["html", "rss", "json"]
 
 [params]
 SourceRoot = "https://github.com/kzys/blog/tree/master/en"
+
+# Goldmark is the default since 0.60,
+# but it doesn't have a way to make footnote anchors unique.
+[markup]
+defaultMarkdownHandler = "blackfriday"
+
+[markup.blackFriday]
+# Make all anchors unique. It looks a bit dirty though.
+plainIDAnchors = false
+footnoteReturnLinkContents = "↩︎"
+footnoteAnchorPrefix = ""

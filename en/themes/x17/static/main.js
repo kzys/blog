@@ -1,24 +1,26 @@
-function getFootnotes() {
-  return document.querySelectorAll("sup a.footnote-ref")
+function collectAllFootnotes() {
+  var anchorsInBody = document.querySelectorAll("sup.footnote-ref a");
+  var result = [];
+  for (var a of anchorsInBody) {
+    var id = a.hash.substring(1);
+    var li = document.getElementById(id);
+    result.push([a, li]);
+  }
+  return result;
 }
 
 function moveFootnotesToRight() {
-  getFootnotes().forEach(function (a) {
-    var href = a.hash.split(/:/)
-    var id = 'fn:' + href[1];
-
-    var li = document.getElementById(id);
+  collectAllFootnotes().forEach(function (v) {
+    var a = v[0];
+    var li = v[1];
     li.style.position = 'absolute';
     li.style.top = a.parentNode.offsetTop + 'px';
   });
 }
 
 function moveFootnotesToBottom() {
-  getFootnotes().forEach(function (a) {
-    var href = a.hash.split(/:/)
-    var id = 'fn:' + href[1];
-
-    var li = document.getElementById(id);
+  collectAllFootnotes().forEach(function (v) {
+    var li = v[1];
     li.style.position = 'static';
   });
 }
