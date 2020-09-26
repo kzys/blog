@@ -56,4 +56,4 @@ Markdown を使っている。
 
 [^dogfood]: 少し前の [Rebuild](https://rebuild.fm/270/) に "fishfooding" という話があったけれど、うちの社内には "drink your own champagne" という派閥の人々がいる。おしゃれ。
 
-[^eto]: [江渡浩一郎](http://eto.com/)さんが、毎年メールアドレスを変えるという奇行をしていて、それにも影響された。
+[^eto]: [江渡浩一郎](http://eto.com/)さんが、毎年メールアドレスを変えていて、それにも影響された。
