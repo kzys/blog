@@ -10,7 +10,7 @@ r7kamura さんの[このサイトの実装 2020年版](https://r7kamura.com/art
 
 S3 + CloudFront で静的ファイルを配信している。
 
-Jekyll をはじめて使ったのが2011年なので Amazon に転職する前から S3、と思っていたけれど、当時の [Makefile](https://github.com/kzys/2011/blob/master/Makefile) を確認すると、どこかの VPS の Nginx に rsync していた。というわけで、S3 を使い出したのは Amazon に転職したあとに、ドッグフード[^dogfood]精神ではじめたみたい。
+Jekyll をはじめて使ったのが2011年だけど、当時の [Makefile](https://github.com/kzys/2011/blob/master/Makefile) を確認すると、どこかの VPS の Nginx に rsync していた。S3 を使い出したのは Amazon に転職したあとの2013年なので、我ながら、なかなかドッグフード[^dogfood]精神がある。
 
 最初は、[S3 の静的サイトホスティング](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/dev/WebsiteHosting.html)だけを使っていて、最近になってから HTTPS 対応するべく、CloudFront を追加した。
 
