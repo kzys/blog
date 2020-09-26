@@ -36,13 +36,19 @@ GitHub Actions を使って、[kzys/blog](https://github.com/kzys/blog) にコ�
 
 ただ、段々と静的サイトジェネレータに落ち着きがちになってきたこと、前述の HTTPS 化にともなう設定項目の増加、子供が生まれてだんだん忙しくなってきたし、というので blog.8-p.info に戻ってきたという経緯がある。
 
-Hugo の設定としては `ja/` と `en/` は完全に別のインスタンスで、テーマだけシンボリックリンクをはって共有している。実は [nb2hugo](https://github.com/kzys/nb2hugo) を使って Jupyter Notebook を Markdown に変換する仕組みもついているんだけど、Jupyter 使うようなものを最近書いていない。
+Hugo の設定としては `ja/` と `en/` は完全に別のインスタンスで、テーマだけシンボリックリンクをはって共有している。
 
 ### デザイン
 
 シンプル。たまに変わったフォントを使いたくなるけど、抑えている。仕事で HTML や CSS を書くことはなくなってしまったけど、いまだに自分で簡単なものを書くのは好きで、人が作ったテーマに身を任せられないでいる。
 
 Edward Tufte っぽく、横に脚注をつけれるようになっているけど、これもそこまで使っていない。
+
+### 記事の書き方
+
+Markdown を使っている。
+
+実は [nb2hugo](https://github.com/kzys/nb2hugo) を使って Jupyter Notebook を Markdown に変換する仕組みもついているんだけど、Jupyter 使うようなものを最近書いていない。
 
 [^dogfood]: 少し前の [Rebuild](https://rebuild.fm/270/) に "fishfooding" という話があったけれど、うちの社内には "drink your own champagne" という派閥の人々がいる。おしゃれ。
 
