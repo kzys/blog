@@ -9,4 +9,4 @@ I used to use `hugo undraft` command but [the subcommand was removed in 2018](ht
 date '+date: %Y-%m-%dT%T%z' | sed -E 's/(..)$/:\1/g' | pbcopy
 ```
 
-`sed` is needed since `%z` returns `-0700` but [TOML's timezone offeset](https://toml.io/en/v1.0.0-rc.2#offset-date-time) has to be `-07:00`.
+`sed` is needed since `%z` returns `-0700` but [TOML's timezone offset](https://toml.io/en/v1.0.0-rc.2#offset-date-time) has to be `-07:00`.
