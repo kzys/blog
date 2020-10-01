@@ -10,4 +10,4 @@ A few years ago, I read Google Assistant's [tell me something good](https://www.
 
 Ever since I occasionally think about the mix of information I read. Don't I read too much problems, without knowing the responses? The answer tends to be "yes".
 
-Honestly speaking, I haven't figured out the way to read news as a grown-up. I was reading the New York Times' Coronavirus newsletter in the beginning of this pandemic. It was good. but I've unsubscribed that recently since things wouldn't move that fast. I read neither daily newspapers nor [the Economist magazine](https://medium.com/make-time/why-i-ignore-the-daily-news-and-read-the-economist-instead-and-how-you-can-too-53f4d255efa6).
+Honestly speaking, I haven't figured out the way to read news as a grown-up. I was reading the New York Times' Coronavirus newsletter in the beginning of this pandemic. It was good but I've unsubscribed that recently since things wouldn't move that fast. I read neither daily newspapers nor [the Economist magazine](https://medium.com/make-time/why-i-ignore-the-daily-news-and-read-the-economist-instead-and-how-you-can-too-53f4d255efa6).
