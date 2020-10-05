@@ -1,3 +1,7 @@
+var BREAKPOINT_WIDTH_REM = 70;
+var MOVE_FOOTNOTES_AFTER_INITIAL_LOAD = 50;
+var DEBOUNCE_INTERVAL = 500;
+
 function collectAllFootnotes() {
   var anchorsInBody = document.querySelectorAll("sup.footnote-ref a");
   var result = [];
@@ -26,7 +30,10 @@ function moveFootnotesToBottom() {
 }
 
 function moveFootnotes() {
-  if (document.body.offsetWidth < 1000) {
+  var style = getComputedStyle(document.documentElement);
+  var remToPixel = parseInt(style.fontSize);
+  var breakpointWidth = BREAKPOINT_WIDTH_REM * remToPixel;
+  if (document.body.offsetWidth < breakpointWidth) {
     moveFootnotesToBottom();
   } else {
     moveFootnotesToRight();
@@ -40,7 +47,7 @@ function debounce(f) {
     if (x) {
       clearTimeout(x);
     }
-    x = setTimeout(f, 500);
+    x = setTimeout(f, DEBOUNCE_INTERVAL);
   }
 }
 
@@ -50,4 +57,4 @@ window.addEventListener('resize', function () {
 
 setTimeout(function () {
   moveFootnotes();
-}, 100);
+}, MOVE_FOOTNOTES_AFTER_INITIAL_LOAD);
