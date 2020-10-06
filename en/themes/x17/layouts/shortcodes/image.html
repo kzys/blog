@@ -1,0 +1,9 @@
+<div class="image">
+{{ with ($.Page.Resources.GetMatch (.Get 0)) }}
+<img src={{ (.Resize "1024x q90").Permalink }}
+     srcset="
+     {{ (.Resize "2048x q90").Permalink }} 2x,
+     {{ (.Resize "1024x q90").Permalink }} 1x
+     ">
+{{ end }}
+</div>
