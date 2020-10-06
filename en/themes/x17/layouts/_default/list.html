@@ -34,9 +34,16 @@
       <li>
         <div class="posted">{{ .Date.Format "Jan 02, 2006" }}</div>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <div class="tags">
-          {{ range (.GetTerms "tags") }}
-          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+        <div class="meta">
+          <div class="tags">
+            {{ range (.GetTerms "tags") }}
+            <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+            {{ end }}  
+          </div>
+          {{ if eq .Site.LanguageCode "ja-jp" }}
+          <div class="words">{{.WordCount}}文字</div>
+          {{ else }}
+          <div class="words">{{.WordCount}} words</div>
           {{ end }}
         </div>
       </li>

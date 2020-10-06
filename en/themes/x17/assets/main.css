@@ -286,17 +286,19 @@ div.photo {
 
 #list .posted {
     font-size: 90%;
-    color: #666;
     line-height: 1;
     margin-right: 1rem;
 }
 
 /* tags */
-#list .tags {
+#list .meta {
     font-size: 90%;
+    color: #666;
     line-height: 1;
+    display: flex;
+    justify-content: space-between;
 }
-#list .tags a {
+#list .meta a {
     color: #666 !important;
 }
 
@@ -327,6 +329,11 @@ div.image img {
 
     #list li {
         display: flex;
+        justify-content: space-between;
+    }
+
+    #list .meta {
+        width: 30%;
     }
 
     header .content {

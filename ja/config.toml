@@ -5,6 +5,8 @@ theme = "x17"
 
 Paginate = 5
 
+hasCJKLanguage = true
+
 # https://github.com/spf13/hugo/issues/1252
 CanonifyUrls = true
 
