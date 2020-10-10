@@ -9,7 +9,7 @@ date: 2020-10-09T20:37:01-07:00
 
 褒められた! ありがとうございます。
 
-英語のほうを頻繁に書いているのは [#100DaysToOffload](https://100daystooffload.com/) 効果なんですが、一方で、[ブログの時代がふたたび到来！？](https://karino2.github.io/2017/09/13/23.html) (2017) とか、なぜか消えてしまっているので自分のブログにリンクするけど、[ブログを書き続ける能力](https://blog.8-p.info/ja/2019/09/03/aug/) (2019) とかにも影響を受けているので、それが karino2 さんに褒められているのは一周まわっている感じがしますね。
+英語のほうを頻繁に書いているのは [#100DaysToOffload](https://100daystooffload.com/) 効果なんですが、一方で、[ブログの時代がふたたび到来！？](https://karino2.github.io/2017/09/13/23.html) (2017) とか、[ブログを書き続ける能力](https://karino2.github.io/2019/08/29/0219.html) (2019) とかにも影響を受けているので、それが karino2 さんに褒められているのは一周まわってきた感じがしますね。
 
 [Archive ページにその月の記事数を表示](https://portalshit.net/2020/10/07/shows-entries-count-of-the-month-on-archives)
 
