@@ -1,6 +1,7 @@
 ---
 title: '"The Information Diet" を読んだ'
 date: 2019-12-12T07:40:58-08:00
+tags: ["Book"]
 ---
 
 Clay Johnson "The Information Diet" を読んだ。著者はオバマ大統領の当選にも力をかした、選挙キャンペーンをテクノロジーで支援する会社 Blue State Digital の創業メンバーの一人として有名らしい。

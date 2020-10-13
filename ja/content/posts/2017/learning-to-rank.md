@@ -1,6 +1,7 @@
 ---
 title: 'パーソナライズ検索ってどうなってるの? "Personalized Ranking Model Adaptation for Web Search" を読む'
 date: 2017-12-06T23:59:41-08:00
+tags: ["Paper"]
 ---
 
 検索について、形態素解析、N-gram, PageRank とか雑多なことは知っているんだけど、例えば「検索をパーソナライズしたい」なんてときに全くわからないので、色々 Google で論文を巡っていた。

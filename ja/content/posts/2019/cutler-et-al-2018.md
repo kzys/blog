@@ -1,6 +1,7 @@
 ---
 title: '"The benefits and costs of writing a POSIX kernel in a high-level language" を読んだ'
 date: 2019-02-25T06:17:55-08:00
+tags: ["Paper"]
 ---
 
 [The benefits and costs of writing a POSIX kernel in a high-level language](https://www.usenix.org/conference/osdi18/presentation/cutler)

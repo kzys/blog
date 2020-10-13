@@ -1,6 +1,7 @@
 ---
 title: 'Facebook は動画をどう扱っているのか? "SVE: Distributed Video Processing at Facebook Scale" を読んでいる'
 date: 2017-12-18T19:22:36-08:00
+tags: ["Paper"]
 ---
 
 [The Morning Paper で紹介されていた論文][TMP]を読んでいる。全体像について書くと The Morning Paper の翻訳になってしまいそう[^1]なので、個人的に見所だったところだけ紹介。

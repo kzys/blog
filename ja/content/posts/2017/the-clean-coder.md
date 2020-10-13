@@ -2,6 +2,7 @@
 date = "2017-06-09T23:30:35-07:00"
 draft = false
 title = '"The Clean Coder" を読んだ'
+tags = ["Book"]
 +++
 
 最近はそこそこ仕事が忙しくて、悪い意味で毎日をこなしている感覚があったので、背筋を伸ばすようなものでもと "The Clean Coder" を読んだ。タイトルの "clean" は、おそらく同著者の "Clean Code" と揃えただけで、サブタイトルの "A Code of Conduct for Professional Programmers" のほうが実際の内容に近い。プロのソフトウェア開発者たるもの、と著者が設定するバーはなかなか高くて「背筋を伸ばすような」という当初の目的は果たされた。

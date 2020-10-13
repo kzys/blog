@@ -1,6 +1,7 @@
 ---
 title: '"Digital Minimalism" を読んだ'
 date: 2019-09-17T08:48:15-07:00
+tags: ["Book"]
 ---
 
 Cal Newport "Digital Minimalism" を読んだ。

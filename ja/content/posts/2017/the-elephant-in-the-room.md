@@ -2,6 +2,7 @@
 date = "2017-02-19T11:15:53-08:00"
 title = '"The Elephant in the Room" を読んだ'
 draft = false
+tags = ["Book"]
 +++
 
 Jon Ronson "[The Elephant in the Room](https://www.amazon.com/dp/B01LXOO7UQ)" を読んだ。著者はイギリスのジャーナリストで、日本でも『ルポ ネットリンチで人生を壊された人たち』("So You've Been Publicly Shamed"), 『サイコパスを探せ！』("The Psychopath Test"), 『実録・アメリカ超能力部隊』("The Men Who Stare at Goats") などいくつか訳書が出ている。
