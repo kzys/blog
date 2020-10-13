@@ -3,7 +3,7 @@ title: "Topshelf Records' new website is great"
 date: 2020-10-13T09:07:52-07:00
 tags: ["100DaysToOffload", "Music"]
 ---
-Topshelf Records is an record label in Portland, Oregon. Many so-called "math rock" Asian bands belong the label in the West, such as [toe](https://www.topshelfrecords.com/catalog?filter=toe), [tricot](https://www.topshelfrecords.com/catalog?filter=tricot) and [Elephant Gym](https://www.topshelfrecords.com/catalog?filter=elephant-gym). While I'm happy to see tricot has signed a deal with avex, apparently that means no more tricot from Topshelf Records, which is a bummer.
+[Topshelf Records](https://www.topshelfrecords.com/) is an record label in Portland, Oregon. Many so-called "math rock" Asian bands belong the label in the West, such as [toe](https://www.topshelfrecords.com/catalog?filter=toe), [tricot](https://www.topshelfrecords.com/catalog?filter=tricot) and [Elephant Gym](https://www.topshelfrecords.com/catalog?filter=elephant-gym). While I'm happy to see tricot has signed a deal with avex, apparently that means no more tricot from Topshelf Records, which is a bummer.
 
 Anyway, Topshelf Records recently made a brand-new website. I do like the vivid and bold design. And then this manifesto;
 
