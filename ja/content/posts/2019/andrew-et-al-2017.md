@@ -1,6 +1,7 @@
 ---
 title: '"Detecting Argument Selection Defects" を読んだ'
 date: 2019-01-04T09:05:51-08:00
+tags: ["Paper"]
 ---
 去年に Twitter で [Kentaro Hara さんが紹介していた](https://twitter.com/xharaken/status/1065050626223042560)
 

@@ -1,6 +1,7 @@
 ---
 title: '"Code Ownership and Software Quality: A Replication Study" を読んだ'
 date: 2019-02-04T09:09:12-08:00
+tags: ["Paper"]
 ---
 
 [Code Ownership and Software Quality: A Replication Study][Greiler_et_al_2015] を読んだ。マイクロソフトのコードベースを対象に、オーナーシップと品質との相関を調べた論文。先行する研究として

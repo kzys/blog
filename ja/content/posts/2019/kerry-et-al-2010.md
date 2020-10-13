@@ -1,6 +1,7 @@
 ---
 title: '"Measuring the User Experience on a Large Scale: User-Centered Metrics for Web Applications" を読んだ'
 date: 2019-01-28T08:11:29-08:00
+tags: ["Paper"]
 ---
 [Measuring the User Experience on a Large Scale: User-Centered Metrics for Web Applications][Kerry_et_al_2010] を読んだ。
 

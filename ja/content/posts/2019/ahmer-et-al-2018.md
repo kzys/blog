@@ -1,6 +1,7 @@
 ---
 title: '"Acting the Part: Examining Information Operations With in #BlackLivesMatter Discourse" を読んだ'
 date: 2019-01-14T00:03:01-08:00
+tags: ["Paper"]
 ---
 
 [Acting the Part: Examining Information Operations With in #BlackLivesMatter Discourse][Ahmer_et_al_2018] を読んだ。著者らが、アメリカの銃乱射事件のソーシャルネットワーク上での広がりについて調べるべく集めていたデータセットから、Twitter が公開したロシアの企業 Internet Research Agency (IRA) のなりすましアカウント群のツイートを集めて、後者について論じている。

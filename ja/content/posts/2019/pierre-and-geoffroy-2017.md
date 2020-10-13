@@ -1,6 +1,7 @@
 ---
 title: '"Writing parsers like it is 2017" を読んだ'
 date: 2019-01-21T18:35:16-08:00
+tags: ["Paper"]
 ---
 
 Rust のパーサコンビネーターの一つ、nom についての論文である、[Writing parsers like it is 2017][Pierre_and_Geoffroy_2017] を読んだ。著者らが「2017年らしく」と設定する基準は

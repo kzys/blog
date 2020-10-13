@@ -1,6 +1,7 @@
 ---
 title: '"Machine Learning at Facebook: Understanding Inference at the Edge" を読んだ'
 date: 2019-03-18T22:18:25-07:00
+tags: ["Paper"]
 ---
 
 [Machine Learning at Facebook: Understanding Inference at the Edge](https://research.fb.com/publications/machine-learning-at-facebook-understanding-inference-at-the-edge/) (2019)

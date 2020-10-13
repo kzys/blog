@@ -1,6 +1,7 @@
 ---
 title: '"Keeping Master Green at Scale" を読んだ'
 date: 2019-03-25T23:47:16-07:00
+tags: ["Paper"]
 ---
 
 [Keeping Master Green at Scale](https://dl.acm.org/citation.cfm?id=3303970) (2019)

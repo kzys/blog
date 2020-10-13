@@ -1,6 +1,7 @@
 ---
 title: '"Discovering API Usability Problems at Scale" を読んだ'
 date: 2019-02-19T00:56:32-08:00
+tags: ["Paper"]
 ---
 [Discovering API Usability Problems at Scale](https://ai.google/research/pubs/pub47031) (2018)
 
