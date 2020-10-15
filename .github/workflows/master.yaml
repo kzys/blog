@@ -11,9 +11,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: actions/setup-python@v1
+    - uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: '3.8'
     - run: python -m pip install --user --upgrade https://github.com/kzys/nb2hugo/tarball/blog
     - run: python -m pip install --user s3cmd
     - run: PATH=~/.local/bin:$PATH ./nb2hugo.sh
