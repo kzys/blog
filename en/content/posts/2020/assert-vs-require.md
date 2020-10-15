@@ -22,7 +22,7 @@ However, [t.FailNow](https://golang.org/pkg/testing/#T.FailNow) only says;
 
 > FailNow marks the function as having failed and stops its execution by calling runtime.Goexit (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark. FailNow must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling FailNow does not stop those other goroutines.
 
-Yeah. But does it have `Fail()` and `FailNow()`?
+Yeah. But why does it provide `Fail()` and `FailNow()`?
 
 I think [Google Test Primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md) is probably the best reference regarding "why".
 
