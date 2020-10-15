@@ -2,7 +2,7 @@
 title: "CircleCI's AWS CLI is old"
 date: 2018-06-01T22:31:41-07:00
 draft: false
-tags: ["Amazon"]
+tags: ["AWS"]
 ---
 
 CircleCI's AWS CLI is old. That's why people install the CLI from Python's pip rather than using apt-get.

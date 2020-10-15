@@ -1,7 +1,6 @@
 ---
 title: "More Open Work"
 date: 2019-04-12T23:49:33-07:00
-tags: ["Amazon"]
 ---
 I have a bit of regret about my professional career.
 
