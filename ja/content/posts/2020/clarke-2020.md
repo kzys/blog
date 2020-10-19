@@ -10,9 +10,9 @@ tags: ["Paper"]
 
 > This article kickstarts a much-needed research agenda on this emerging trend, which has to date largely been ignored by public management scholars.
 
-とあるように「研究者のみなさん、こういう研究課題がありますよ」という方向で書かれている部分があるけれど、世間の概観を掴むには良かった。
+とあるように「研究者のみなさん、こういう研究課題がありますよ」という方向で書かれているけれど、部外者が読んでも面白い。
 
-個人的には、共通点の、例えば「ウォーターフォールではなくアジャイルを!」みたいなことをいいがちというあたりにはあまり関心を引かれなくて、差異のほうが面白かった。例えば GDS はトップダウンで、
+個人的には、共通点の、例えば「ウォーターフォールではなくアジャイルを!」みたいなことをいいがちというあたりには関心を引かれなくて、差異のほうが興味深かった。例えば GDS はトップダウンで、
 
 > To pass point 17 (report performance data) in your service assessments you *must* set up a dashboard on the Performance Platform. You *must* show how you’re using the dashboard to share metrics for the following 4 key performance indicators (KPIs): user satisfaction, cost per transaction, completion rate, digital take-up
 
@@ -40,4 +40,4 @@ NTT データ経営研究所の[デジタル庁について](https://www.nttdata
 
 同研究所のものだと、[令和元年度経済産業省デジタルプラットフォーム構築事業（デジタルガバメントに関する諸外国における先進事例の実態調査）報告書](https://www.meti.go.jp/meti_lib/report/2019FY/000247.pdf) (PDF) はすごい。
 
-314ページの PDF を、おそらく PowerPoint で、文字ぎっしりのスライドとして作るという手法には文化の違いを感じるけれど、アメリカ、イギリス、エストニア、シンガポール、中国、インド、デンマーク、韓国の8カ国について、法制度・規制から調達方法まで、5項目について比較がされていて読み応えがある。というか、ありすぎて、まだ通して読めてはいない。
+314ページの PDF を、おそらく PowerPoint で、文字ぎっしりのスライドとして作るという手法には文化の違いを感じるけれど、アメリカ、イギリス、エストニア、シンガポール、中国、インド、デンマーク、韓国の8カ国について、法制度・規制から調達方法まで、5項目について比較がされていて読み応えがある。というか、ありすぎて、通して読めてはいない。
