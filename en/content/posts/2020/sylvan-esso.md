@@ -1,7 +1,7 @@
 ---
 title: "Sylvan Esso"
 date: 2020-10-18T19:24:41-07:00
-tags: ["100DaysToOffload"]
+tags: ["100DaysToOffload", "Music"]
 ---
 
 {{< youtube 7A2r4fI2gSs >}}
