@@ -3,7 +3,7 @@ title: 'Misreading Chat で "From Laptop to Lambda: Outsourcing Everyday Jobs to
 date: 2020-10-19T21:44:46-07:00
 tags: ["Paper", "Podcast"]
 ---
-友達のやっている [Misreading Chat](https://misreading.chat/) というポッドキャストがあり、ゲストとして呼ばれて、[From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers](https://www.usenix.org/conference/atc19/presentation/fouladi) の話をしてきました。録音された自分の声を聞くのは慣れないけれど、好きなポッドキャストなので出れてよかった!
+友達のやっている [Misreading Chat](https://misreading.chat/) というポッドキャストで、[From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers](https://www.usenix.org/conference/atc19/presentation/fouladi) について[話してきました](https://misreading.chat/2020/10/19/87-from-laptop-to-lambda-outsourcing-everyday-jobs-to-thousands-of-transient-functional-containers/)。録音された自分の声を聞くのは慣れないけれど、好きなポッドキャストなので出れてよかった!
 
 以下、収録中にうまく説明できなかったり、調べたりなかった部分の補足です。
 
