@@ -1,7 +1,6 @@
 ---
 title: 'Misreading Chat で "From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers" について話した'
-date: 2020-10-16T22:32:40-07:00
-draft: true
+date: 2020-10-19T21:44:46-07:00
 tags: ["Paper", "Podcast"]
 ---
 友達のやっている [Misreading Chat](https://misreading.chat/) というポッドキャストがあり、ゲストとして呼ばれて、[From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers](https://www.usenix.org/conference/atc19/presentation/fouladi) の話をしてきました。録音された自分の声を聞くのは慣れないけれど、好きなポッドキャストなので出れてよかった!
@@ -14,12 +13,12 @@ GitHub の README.md にも貼られている、[ffmpeg をコンパイルする
 
 * `gg init` で `.gg/` ディレクトリを作る。
 * `gg infer make` とすると、`gcc` などを、環境変数 PATH を書き換えることで gg のものに置き換えた環境で、`make` を実行する。
-  * `gg infer` が対応していれば[^MS]、`make` 以外にも任意のコマンドが実行できます。
+  * `gg infer` が対応していれば[^MS]、任意のコマンドが実行できます。
 * この時点でローカルに make を実行したときとおなじように `ffmpeg` という実行ファイルができる。
   * でも、これらは `#!/usr/bin/env gg-force-run` というのがついたシェルスクリプトで、本当の実行結果ではない。
   * この時点で gg IR で出来た "thunk" と呼ばれるファイルも、ローカルに作られます。
 * ここで `gg force ffmpeg --jobs 2000 --engine lambda` などとすると
-  * まずは thunk を大量にクラウドにアップロードして
+  * まずは thunk をクラウドにアップロードして
   * force サブコマンドの引数になっている `ffmpeg` の thunk をクラウド上で評価して
   * それに必要な thunk も再起的に評価されていって
   * 最終的に本物の `ffmpeg` がクラウド上で作られて
@@ -36,7 +35,7 @@ GitHub の README.md にも貼られている、[ffmpeg をコンパイルする
 * 動画エンコーディング: 記載なし
 * 物体認識: 記載なし
 
-ちなみに、Lambda 自体の並列数は、[デフォルトで 1,000 だけど "Hundreds of thousands" まで申請するとあげられます](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)。
+となっています。ちなみに、Lambda 自体の並列数は、[デフォルトで 1,000 だけど、申請すれば "hundreds of thousands" まであげられます](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)。
 
 ### 自分のプログラムを gg で動かすのって大変なの?
 
@@ -46,9 +45,9 @@ gg のレポジトリの中に、[フィボナッチ数を計算する](https://
 
 `add` のほうはファイルから数字を二つ読み込んで、それを足すだけのプログラムで、特に面白いところはない。
 
-`fib` のほうは gg の SDK を使っていて、`fib(n-1)` を計算する thunk と、`fib(n-2)` を計算する thunk を作って、それを前述の `add` に渡す、という動作をしている。ここで、個々の thunk から再起的にまた thunk が作られていくんだけど、その再帰的に thunk を作る部分がクラウドで実行されていて、ローカルで計算に必要なグラフを作らなくてもいいのが、gg の見所のひとつだと思う。
+`fib` のほうは gg の SDK を使っていて、`fib(n-1)` を計算する thunk と、`fib(n-2)` を計算する thunk を作って、それを前述の `add` に渡す、という動作をしている。ここで、個々の thunk から再起的にまた thunk が作られていくんだけど、その再帰的に thunk を作る部分がクラウドで実行されていて、ローカルで計算に必要なグラフを作りきらなくてもいいのが、gg の見所のひとつだと思う。
 
-この実行ファイルの切れ目が愚直に分散して実行されるときの単位になる、というパラダイムにのれれば、自分のプログラムを gg で動かすことはできると思う。あるいは model substitution の仕組みにのって、すでにローカルに存在するコマンドのラッパーを書くのもいい。
+この実行ファイルの切れ目が、そのまま分散して実行されるときの単位になる、というパラダイムにのれれば、自分のプログラムを gg で動かすことはできると思う。
 
 [^COST]: [engine_gcloud.cc](https://github.com/StanfordSNR/gg/blob/62579e141a96f30312cd9a1a2d6f91302e3899d5/src/execution/engine_gcloud.cc#L127) のほうはゼロで決め打ちになっているけど。
-[^MS]: 論文の中の言葉でいうと "model substitution" があれば。[src/models](https://github.com/StanfordSNR/gg/tree/master/src/models) の中に、gcc の引数を読んだりする実装があります。
+[^MS]: 論文では、これを "model substitution" と呼んでいます。[src/models/wrappers](https://github.com/StanfordSNR/gg/tree/master/src/models/wrappers) の下に、例えば gcc という名前だけど model-gcc を呼ぶだけのシェルスクリプトが、その上のディレクトリに実際の model-gcc の実装があります。
