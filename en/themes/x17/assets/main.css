@@ -299,6 +299,7 @@ div.photo {
 #list .tags {
     font-size: 90%;
     color: #666;
+    white-space: nowrap;
 }
 
 #list .tags a {
