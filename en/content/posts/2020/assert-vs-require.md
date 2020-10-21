@@ -6,7 +6,7 @@ tags: ["100DaysToOffload", "Go"]
 
 [testify](https://github.com/stretchr/testify) package provides `assert` package and `require` package. Some people only use `require` whereas others intentionally mix `assert` and `require`.
 
-I think I'm the one who care the difference, but Jacob commented on my PR that I wasn't careful enough this time;
+I thought I'm the one who care the difference, but [Jacob pointed out](https://github.com/awslabs/amazon-ecr-containerd-resolver/pull/22#discussion_r504968913) that I wasn't careful enough at that time;
 
 > nit: please prefer to use `assert` if the tests allow it. Preferring `assert`, over `require`, helps extract as many relevant failures in a single test run.
 
