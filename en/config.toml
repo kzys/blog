@@ -7,7 +7,7 @@ paginate = 5
 canonifyURLs = true
 
 [markup.highlight]
-style = "github"
+style = "vs"
 
 [markup.goldmark.renderer]
 unsafe = true
