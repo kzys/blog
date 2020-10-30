@@ -4,7 +4,7 @@ date: 2020-10-28T06:45:32-07:00
 tags: ["100DaysToOffload", "Go"]
 ---
 
-amazon-ecr-cotnainerd-resolver defines [ecrAPI](https://github.com/awslabs/amazon-ecr-containerd-resolver/blob/bbd7175f7bd0bc03080d290a885a62d05b0a5a29/ecr/base.go#L53) like below;
+amazon-ecr-containerd-resolver defines [ecrAPI](https://github.com/awslabs/amazon-ecr-containerd-resolver/blob/bbd7175f7bd0bc03080d290a885a62d05b0a5a29/ecr/base.go#L53) as AWS SDK's subset.
 
 ```go
 // ecrAPI contains only the ECR APIs that are called by the resolver

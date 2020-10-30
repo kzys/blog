@@ -3,8 +3,8 @@ title: "Go Patterns: Functional Options"
 date: 2020-10-29T07:00:59-07:00
 tags: ["100DaysToOffload", "Go"]
 ---
-Dave Cheney has written 
-[Functional options for friendly APIs](https://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis) in 2014.
+Dave Cheney already has written 
+[Functional options for friendly APIs](https://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis) in 2014. I don't have much to add.
 
 I initially saw this pattern as Go's named parameters alternative. But this pattern also works as an alternative for function overloading.
 
