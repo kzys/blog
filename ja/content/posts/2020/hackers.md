@@ -7,7 +7,7 @@ New York Times の [Trump Had One Last Story to Sell. The Wall Street Journal Wo
 
 > This fall, top media and tech executives were bracing to refight the last war — a foreign-backed hack-and-leak operation like WikiLeaks seeking to influence the election’s outcome.
 
-この "like WikiLeaks" は "such as WikiLeaks" だよねえ。WikiLeaks ってそういう評価になったんだっけ? と思って『暴露―スノーデンが私に託したファイル―』『全貌ウィキリークス』『Au　オードリー・タン　天才IT相７つの顔』と立て続けに読んだ。
+WikiLeaks って今はそういう評価になんだっけ? と思って『暴露―スノーデンが私に託したファイル―』『全貌ウィキリークス』『Au　オードリー・タン　天才IT相７つの顔』と立て続けに読んだ。
 
 ### 暴露―スノーデンが私に託したファイル―
 
