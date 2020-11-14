@@ -7,7 +7,7 @@ New York Times の [Trump Had One Last Story to Sell. The Wall Street Journal Wo
 
 > This fall, top media and tech executives were bracing to refight the last war — a foreign-backed hack-and-leak operation like WikiLeaks seeking to influence the election’s outcome.
 
-WikiLeaks って今はそういう評価になんだっけ? と思って『暴露―スノーデンが私に託したファイル―』『全貌ウィキリークス』『Au　オードリー・タン　天才IT相７つの顔』と立て続けに読んだ。
+WikiLeaks って今はそういう評価なんだっけ? そういえば Snowden とか WikiLeaks とか、あのあたりについてちゃんと知らないなあ、と思って『暴露―スノーデンが私に託したファイル―』『全貌ウィキリークス』『Au　オードリー・タン　天才IT相７つの顔』と立て続けに読んだ。
 
 ### 暴露―スノーデンが私に託したファイル―
 
@@ -31,4 +31,4 @@ Audrey Tang について子供時代から追った本。著者の [Cheng Chung 
 
 Audrey Tang の、知り合いの家を泊まり歩くような、ハッカー的な華々しさと自由さは Julian Assange にだいぶ似ているし、ひまわり学生運動での中立に情報の流通を促進する立場は、WikiLeaks 的だと思う。でもここから彼女は政府に登用されて中の人になる。
 
-Audrey Tang の話は、本人の人間的な魅力にひきづられるのか、ヒーロー待望論になりがちだと思うんだけど、その点でいうと本書は、台湾のコロナウィルス対策について、中国起因の WHO との不仲、SARS 対策の失敗と、台湾 CDC の設立といった文脈を抑えた解説があって良かった。
+Audrey Tang の話は、本人の人間的な魅力にひきづられるのか、ヒーロー待望論になりがちで、私はそれは良くない (システムで解決したい) と思うんだけど、その点でいうと本書は、台湾のコロナウィルス対策について、中国起因の WHO との不仲、SARS 対策の失敗と、台湾 CDC の設立といった文脈を抑えた解説があって良かった。
