@@ -10,7 +10,7 @@ Rust には [aHash](https://github.com/tkaitchuck/aHash) という、x86 系の�
 
 ### ハッシュマップの実装には2つの軸がある
 
-ハッシュマップの実装には、ハッシュ関数と、キーと値のペアをどう格納するかという、2つの直交する軸があるがある。冒頭で出てきた aHash はハッシュ関数だし、SwissTable はキーと値のペアをどう格納するか、という軸になる。
+ハッシュマップの実装には、ハッシュ関数と、キーと値のペアをどう格納するかという、2つの直交する軸がある。冒頭で出てきた aHash はハッシュ関数だし、SwissTable はキーと値のペアをどう格納するか、という軸になる。
 
 CRuby の場合は、ハッシュ関数は SipHash 1-3, キーと値のペアは open addressing 系の実装を使っている。それでは、実際の実装を見てみよう。
 
@@ -43,7 +43,7 @@ rb_memhash(const void *ptr, long len)
 
 各地で使われている。
 
-また SipHash 以前は自前のハッシュ関数を使っていて、それで HashDoS 攻撃
+ちなみに、SipHash 導入以前の rb_memhash() は MurmurHash で、それより前の Ruby 1.8 時代にはもっと簡単なハッシュ関数だったらしい。Ruby 1.8 時代に HashDoS 攻撃
 を回避しようとした経緯は [HashDoS脆弱性との戦い！ Rubyコミッター・卜部昌平が明かすプログラム堅牢化のノウハウ](https://eh-career.com/engineerhub/entry/2018/01/11/110000) (2018) にまとまっている。
 
 ### hash.c
@@ -91,7 +91,7 @@ st.c には、他のファイルたちとちがって、比較的コメントが
 
 ### おまけ: その他のハッシュ関数
 
-st.c には、実は MurmurHash の亜種も定義されている。
+st.c には、実は MurmurHash も残っている。
 
 ```c
 /* This hash function is quite simplified MurmurHash3
