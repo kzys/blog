@@ -33,3 +33,6 @@ defaultMarkdownHandler = "blackfriday"
 plainIDAnchors = false
 footnoteReturnLinkContents = "↩︎"
 footnoteAnchorPrefix = ""
+
+[markup.highlight]
+style = "vs"
