@@ -1,5 +1,5 @@
 ---
-title: "Fixing Toys"
+title: "Fixing toys"
 date: 2020-11-24T06:30:38-08:00
 tags: ["100DaysToOffload"]
 ---
