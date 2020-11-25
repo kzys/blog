@@ -7,6 +7,6 @@ My kid always asks me to fix toys. The 99% of "fix" is just swapping AA/AAA batt
 
 Last weekend, I have fixed one electronic pen. My kid broke that slightly. My wife got another broken one from her friend. And I combined them to make a working one!
 
-Repairing things is something I'd like to tell my kids, including basic soldering. That makes me wondering my computer choice. I like Apple products, but they are not designed for repairing or even opening inside. The latest M1 Mac has memory on the SoC, which is slightly worse than what it used to be - memory has been soldered on Apple laptops.
+Repairing things is something I'd like to teach my kids, including basic soldering. That makes me wondering my computer choice. I like Apple products, but they are not designed for repairing or even opening inside. Apple laptops have been having RAM that is soldered. The latest M1 MacBook is going further by putting memory on the SoC. iPhone 12 needs [Apple’s proprietary, cloud-linked System Configuration app to fully repair cameras and screens](https://www.ifixit.com/News/45921/is-this-the-end-of-the-repairable-iphone).
 
-There are benefits of doing that. I don't think Apple is a pure-evil. But I'm unsure that I can agree with their trade-offs. Thinner, faster laptops without repairability! Is that something what I asked?
+There are benefits of doing that. I don't think Apple is a pure-evil. But I'm unsure that I can agree with their trade-offs. Thinner, faster laptops without repairability! Is that something what I wanted?
