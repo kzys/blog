@@ -18,7 +18,7 @@ First, it could have the original file name, and macOS's gzip (Apple gzip 287.10
 0000001a
 %
 ```
-Second, it has one byte for OS. Note that the gzip file above claims "Unix", even my OS is macOS.
+Second, it has one byte for OS. Note that the gzip file above claims "Unix", even my OS is macOS. Well, macOS is one of [the UNIX certified products](https://www.opengroup.org/openbrand/register/)...
 
 ```
          OS (Operating System)
@@ -43,4 +43,4 @@ Second, it has one byte for OS. Note that the gzip file above claims "Unix", eve
                255 - unknown
 ```
 
-Not all GZIP implementations honor the OS byte. For example, [Go's compress/gzip always use 255](https://github.com/golang/go/blob/cc386bd05ad8076f1d7e5a4d9a13c1276fd26ac6/src/compress/gzip/gzip.go#L76).
+Not all GZIP implementations honor the OS byte. For example, [Go's compress/gzip always uses 255](https://github.com/golang/go/blob/cc386bd05ad8076f1d7e5a4d9a13c1276fd26ac6/src/compress/gzip/gzip.go#L76).
