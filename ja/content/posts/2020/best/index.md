@@ -61,6 +61,6 @@ karino2 さんが [ブログを書き続ける能力](https://karino2.github.io/
 
 ### おわりに
 
-{{< image IMG_20200911_184517.jpg >}}
+{{< image DSC06715.JPG >}}
 
 この記事は [2020 Advent Calendar 2020](https://adventar.org/calendars/5361) の8日目です。参加は2回目で、[去年のベスト](https://blog.8-p.info/ja/2019/12/04/best-of-2019/)もあります。7日は [ooooooooo さん](https://scrapbox.io/eidantoei/%E3%83%99%E3%82%B9%E3%83%88%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB2020)でした。明日はサイトウナヲキさんです。
