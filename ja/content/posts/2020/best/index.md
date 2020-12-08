@@ -8,11 +8,15 @@ draft: true
 
 ### リモートワーク
 
+{{< image IMG_20200911_093418.jpg >}}
+
 3月のはじめからずっと家で働いていた。通勤時間がなくて、昼食を家族でとれて、たまに怒っている子供をなだめたりできるのは良い。オフィスというのは、完全に家族を視界から排除して働ける仕組みなんだなと関心した。それで生産性は上がるんだろうけど、その向上が、最終的に自分にプラスとしてかえってくる感じはあまりしない。
 
 リモートワークはいつか試したいことのひとつだったので、それができたのは良かった。
 
 ### #100DaysToOffload
+
+{{< image 1586188793301.jpg >}}
 
 「一年で個人ブログを100回更新する」という [#100DaysToOffload](https://100daystooffload.com/) に賛同/参加して、[英語ブログ](https://blog.8-p.info/en/)をたくさん更新した。
 
@@ -30,15 +34,21 @@ karino2 さんが [ブログを書き続ける能力](https://karino2.github.io/
 
 ### 音楽
 
+{{< image IMG_20200823_164422.jpg >}}
+
 冒頭に書いた話と少し矛盾するけれど、周りの音を遮断したいときに BGM として音楽を聞くことは、オフィスにいるときよりも増えたと思う。#100DaysToOffload でも[10回に1回は音楽について書いていたのも手伝って](https://blog.8-p.info/en/tags/music/)、一年を通して色々と聞いた印象がある。
 
 去年に書いた tricot は、メジャーデビューしてから Topshelf Records で買えなくなてしまって残念、という話をブログに書いたら [Twitter で Topshelf Records 自身から返信が来て](https://twitter.com/topshelfrecords/status/1316327452638019587)、なかなかインターネットみがあった。
 
 ### 本
 
+{{< image IMG_20200808_131956.jpg >}}
+
 本は、読んでいないわけではないんだけど、一年を通して印象に残ったものはなし。偶然の気もするし、バスで通勤しなくなって、本を読む時間が減ったせいのようにも思う。
 
 ### インターネット
+
+{{< image IMG_20201011_090039.jpg >}}
 
 [Kicks Condor](https://www.kickscondor.com/) は Web 2.0 以前のブログ黎明期を彷彿とさせるサイトで、[夏頃に突然「消えて」しまって](https://web.archive.org/web/20200801072623/https://www.kickscondor.com/)、why the lucky stiff みたいになるのかと思ったけど、無事に帰ってきて安心した。
 
@@ -51,5 +61,7 @@ karino2 さんが [ブログを書き続ける能力](https://karino2.github.io/
 このあたりからどうぞ。
 
 ### おわりに
+
+{{< image IMG_20200911_184517.jpg >}}
 
 この記事は [2020 Advent Calendar 2020](https://adventar.org/calendars/5361) の8日目です。参加は2回目で、[去年のベスト](https://blog.8-p.info/ja/2019/12/04/best-of-2019/)もあります。7日は [ooooooooo さん](https://scrapbox.io/eidantoei/%E3%83%99%E3%82%B9%E3%83%88%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB2020)でした。明日はサイトウナヲキさんです。
