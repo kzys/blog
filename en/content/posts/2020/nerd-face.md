@@ -52,3 +52,5 @@ This document proposes "NERD FACE" and references AIM and Gmail.
 The text version of Nerd Face emoji: `8-B` is in [Nerd Text Emoticons](https://pc.net/emoticons/smiley/nerd). At least this one source says that the emoticon is "Common". This site also includes all emoticons in AIM, Yahoo! Instant Messenger, Microsoft Live Messenger, ICQ and Gmail.
 
 Within them, Yahoo! Instant Messenger has `:-B` as "nerd", Microsoft Live Messenger has `8-|` as "nerd".
+
+[Skype also has `8-|` and some other variants as "nerd"](https://support.skype.com/en/faq/FA12330/what-is-the-full-list-of-emoticons), but none of them have `B` as the buck teeth. I'm unsure whether that is coming from Microsoft acquisition or not.
