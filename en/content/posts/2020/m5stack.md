@@ -11,3 +11,7 @@ One of the biggest benefits of ESP32 is that it supports Wi-Fi. There are a lot 
 Compared to other ESP32-based development kits, M5Stack series is enclosed in a small plastic case, which would be good for making small toys for kids.
 
 I bought few in this Black Friday. They may be coming from China and would take weeks.
+
+### Update 2020-12-11
+
+I have placed the order in November 24th and received the package today. So it took 17 days.
