@@ -24,3 +24,11 @@ type ecrAPI interface {
 Defining a smaller, limited interface is always nice. It clearly shows what your code needs. However, in interface-first languages such as Java, having a smaller interface means you need to define your own wrapper interface. Go's interface provides a better alternative that doesn't add an unnecessary abstraction layer.
 
 In addition to that, small interface is easier to write [test doubles](https://martinfowler.com/bliki/TestDouble.html). While tools like [gomock](https://github.com/golang/mock) makes mocking a big interface easier, pre-programmed mocks are cumbersome to maintain. Other test doubles such as fake objects are often useful to make sure your implementation correctly call its collaborators.
+
+### 2020-12-20
+
+I've found Dave Cheney have written about this pattern as well.
+
+[Let callers define the interface they require](https://dave.cheney.net/practical-go/presentations/gophercon-israel.html#_let_callers_define_the_interface_they_require)
+
+> Interfaces declare the behaviour the caller requires not the behaviour the type will provide. Let callers define an interface that describes the behaviour they expect. The interface belongs to them, the consumer, not you.
