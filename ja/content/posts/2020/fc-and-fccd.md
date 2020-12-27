@@ -5,17 +5,15 @@ date: 2020-12-27T06:48:46-08:00
 
 [Firecrackerはコンテナランタイムなのかという話](https://blog.inductor.me/entry/2020/12/23/213104)への返信および補足です。
 
-[公式ページ](https://firecracker-microvm.github.io/) にもあるとおり
-
-> Firecracker is a virtual machine monitor (VMM) that uses the Linux Kernel-based Virtual Machine (KVM) to create and manage microVMs.
-
-Firecracker は KVM を使ったバーチャルマシーンモニターであって、いわゆるコンテナランタイムではありません。
-
-[コンテナユーザなら誰もが使っているランタイム「runc」を俯瞰する](https://medium.com/nttlabs/runc-overview-263b83164c98) では
+ここでの「コンテナラインタイム」は、[コンテナユーザなら誰もが使っているランタイム「runc」を俯瞰する](https://medium.com/nttlabs/runc-overview-263b83164c98) にある
 
 > ランタイムの実装には様々なものがありますが、それらは役割に応じて下図に示すように高レベルランタイム（CRIランタイム）と低レベルランタイム（OCIランタイム）という2つのレイヤに分類されます。
 
-とコンテナランタイムを分類されていますが、Firecracker 自身は、Kubernetes の CRI を実装した高レベルランタイムでも、OCI Runtime Spec を実装した低レベルランタイムでもありません。
+Kubernetes の CRI を実装した高レベルランタイムと、OCI Runtime Spec を実装した低レベルランタイムのことです。Firecraker は [公式ページ](https://firecracker-microvm.github.io/) にもあるとおり
+
+> Firecracker is a virtual machine monitor (VMM) that uses the Linux Kernel-based Virtual Machine (KVM) to create and manage microVMs.
+
+KVM を使ったバーチャルマシーンモニターであって、CRI ランタイムでも、OCI ランタイムでもありません。
 
 ### firecracker-containerd
 
