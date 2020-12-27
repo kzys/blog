@@ -1,7 +1,6 @@
 ---
 title: "Firecracker はコンテナランタイムではありません"
-date: 2020-12-27T06:46:19-08:00
-draft: true
+date: 2020-12-27T06:48:46-08:00
 ---
 
 [Firecrackerはコンテナランタイムなのかという話](https://blog.inductor.me/entry/2020/12/23/213104)への返信および補足です。
