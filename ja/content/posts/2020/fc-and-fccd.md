@@ -17,7 +17,7 @@ Firecracker は KVM を使ったバーチャルマシーンモニターであっ
 
 とコンテナランタイムを分類されていますが、Firecracker 自身は、Kubernetes の CRI を実装した高レベルランタイムでも、OCI Runtime Spec を実装した低レベルランタイムでもありません。
 
-## firecracker-containerd
+### firecracker-containerd
 
 [firecracker-containerd](https://github.com/firecracker-microvm/firecracker-containerd/) は、そんな Firecracker を containerd から使うためのプロジェクトで、
 
