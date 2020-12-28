@@ -3,19 +3,23 @@ title: "Firecracker はコンテナランタイムではありません"
 date: 2020-12-27T06:48:46-08:00
 ---
 
-[Firecrackerはコンテナランタイムなのかという話](https://blog.inductor.me/entry/2020/12/23/213104)への返信および補足です。
+[Firecrackerはコンテナランタイムなのかという話](https://blog.inductor.me/entry/2020/12/23/213104)への返信および補足です。「コンテナラインタイムではない」という結論は
 
-Firecracker そのものは、[コンテナユーザなら誰もが使っているランタイム「runc」を俯瞰する](https://medium.com/nttlabs/runc-overview-263b83164c98) で定義されているような
+> このユースケースにおけるFirecrackerの立ち位置は、「runCをコンテナごとに隔離するための環境を作成」するためのVMプロバイダーになっている。
+
+すでに出ているんですが、色々と補足したいことがあったので。
+
+Firecracker は、[コンテナユーザなら誰もが使っているランタイム「runc」を俯瞰する](https://medium.com/nttlabs/runc-overview-263b83164c98) で定義されているような
 
 > ランタイムの実装には様々なものがありますが、それらは役割に応じて下図に示すように高レベルランタイム（CRIランタイム）と低レベルランタイム（OCIランタイム）という2つのレイヤに分類されます。
 
-[Kubernetes](https://kubernetes.io/) の [Container Runtime Interface](https://github.com/kubernetes/cri-api) を実装した高レベルランタイムや、[Open Container Initiative](https://opencontainers.org/) の [Runtime Specification](https://github.com/opencontainers/runtime-spec) を実装した低レベルランタイムではありません。
+[Kubernetes](https://kubernetes.io/) の [Container Runtime Interface](https://github.com/kubernetes/cri-api) (CRI) を実装した高レベルランタイムや、[Open Container Initiative](https://opencontainers.org/) の [Runtime Specification](https://github.com/opencontainers/runtime-spec) を実装した低レベルランタイムではありません。
 
 Firecracker は、[公式ページ](https://firecracker-microvm.github.io/) にもあるとおり
 
 > Firecracker is a virtual machine monitor (VMM) that uses the Linux Kernel-based Virtual Machine (KVM) to create and manage microVMs.
 
-KVM を使ったバーチャルマシンモニタで、ひらたくいうと、Linux カーネル上で、別の Linux カーネル + ユーザーランドを実行するためのソフトウェアです。厳密には Linux カーネルだけではなく [OSv](http://osv.io/) も実行できたりします。
+KVM を使ったバーチャルマシンモニタで、ひらたくいうと、Linux カーネル上で、別の Linux カーネル + ユーザーランドを実行するためのソフトウェアです。厳密には Linux カーネルだけではなく [OSv](http://osv.io/) もゲストとして実行できます。
 
 ### firecracker-containerd
 
@@ -27,7 +31,7 @@ KVM を使ったバーチャルマシンモニタで、ひらたくいうと、L
 
 などで構成されています。
 
-containerd 自体は CRI を実装しているので、firecracker-containerd は CRI ランタイムにもなるはずです。いまの Makefile だと CRI 抜きでビルドするようになっているので「はず」なんですが、最近 containerd の master が Go modules を使うようになったので、CRI つきでビルドするのも昔ほど大変ではないはず。
+containerd 自体は CRI を実装しているので、firecracker-containerd は CRI ランタイムにもなれるはずです。いま master にある Makefile は CRI 抜きでビルドしているので「はず」なんですが、最近 containerd の master が Go モジュールを使うようになったので、CRI つきでビルドするのも昔ほど大変ではないはず。
 
 なお、ここでの「ランタイム」は、CRI ランタイムとも、OCI ランタイムとも関係のない、containerd が規定する API を実装した小さなバイナリです。紛らわしいのと shim と呼ばれることもあるので、以下文中では shim で統一します。
 
