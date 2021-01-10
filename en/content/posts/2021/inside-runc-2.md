@@ -101,3 +101,15 @@ Another thing I'd like to mention today is [nsenter](https://github.com/opencont
 The special init constructor seems quite tricky.
 
 Go has been the container language since Docker. Docker, containerd, runc and Kubernetes. All of them have been written in Go. But, sometimes I think that Go's think runtime doesn't fit well for low-level container stuff. 
+
+### Update
+
+Sam has [tweeted](https://twitter.com/samuelkarp/status/1348133656565403649):
+
+> I agree that Go's runtime can be at odds with low-level syscall manipulation. For a while, there was a Rust OCI runtime from Oracle called Railcar (which seems to be dormant) and Red Hat has a C implementation called crun. But runc is far more widely used and has more scrutiny.
+
+Yes. There are [crun](https://github.com/containers/crun) and [railcar](https://github.com/oracle/railcar). Another "does Go really fit us?" moment was from [amazon-ecs-shim-loggers-for-containerd](https://github.com/aws/amazon-ecs-shim-loggers-for-containerd/pull/9)
+
+> Note that golang has not included this fix in a specific version, and in order to take it effect, please build shim logger with go built from source.
+
+I'm glad that the issue has been fixed in Go's master at least. The fix will be included in Go 1.16.
