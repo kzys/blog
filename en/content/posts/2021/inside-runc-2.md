@@ -94,8 +94,10 @@ var initCommand = cli.Command{
 
 ### nsenter
 
-Another thing I'd like to mention today is [nsenter](https://github.com/opencontainers/runc/tree/master/libcontainer/nsenter), a Go package inside libcontaienr.
+Another thing I'd like to mention today is [nsenter](https://github.com/opencontainers/runc/tree/master/libcontainer/nsenter), a Go package inside libcontainer.
 
 > The `nsenter` package registers a special init constructor that is called before the Go runtime has a chance to boot. This provides us the ability to `setns` on existing namespaces and avoid the issues that the Go runtime has with multiple threads. This constructor will be called if this package is registered, imported, in your go application.
+
+The special init constructor seems quite tricky.
 
 Go has been the container language since Docker. Docker, containerd, runc and Kubernetes. All of them have been written in Go. But, sometimes I think that Go's think runtime doesn't fit well for low-level container stuff. 
