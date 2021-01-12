@@ -3,7 +3,7 @@ title: "Stop writing shell scripts"
 date: 2021-01-11T21:53:54-08:00
 tags: ["100DaysToOffload", "Unix"]
 ---
-In this year, I'm going to reduce the usage of shell scripts in teams which my scripts would be maintained by someone else in the future. Yes. I know that what I type in zsh every day is considered as a shell script. I know the value of [becoming a shell literate](https://drewdevault.com/2020/12/12/Shell-literacy.html).
+In this year, I'm going to reduce my usage of shell scripts in teams which my scripts would be maintained by someone else in the future. Yes. I know that what I type in zsh every day is considered as a shell script. I know the value of [becoming a shell literate](https://drewdevault.com/2020/12/12/Shell-literacy.html).
 
 However, writing a shell script is difficult. And the difficulty is not worth dealing with.
 
