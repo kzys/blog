@@ -31,4 +31,4 @@ In environments like [distroless container images](https://github.com/GoogleCont
 
 I would use Python or Ruby. I know Ruby better, but Python would fit better in Amazon Linux 2 or other distros that have Python by default. If I cannot have them, I might use Go or Rust.
 
-[^OIL]: [Oil](https://www.oilshell.org/) looks interesting.
+[^OIL]: [Oil](https://www.oilshell.org/) is an interesting attempt to make a shell-like, but saner programming language.
