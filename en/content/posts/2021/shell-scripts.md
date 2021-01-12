@@ -15,7 +15,7 @@ To be fair, shell has to be an interactive interface and a programming language.
 
 That being said, the attempt hasn't been successful [^OIL]. You cannot have both. It is better to use a programming language when you need a programming language.
 
-### You likely to mix a few more languages
+### You likely mix a few more languages
 
 Average shell scripts tend to have `awk`, `sed`, and nowadays `jq`. We all have learned them somewhere in our careers. Combining these small tools shows the power of Unix.
 
@@ -31,4 +31,4 @@ In environments like [distroless container images](https://github.com/GoogleCont
 
 I would use Python or Ruby. I know Ruby better, but Python would fit better in Amazon Linux 2 or other distros that have Python by default. If I cannot have them, I might use Go or Rust.
 
-[^OIL]: [Oil](https://www.oilshell.org/) is more promising than just using sh/bash and assuming that is a sane programming language.
+[^OIL]: [Oil](https://www.oilshell.org/) looks interesting.
