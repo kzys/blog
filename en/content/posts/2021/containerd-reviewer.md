@@ -11,5 +11,5 @@ In containerd, reviewers can, well, review pull requests. That's pretty much sel
 >
 > Reviewers are part of the organization but do not have write access. Becoming a reviewer is a core aspect in the journey to becoming a maintainer.
 
-Technically speaking, anyone can review pull requests and I've been reviewing them. But now my approval actually counts towards the required LGTM count!
+Technically speaking, anyone can review pull requests and I've been reviewing them. But now my approval actually counts towards the required LGTM count.
 
