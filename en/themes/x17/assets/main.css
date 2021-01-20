@@ -100,7 +100,6 @@ footer a{
 .menu {
     font-size: 90%;
     margin: 1rem 0;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -108,14 +107,8 @@ footer a{
     display: block;
     text-decoration: none;
     color: #000 !important;
-    padding: 0 1rem;
     transition: color 200ms linear;
-}
-.menu a:first-child {
-    padding-left: 0;
-}
-.menu a:last-child {
-    padding-right: 0;
+    padding: .5rem 0;
 }
 .menu:hover a {
     color: #999 !important;
@@ -327,6 +320,14 @@ header .content, article .content, #list .content, footer .content {
         margin-left: calc((100vw - var(--main-column-width))/-2)
     }
 
+    .menu {
+        display: flex;
+    }
+
+    .menu a {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 div.image {
@@ -395,6 +396,9 @@ div.image img {
         max-width: none;
     }
 
+    .menu a {
+        padding: 1rem;
+    }
 }
 
 table tr:nth-child(odd)  {
