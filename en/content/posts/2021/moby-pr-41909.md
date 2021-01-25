@@ -7,6 +7,6 @@ tags: ["100DaysToOffload", "Container"]
 
 This is my first "as AWS" commit on moby.
 
-The `SizedLogger` interface tells `logger.Copier` that CloudWatch's upper bound is 262118 bytes. However moby's logger package has a few logger wrappers that wrap actual loggers. The wrapper structs didn't implement `SizedLogger`. So `logger.Copier` used its default, which is 16KB.
+The `SizedLogger` interface tells `logger.Copier` that CloudWatch's upper limit is 262118 bytes. However, moby's logger package has a few logger wrappers that wrap actual loggers. The wrapper structs didn't implement `SizedLogger`. So `logger.Copier` was chopping long lines by its default upper limit, which is 16KB.
 
-The good news is that `awslogs` is the only affected logger. The bad news is that [`SizedLogger` was introduced in 2017 for awslogs](https://github.com/moby/moby/pull/34888) and hasn't used by anybody else since then.
+The good news is that `awslogs` is the only affected logger. The bad news is that [`SizedLogger` was introduced in 2017 for awslogs](https://github.com/moby/moby/pull/34888) and hasn't been used by anybody else since then.
