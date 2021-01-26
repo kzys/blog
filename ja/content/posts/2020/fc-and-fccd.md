@@ -29,11 +29,7 @@ KVM を使ったバーチャルマシンモニタで、ひらたくいうと、L
 * containerd に既存の「コンテナを作る」といった API の裏で、Firecracker を呼び出すためのランタイム (shim)
 * Firecracker の中で実際に起動するゲストの Linux と、その中で動くエージェント
 
-などで構成されています。
-
-containerd 自体は CRI を実装しているので、firecracker-containerd は CRI ランタイムにもなれるはずです。いま master にある Makefile は CRI 抜きでビルドしているので「はず」なんですが、最近 containerd の master が Go モジュールを使うようになったので、CRI つきでビルドするのも昔ほど大変ではないはず。
-
-なお、ここでの「ランタイム」は、CRI ランタイムとも、OCI ランタイムとも関係のない、containerd が規定する API を実装した小さなバイナリです。紛らわしいのと shim と呼ばれることもあるので、以下文中では shim で統一します。
+などで構成されています。なお、ここでの「ランタイム」は、CRI ランタイムとも、OCI ランタイムとも関係のない、containerd が規定する API を実装した小さなバイナリです。紛らわしいのと shim と呼ばれることもあるので、以下文中では shim で統一します。
 
 containerd は、コンテナが起動されると同時に、この shim を立ち上げます。systemd などから起動されて、通常はホストのシャットダウンまで動き続けるデーモンである containerd に対して、shim はコンテナの起動と終了に対応して作成/破棄される比較的短命なプロセスです。
 
@@ -41,3 +37,8 @@ firecracker-containerd では、この shim から新規 VM の作成などを�
 
 ちなみに Kata Containers も、[Overview](https://github.com/kata-containers/kata-containers/blob/2.0-dev/docs/design/architecture.md#overview
 ) に  containerd-shim-kata-v2 について言及があるので、OCI ランタイム (低レベルランタイム) というよりは shim の一種といったほうが正確だと思います。
+
+### CRI
+
+containerd 自体は CRI プラグイン込みでビルドできるので、firecracker-containerd を CRI ランタイムにすることもできるはずです。
+いま master にある Makefile は CRI 抜きでビルドしているので「はず」なんですが、最近 containerd の master が Go モジュールを使うようになったので、CRI つきでビルドするのも昔ほど大変ではないはず。
