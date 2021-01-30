@@ -16,3 +16,7 @@ Now I'm trying Fraidycat on Firefox. I like it so far.
 * The small sparklines, the cat, and the colors. It has some "why the lucky stiff" feeling.
 
 I’ve been using Feedly after Google Reader’s shutdown. Before that, I was using livedoor Reader and Bloglines. I may switch from Feedly to Fraidycat.
+
+### 2021-01-30
+
+[I ended up back to Feedly](https://blog.8-p.info/en/2021/01/30/back-to-feedly/).

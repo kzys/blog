@@ -16,4 +16,4 @@ Kicks, the author of Fraidycat [once wrote](https://www.kickscondor.com/things-w
 
 While I can understand their feeling and I want to make 8-p.info less gray-on-white. But in the meantime I'm so used to that gray-on-white world, and I'm okay with it.
 
-[^DECADE]: Things I've been using since college all now fall into "I've been using for more than a decade" bucket, which is overwhelming. Am I that old?
+[^DECADE]: Things I've been using since college all now fall into "I've been using X for more than a decade" bucket, which is overwhelming. Am I that old?
