@@ -126,9 +126,12 @@ li ul {
 }
 
 blockquote {
-    margin: 0 0 0 2em;
+    margin: 1rem 0;
+    padding: .2rem 1rem;
+    border-left: .5rem solid #69f;
     font-size: 95%;
     line-height: 1.5rem;
+    background: #f0f0f0;
 }
 
 article {
