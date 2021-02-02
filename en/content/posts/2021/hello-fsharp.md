@@ -76,4 +76,4 @@ Finally!
 
 After writing Go for a few years, I still like functional programming languages. Rust is nice, but doesn't have GC. There are applications where having GC is fine.
 
-So, a GC-ed, functional programming language that can create a self-contained binary could be a thing, I suppose.
+So, a functional programming language that can create a self-contained binary and has GC could be something I want. F# meets these criteria.
