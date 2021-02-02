@@ -57,20 +57,25 @@ Copyright (C) Microsoft Corporation. All rights reserved.
   Restored /Users/kazuyoshi/hello-fsharp/hello-fsharp.fsproj (in 167 ms).
   hello-fsharp -> /Users/kazuyoshi/hello-fsharp/bin/Debug/net5.0/osx.10.11-x64/hello-fsharp.dll
   hello-fsharp -> /Users/kazuyoshi/hello-fsharp/bin/Debug/net5.0/osx.10.11-x64/publish/
-% ./bin/Debug/net5.0/osx.10.11-x64/hello-fsharp
-Hello world from F#
 % file ./bin/Debug/net5.0/osx.10.11-x64/hello-fsharp
 ./bin/Debug/net5.0/osx.10.11-x64/hello-fsharp: Mach-O 64-bit executable x86_64
 % otool -L ./bin/Debug/net5.0/osx.10.11-x64/hello-fsharp
 ./bin/Debug/net5.0/osx.10.11-x64/hello-fsharp:
         /usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 800.7.0)
         /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1281.0.0)
+%
+```
+
+Finally...
+
+
+```
 % ./bin/Debug/net5.0/osx.10.11-x64/hello-fsharp
 Hello world from F#
 %
 ```
 
-Finally!
+Yes!
 
 ### Why F#?
 
