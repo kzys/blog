@@ -9,4 +9,4 @@ tags: ["100DaysToOffload", "Keyboard"]
 
 I personally haven't been experienced any issues and don't think Anne Pro 2's official firmware is buggy. That being said, seeing an alternative firmware is pretty cool.
 
-Technically Open Anne Pro is a set of different firmware. The keyboard firmware is QMK port and fully functional, the LED firmware only has basic features, and the Bluetooth firmware doesn't have an open alternative.
+Technically Open Anne Pro has two firmware. The keyboard firmware is QMK port and fully functional, but the LED firmware only has basic features.
