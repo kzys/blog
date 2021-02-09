@@ -7,6 +7,6 @@ tags: ["100DaysToOffload", "Keyboard"]
 
 > From my short and limited experience with the original firmware provided by ObinsLab, I find it to be extremely buggy. One of the most significant problem being compatibility in BIOS. Aside from buggy, I would also like to switch the “Magic FN” from caps lock to other keys.
 
-I personally haven't been experienced any issues and don't think Anne Pro 2's official firmware is buggy. That being said, seeing an alternative firmware is pretty cool.
+I personally haven't been experienced any issues and don't think Anne Pro 2's official firmware is "buggy". That being said, seeing an alternative firmware is pretty cool.
 
-Technically Open Anne Pro has two firmware. The keyboard firmware is QMK port and fully functional, but the LED firmware only has basic features.
+Technically Open Anne Pro has two firmware. [The keyboard firmware](https://github.com/OpenAnnePro/qmk_firmware) is QMK port and fully functional. [The LED firmware](https://github.com/OpenAnnePro/AnnePro2-Shine) is based on [ChibiOS](https://www.chibios.org/) and having basic functionalities so far.
