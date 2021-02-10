@@ -1,7 +1,7 @@
 ---
 title: "Bye Instagram"
 date: 2020-06-28T23:31:18-07:00
-tags: ["100DaysToOffload"]
+tags: ["100DaysToOffload", "Minimalism"]
 ---
 I've removed my Instagram account this Saturday, June 27th. It is an act of declutter and there is no drama behind it. 
 

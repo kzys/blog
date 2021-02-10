@@ -1,7 +1,7 @@
 ---
 title: "That Lightweight Web"
 date: 2020-08-17T09:25:42-07:00
-tags: ["100DaysToOffload", "Web"]
+tags: ["100DaysToOffload", "Web", "Minimalism"]
 ---
 
 The web is getting bigger and bigger. The technical complexity makes making a new web browser virtually impossible, which makes Google's dominance stronger. People claim the web is bloated, then looking for a trimmed-down, lightweight web.

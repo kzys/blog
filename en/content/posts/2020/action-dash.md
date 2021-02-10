@@ -1,7 +1,7 @@
 ---
 title: "ActionDash didn't work for me"
 date: 2020-08-13T20:46:46-07:00
-tags: ["100DaysToOffload", "Android"]
+tags: ["100DaysToOffload", "Android", "Minimalism"]
 ---
 [ActionDash](https://actiondash.com/) is an alternative of Google's Digital Wellbeing app. The Wellbeing only works on Android 8.0 Oreo or newer versions, whereas ActionDash supports older phones, including my OnePlus 5T.
 

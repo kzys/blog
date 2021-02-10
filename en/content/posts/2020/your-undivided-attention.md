@@ -1,7 +1,7 @@
 ---
 title: "Your Undivided Attention"
 date: 2020-09-02T20:54:32-07:00
-tags: ["100DaysToOffload"]
+tags: ["100DaysToOffload", "Minimalism"]
 ---
 Tristan Harris, a former Google employee who is appeared in Cal Newport's Digital Minimalism has been doing a podcast with Aza Raskin.
 

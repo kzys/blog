@@ -1,7 +1,7 @@
 ---
 title: "Social Media Saturday"
 date: 2021-01-02T22:38:06-08:00
-tags: ["100DaysToOffload"]
+tags: ["100DaysToOffload", "Minimalism"]
 ---
 I still read [Twitter](https://twitter.com/). Cindy Sridharan has [started her new blog on Substack](https://twitter.com/copyconstruct/status/1345138702578716672). Marc Brooker has shared [his favorite papers in 2020](https://twitter.com/MarcJBrooker/status/1344779967276597249). I want to know these information and Twitter is the only medium for me so far.
 

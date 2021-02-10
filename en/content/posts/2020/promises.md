@@ -1,7 +1,7 @@
 ---
 title: "Some broken promises"
 date: 2020-10-30T07:24:15-07:00
-tags: ["100DaysToOffload"]
+tags: ["100DaysToOffload", "Minimalism"]
 ---
 
 This week was busy. While [I have written](https://blog.8-p.info/en/2020/10/01/work-life/),

@@ -1,7 +1,7 @@
 ---
 title: "solderpunk's offline first experiment and his gemlog"
 date: 2020-09-09T07:18:53-07:00
-tags: ["100DaysToOffload"]
+tags: ["100DaysToOffload", "Minimalism"]
 ---
 
 solderpunk, the founder of Gemini protocol has written about his "offline first", more intentional computing.

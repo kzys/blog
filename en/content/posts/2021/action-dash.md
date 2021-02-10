@@ -1,7 +1,7 @@
 ---
 title: "ActionDash works for me"
 date: 2021-02-09T20:53:18-08:00
-tags: ["100DaysToOffload", "Minimalism"]
+tags: ["100DaysToOffload", "Android", "Minimalism"]
 ---
 
 In August, [I have written about ActionDash](https://blog.8-p.info/en/2020/08/13/action-dash/);

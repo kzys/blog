@@ -1,7 +1,7 @@
 ---
 title: "The Social Dilemma"
 date: 2020-09-16T20:21:17-07:00
-tags: ["100DaysToOffload"]
+tags: ["100DaysToOffload", "Minimalism"]
 ---
 I've watched Netflix's "The Social Dilemma", a documentary about the negative impact of online social networking services.
 
