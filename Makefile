@@ -35,7 +35,7 @@ tmp/cf-invalidation.json:
 		--acl-public public/ s3://blog.8-p.info-2017/
 	aws cloudfront create-invalidation \
 		--distribution-id $(cf_dist_id) \
-		--paths '/en/*' '/ja/*' > $@
+		--paths '/en/*' '/ja/*' | tee $@
 
 upload: tmp/cf-invalidation.json
 	aws cloudfront wait invalidation-completed \
