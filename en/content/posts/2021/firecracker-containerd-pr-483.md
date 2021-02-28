@@ -20,7 +20,7 @@ Goroutines and channels make the problem difficult. I had multiple strange timeo
 
 I may need to use debuggers like [Delve](https://github.com/go-delve/delve), or build a mechanism that dumps all goroutines.
 
-### Increment Build
+### Slow build
 
 Another part that makes me unproductive is the slowness of firecracker-containerd's build, especially around the in-VM agent. Building the agent is fast, but putting the agent in a new root filesystem image is slow.
 
