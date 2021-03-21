@@ -31,4 +31,10 @@ In environments like [distroless container images](https://github.com/GoogleCont
 
 I would use Python or Ruby. I know Ruby better, but Python would fit better in Amazon Linux 2 or other distros that have Python by default. If I cannot have them, I might use Go or Rust.
 
+### Update 2021-03-20
+
+Marc Brooker [tweeted aboult](https://twitter.com/MarcJBrooker/status/1349014546577563652):
+
+> If sh-style shell programming was invented today, everybody would think it's a sick joke.
+
 [^OIL]: [Oil](https://www.oilshell.org/) is an interesting attempt to make a shell-like, but saner programming language.
