@@ -46,7 +46,7 @@ IMD の正式名称は "International Institute for Management Development" で�
 
 > Based in Lausanne (Switzerland) and Singapore, IMD has been ranked in the Top 3 of the FT’s annual Executive Education Global Ranking for the last nine consecutive years and in the top five for 17 consecutive years. Our MBA and EMBA programs have repeatedly been singled out among the best in Europe and the world.
 
-スイスとシンガポールに本拠地のあるビジネススクールが、シンガポールが2位、スイスが4位に位置するランキングを発表するのは、我田引水というか体言一致というかなんというか。
+スイスとシンガポールに本拠地のあるビジネススクールが、シンガポールが2位、スイスが6位に位置するランキングを発表するのは、我田引水というか体言一致というかなんというか。
 
 ちなみに、IMD が発表する World Talent Ranking ではスイスが1位、シンガポールは10位。World Competitiveness Ranking では、シンガポールが1位、スイスが3位です。
 
