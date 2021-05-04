@@ -10,7 +10,7 @@ So I did some research before buying one of them.
 
 ### Does O'Reilly app support paging instead of scrolling?
 
-I couldn't find the option on the iPad app, but the Android app apparently supports paging.
+I couldn't find the option on the iPad app, but the Android app supports paging, at least on my OnePlus 5T.
 
 ### BOOX's bold font issue
 
