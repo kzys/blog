@@ -6,7 +6,7 @@ My tech books reading has been mostly on [O'Reilly's app](https://www.oreilly.co
 
 Then some of my friends got e-ink devices like [reMarkable 2](https://remarkable.com/) and [BOOX Note3](https://www.boox.com/note3/). While these large e-ink tablets are too expensive for me, smaller versions are not so. For example, [BOOX Poke3](https://www.boox.com/poke3/) is $189.99, [Bouye Likebook P6](https://www.amazon.com/dp/B08VH7Q49D) is $149.99 and [Bouye Likebook Mars](https://www.amazon.com/dp/B07TW1CCCH) is $219.00.
 
-So I did some research before buying one of them.
+So this is my "research" post to cool myself down.
 
 ### Does O'Reilly app support paging instead of scrolling?
 
@@ -22,3 +22,6 @@ Apparently BOOX is rendering text in bold unnecessary on WebViews for more than 
 
 The third link specifically mentions O'Reilly app, that would be a deal-breaker for me.
 
+### Update: Bouye Likebook P78
+
+Bouye has released [Likebook P78](https://goodereader.com/blog/boyue-ereader-news/boyue-likebook-p78-e-reader-now-available). USB-C is nice. I have to wait a few weeks for see more reviews.
