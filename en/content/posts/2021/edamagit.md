@@ -1,7 +1,6 @@
 ---
 title: "Edamagit is great. I want to split a frame horizontally. No, I can't."
 date: 2021-05-25T20:49:00-07:00
-draft: true
 ---
 [Magit](https://magit.vc/) is one of the reasons I still use Emacs.
 
