@@ -17,3 +17,30 @@ I have [Quimat's 3.5" TFT screen](https://www.amazon.com/gp/product/B06W55HBTX/)
 [Raspberry Pi Touchscreen Kiosk Setup (10 Steps)](https://desertbot.io/blog/raspberry-pi-touchscreen-kiosk-setup) is pretty much what I did.
 
 Since I have installed Raspberry Pi's default GUI already. I did `sudo update-alternatives --config x-session-manager` to use Openbox.
+
+### Giving Static IP
+
+[TCP/IP networking](https://www.raspberrypi.org/documentation/configuration/tcpip/)
+
+Adding the below to `/etc/dhcpcd.conf`.
+
+```
+interface wlan0
+static ip_address=192.168.1.3/24
+static routers=192.168.1.1
+static domain_name_servers=1.1.1.1
+```
+
+### SSH
+
+[How To Configure SSH Key-Based Authentication on a Linux Server](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
+
+```
+% ssh-copy-id pi@192.168.1.3
+```
+
+Then comment out the following on `/etc/ssh/sshd_config`.
+
+```
+PasswordAuthentication no
+```
