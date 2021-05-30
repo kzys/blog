@@ -13,3 +13,13 @@ People said, if you're not part of the solution, you're part of the problem.
 Am I?
 
 No. I wouldn't quit my job to become an activist. But sometimes I think I've been working in a silo, solving tech problems for tech people, remote from the rest of the world.
+
+### 2021-05-29
+
+According to [ZDNet](https://www.zdnet.com/article/moderna-leveraging-its-ai-factory-to-revolutionise-the-way-diseases-are-treated/), Moderna uses AWS, including Fargate.
+
+> Moderna built its own drug design studio, a web-based app hosted on AWS Fargate. 
+
+That makes me feel better :)
+
+
