@@ -40,3 +40,11 @@ tags: ["COVID-19"]
 ### 接触通知アプリ
 
 8月に妻が接触通知アプリから通知を受けた日があって、家族みんなで鼻に棒を突っ込む PCR 検査を受けてきた。結局みんな陰性だったけど、これもだいぶ心配だった。このときに発覚したのだけど、シアトルのまわりの知り合いに結構アプリをいれていない人がいてびっくりした。
+
+### そういえばワシントン州のフェーズってどうなったんだっけ?
+
+[Washington State Coronavirus Response](https://coronavirus.wa.gov/what-you-need-know/safe-start) をみると、
+
+> On June 30, 2021, Washington state fully reopened and all industry sectors previously covered by the Roadmap to Recovery Phased Reopening (with limited exceptions for large indoor events) returned to usual capacity and operations. This does not include masking, which will continue under current guidance.
+
+ワシントン州はコロナウィルスのケース数に応じて各群のフェーズを決めるという枠組みがあったのだけど、6月末で終わっていた。しかし8月から死者数すらどんどん上がってきていて、うーん。
