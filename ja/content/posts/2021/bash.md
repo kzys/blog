@@ -37,3 +37,31 @@ date: 2021-09-15T05:35:12-07:00
 私は Python や Ruby を使うことが多い。個人的には Ruby が好きなのだけど、Amazon Linux 2 とか Python がデフォルトで入っているところだと、とりあえず Python を使っている。
 
 Go や Rust も良いけれど、ビルドの過程を理解できなくても、実行しているものを直接読めるというスクリプト言語の利点は捨てがたい。[zx](https://github.com/google/zx) や [Oil](https://www.oilshell.org/) は気になるけれど、まだ試していない。
+
+### ShellCheck 使えばいいのでは?
+
+(2021-09-16: ここ以降は追記です)
+
+[ShellCheck](https://github.com/koalaman/shellcheck) は良い。ただ、落とし穴を教えてくれるソフトウェアを使ってまで、落とし穴の多い言語を使う必要もないのでは、とも思う。
+
+### Python とか Ruby でシェルスクリプトみたいなことするの面倒くさくないですか?
+
+面倒くさい。でもシェルスクリプトをちゃんと書くのも少し、しばらくみない間に育ってきてしまったシェルスクリプトをがんばって Python や Ruby に書き直すのはかなり面倒なので、だるいなーと思いながら `import subprocess` している。
+
+外部のプロセスをどう呼び出すかという問題、[Go の os/exec が](https://pkg.go.dev/os/exec)、
+
+> Unlike the "system" library call from C and other languages, the os/exec package intentionally does not invoke the system shell and does not expand any glob patterns or handle other expansions, pipelines, or redirections typically done by shells.
+
+`system(3)` の代わりではないですよ、と切り捨てているなか、Julia がシェルスクリプトっぽく書けるけど、空白の扱いなどをよしなにがんばる独自の backtick 文法を作っていて面白い。
+
+[Running External Programs](https://docs.julialang.org/en/v1/manual/running-external-programs/)
+
+> The command is never run with a shell. Instead, Julia parses the command syntax directly, appropriately interpolating variables and splitting on words as the shell would, respecting shell quoting syntax.
+
+良いけど、なぜ Julia がそこを頑張るのかすこし謎。
+
+### Python とか Ruby で書いたときに、依存パッケージとかどうしてますか?
+
+依存パッケージが無いように、言語本体についてくるライブラリだけでがんばって書いている。
+
+これも面倒くさいけど、GNU date 前提に `date --date '3 days ago'` なんてしているのを macOS で動かしたら BSD date ではサポートしてないぞこれ! とかやるのに比べると、もう日付の計算が普通にできるだけでありがたい...。
