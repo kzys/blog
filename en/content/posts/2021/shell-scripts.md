@@ -15,6 +15,14 @@ To be fair, shell has to be an interactive interface and a programming language.
 
 That being said, the attempt hasn't been successful [^OIL]. You cannot have both. It is better to use a programming language when you need a programming language.
 
+Recently Marc Brooker [tweeted](https://twitter.com/MarcJBrooker/status/1349014546577563652);
+
+> If sh-style shell programming was invented today, everybody would think it's a sick joke.
+
+And I do agree.
+
+If you need a programming language, use an ordinal programming language.
+
 ### You likely mix a few more languages
 
 Average shell scripts tend to have `awk`, `sed`, and nowadays `jq`. We all have learned them somewhere in our careers. Combining these small tools shows the power of Unix.
@@ -31,10 +39,24 @@ In environments like [distroless container images](https://github.com/GoogleCont
 
 I would use Python or Ruby. I know Ruby better, but Python would fit better in Amazon Linux 2 or other distros that have Python by default. If I cannot have them, I might use Go or Rust.
 
-### Update 2021-03-20
+### Why don't you use ShellCheck?
 
-Marc Brooker [tweeted aboult](https://twitter.com/MarcJBrooker/status/1349014546577563652):
+ShellCheck is good for pointint out pitfalls, but it is better to use a language with less pitfalls.
 
-> If sh-style shell programming was invented today, everybody would think it's a sick joke.
+### Isn't it cumbersome to write Python/Ruby instead of writing shell scripts?
+
+Hell yes! But writing a robust shell script is slightly, re-writing a huge shell script in Python/Ruby is more cumbersome for me.
+
+On related note, Julia's backtick syntax is a good progress regarding calling subprocesses safe and nice.
+
+[Running External Programs](https://docs.julialang.org/en/v1/manual/running-external-programs/)
+
+> The command is never run with a shell. Instead, Julia parses the command syntax directly, appropriately interpolating variables and splitting on words as the shell would, respecting shell quoting syntax.
+
+### How do you manage dependencies in Python/Ruby in this case?
+
+No dependencies. I simply use "standard" packages which are the part of the language distribution.
+
+It is also cumbersome. But even with just standard packages, for example, both Python and Ruby can do datetime calculation. You probably could do the same with GNU date (e.g. `date --date '3 days ago'`) but then BSD date doesn't support the syntax...
 
 [^OIL]: [Oil](https://www.oilshell.org/) is an interesting attempt to make a shell-like, but saner programming language.
