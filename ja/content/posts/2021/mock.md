@@ -14,10 +14,14 @@ date: 2021-10-12T22:26:37-07:00
 
 ### 単体/結合テストという二分法もよくない
 
-10年以上前の [Google Testing Blog](https://testing.googleblog.com/2010/12/test-sizes.html) に
+Google Testing Blog に [Test Sizes](https://testing.googleblog.com/2010/12/test-sizes.html) (2010) という話があって、
 
 > What do you call a test that tests your application through its UI? An end-to-end test? A functional test? A system test? A selenium test? I’ve heard all them, and more. I reckon you have too. Tests running against less of the stack? The same equally frustrating inconsistency. Just what, exactly, is an integration test? A unit test? How do we name these things?
 
-というのがあったけど、それから今になっても単体テストとか結合テストとかの用語は整理しきれていない。で、この記事は Small, Medium, Large という「データドリブンな」定義というのに進むんだけど、個人的には、この離散的な定義もあんまり好きではない。
+それから10年以上たった今になっても、単体テストとか結合テストとかの用語にみんなが合意できる定義はない、と思う。
 
-実際のところは、自動テストがテストするコードの範囲というのは連続値で、まあソースコードに1.5行はないので整数っていう意味では離散値なんだけど、単体/結合と二つに分類できるものではない。単体テストだからこのクラスだけをテストして、残りはモックする、とかこだわってもあまり利が無いと思う。
+ソフトウェアの部分を抜き出して、ここからここまでが単体です、というのは難しい。オブジェクト指向的には一つのクラスが単体なのかもしれないけれど、そこにこだわると、まさしく「ファイル操作は全てインターフェース経由で操作して、テストではモックをコンストラクタから渡しましょう」という方向に進んでしまって、あまりよくない。
+
+件の記事は、ここから Small, Medium, Large という「データドリブンな」定義というのに進むんだけど、個人的には、この離散的な定義もあんまり好きではない。
+
+実際のところは、自動テストがテストするコードの範囲というのは連続値で、まあソースコードに1.5行はないので整数という意味では離散値なんだけど、単体/結合と二つに分類できるものではない。個々のテストは、単体テストと結合テストの間のスペクトラムのどこかに位置していて、そこに線を引いて「ここからこっちは単体テストです」といってみせることに、あまり意味はないと思う。
