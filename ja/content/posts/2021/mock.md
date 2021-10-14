@@ -18,10 +18,8 @@ Google Testing Blog に [Test Sizes](https://testing.googleblog.com/2010/12/test
 
 > What do you call a test that tests your application through its UI? An end-to-end test? A functional test? A system test? A selenium test? I’ve heard all them, and more. I reckon you have too. Tests running against less of the stack? The same equally frustrating inconsistency. Just what, exactly, is an integration test? A unit test? How do we name these things?
 
-それから10年以上たった今になっても、単体テストとか結合テストとかの用語にみんなが合意できる定義はない、と思う。
+それから10年以上たった今になっても、単体テストとか結合テストとかの用語にみんなが合意できる定義はない、と思う。この記事は、ここから Small, Medium, Large というデータドリブンな定義に進むのだけど、個人的には、この離散的な定義もあんまり好きではない。
 
 ソフトウェアの部分を抜き出して、ここからここまでが単体です、というのは難しい。オブジェクト指向的には一つのクラスが単体なのかもしれないけれど、そこにこだわると、まさしく「ファイル操作は全てインターフェース経由で操作して、テストではモックをコンストラクタから渡しましょう」という方向に進んでしまうので、あまりよくない。
 
-件の記事は、ここから Small, Medium, Large というデータドリブンな定義に進むのだけど、個人的には、この離散的な定義もあんまり好きではない。
-
-実際のところは、自動テストがテストするコードの範囲は、単体テストと結合テストの間のスペクトラムのどこかに位置している。そこに線を引いて「ここからこっちは単体テストです」といってみせることに、あまり意味はないと思う。
+単体テストと結合テストというのは、きれいに二分できるものではない。二つの間は連続していて、個々の自動テストは、単体テストと結合テストの間のスペクトラムのどこかに位置している。そこに線を引いて「ここからこっちは単体テストです」といってみせることに、あまり意味はないと思う。
