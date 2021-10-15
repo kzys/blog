@@ -24,7 +24,7 @@ Google Testing Blog に [Test Sizes](https://testing.googleblog.com/2010/12/test
 
 単体テストと結合テストというのは、きれいに二分できるものではない。二つの間は連続していて、個々の自動テストは、単体テストと結合テストの間のスペクトラムのどこかに位置している。そこに線を引いて「ここからこっちは単体テストです」といってみせることに、あまり意味はないと思う。
 
-### 古典派
+### 「なるだけモックしたくない」派閥は古典派と呼ばれています
 
 (2021-10-14: ここ以降は追記です)
 
@@ -32,7 +32,7 @@ Google Testing Blog に [Test Sizes](https://testing.googleblog.com/2010/12/test
 
 > テスト駆動開発にはざっくりいうとモックを積極的に使う派（ロンドン学派）とあまり使わない派（デトロイト学派、古典派）がありまして、私は後者なのでほとんど使わず、このエントリに深く同意するところです
 
-と、補足されていて、私の派閥にはちゃんと名前がついていることがわかりました。
+と、補足されていて、私の「なるだけモックしたくない」派閥にはちゃんと名前がついていたことがわかった。
 
 [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html) (2007)
 
@@ -41,4 +41,4 @@ Google Testing Blog に [Test Sizes](https://testing.googleblog.com/2010/12/test
 A mockist TDD practitioner, however, will always use a mock for any object with interesting behavior. In this case for both the warehouse and the mail service. 
 >
 
-2007年の Martin Fowler がちゃんと書いていたことを、私はなぞっていただけだった...。
+Martin Fowler のこの記事は、モックするかどうかを、やりとり (インタラクション) をテストしているのか状態をテストしているのかの違いだと説明し、モックのほうがうまくいくパターンに触れつつも、最後に自分は古典派だと断っていて、両論併記で終わらないところも含めて良かった。Martin Fowler は偉大...。
