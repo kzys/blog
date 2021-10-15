@@ -23,3 +23,22 @@ Google Testing Blog に [Test Sizes](https://testing.googleblog.com/2010/12/test
 ソフトウェアの部分を抜き出して、ここからここまでが単体です、というのは難しい。オブジェクト指向的には一つのクラスが単体なのかもしれないけれど、そこにこだわると、まさしく「ファイル操作は全てインターフェース経由で操作して、テストではモックをコンストラクタから渡しましょう」という方向に進んでしまうので、あまりよくない。
 
 単体テストと結合テストというのは、きれいに二分できるものではない。二つの間は連続していて、個々の自動テストは、単体テストと結合テストの間のスペクトラムのどこかに位置している。そこに線を引いて「ここからこっちは単体テストです」といってみせることに、あまり意味はないと思う。
+
+### 古典派
+
+(2021-10-14: ここ以降は追記です)
+
+和田さんが [Twitter](https://twitter.com/t_wada/status/1448864195357777928) で
+
+> テスト駆動開発にはざっくりいうとモックを積極的に使う派（ロンドン学派）とあまり使わない派（デトロイト学派、古典派）がありまして、私は後者なのでほとんど使わず、このエントリに深く同意するところです
+
+と、補足されていて、私の派閥にはちゃんと名前がついていることがわかりました。
+
+[Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html) (2007)
+
+> The classical TDD style is to use real objects if possible and a double if it's awkward to use the real thing. So a classical TDDer would use a real warehouse and a double for the mail service. The kind of double doesn't really matter that much.
+>
+A mockist TDD practitioner, however, will always use a mock for any object with interesting behavior. In this case for both the warehouse and the mail service. 
+>
+
+2007年の Martin Fowler がちゃんと書いていたことを、私はなぞっていただけだった...。
