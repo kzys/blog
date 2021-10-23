@@ -20,4 +20,4 @@ date: 2021-10-22T18:48:22-07:00
 
 Idris にある依存型とか、[Cats](https://typelevel.org/cats/) や [Scalaz](https://github.com/scalaz/scalaz) が提供する色々とか、Rust のオーナーシップとか、存在を知っているけど使い道がわかっていないものは色々あって、どうしたものかなあと思う。Idris なら [Seven More Languages in Seven Weeks](https://pragprog.com/titles/7lang/seven-more-languages-in-seven-weeks/) に出てくるので、そこだけでも読むといいのかもしれない。
 
-Go の人々の素朴さへの渇望みたいなものは、多機能な言語の、その機能を使いまくって大変なことになっているコードを仕事でさわるといいのかもしれないけれど、これは経験しなくてもいいかなあ。
+語彙を増やすことの反対にある、Go の人々の素朴さへの渇望はあまり理解できていない。多機能な言語の、その機能を使いまくって大変なことになっているコードをさわる機会があるといいのかもしれないけれど、正直いって体験したくはないなあ。
