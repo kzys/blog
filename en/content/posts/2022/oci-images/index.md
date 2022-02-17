@@ -13,7 +13,7 @@ Note that the diagram above is still a draft.
 
 It may be possible to include [other two OCI specs](https://blog.8-p.info/en/2021/07/27/oci-specs/) and have hyperlinks in there.
 
-The rest of this post is links and thoughts.
+The rest of this post is a collection of random links and thoughts.
 
 ### SVG?
 
