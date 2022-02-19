@@ -2,9 +2,9 @@
 title: "Bye Quora"
 date: 2022-02-19T09:21:37-08:00
 ---
-According to Quora itself, I joined Quora in March 2012, but I haven't used much. No answers, no questions. So I'm deleting my account there.
+According to Quora itself, I joined Quora in March 2012, but I haven't used much. No answers, no questions. Their "More related to [What you clicked a few days ago]" email is annoying.
 
-Yes. Their "More related to [What you clicked a few days ago]" email is annoying, but it is more of declutter. No rage.
+So I'm deleting my account there.
 
 [Deleting an account in Quora is straightforward](https://help.quora.com/hc/en-us/articles/115004250866). Note that, if you login Quora via Google/Facebook, you need to create a password first.
 
