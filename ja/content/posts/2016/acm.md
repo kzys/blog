@@ -25,3 +25,11 @@ CACM が毎月とどいて、Safari の一部を読めて、それで毎年 $99 
 > Your ACM Professional Membership now gives you access to the new Safari Learning Platform. This means that you will now have access to Safari’s entire collection of 40,000+ online books from O'Reilly and other top publishers; 4,900+ video courses and O'Reilly conference videos; 200+ learning paths; 300+ live online training classes; and more new features, including the new mobile Safari Queue app for iOS and Android with enhanced functionality.
 
 Safari もすべて読めるようになったし、Safari Queue も使えるようになりました。
+
+### 2022-04-12: 追記
+
+ACM のメールより;
+
+> As of July 1, 2022, you will no longer have to access the O’Reilly Learning platform as a benefit of your ACM membership. Despite our best efforts, O’Reilly Media is unwilling to continue to license their content to ACM for members. Please finish your reading/training by 11:59 PM ET on June 30, 2022. If you wish to continue accessing O’Reilly Learning past this date, you will have to contact O’Reilly and purchase a license directly.
+
+残念ながら、ACM 経由でのアクセスはなくなるようです。アメリカでは[公共図書館が O'Reilly へのアクセスを提供している](https://blog.8-p.info/en/2021/06/24/oreilly/)こともあるので、こちらに期待。
