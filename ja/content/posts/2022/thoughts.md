@@ -30,9 +30,13 @@ date: 2022-05-27T00:05:17-07:00
 
 最悪な気持ちのなかには、そういった、自分の行動が示す優先順位を直視した嫌さもあったのだろうと思う。そろそろアメリカから撤退するべきかなと思わせる出来事だった。
 
+あとは、The Onion は銃乱射事件があるたびに、["No Way to Prevent This", Says Only Nation Where This Regularly Happens](https://en.wikipedia.org/wiki/%22No_Way_to_Prevent_This%22,_Says_Only_Nation_Where_This_Regularly_Happens) というほぼ同じ記事を載せるのだとか、["thoughts and prayers" という定番お悔やみ文が、実効性のある法改正をしないことの代表格として槍玉に挙げられがちとか](https://en.wikipedia.org/wiki/Thoughts_and_prayers#Criticism)、そういう細々としたアメリカ文化について学んだ。
+
+ロシアのウクライナ侵攻に関して、日本の一部の人々は、戦争を天災か何かのように捉えていると批判しているのを読んだ記憶がある。降伏してもいいので、人命を優先するべきである、というのは、結果として侵攻してもお咎めなし、ということを認めることになってしまう。アメリカの一部の人々が銃乱射事件に対して "thoughts and prayers" というのにも、ちょっと同じような感じがする。
+
 ### Twitter 休憩
 
-あとは、銃乱射事件の絡みで、Twitter を見すぎたので、7月までお休みすることにした。
+銃乱射事件の絡みで、Twitter を見すぎたので、7月までお休みすることにした。
 
 ### プログラム雑談
 
