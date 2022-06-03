@@ -11,7 +11,7 @@ yomoyomo さんの [Web3の「魂」は何なのか？](https://wirelesswire.jp/
 
 といってしまうのは、ちょっと「どっちもどっち論」が過ぎるかなあ思った。
 
-確かに Web 2.0 時代にも色々と議論はあった。例えば Tim O'Reilly の [What Is Web 2.0](https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html) (2005) の冒頭には、
+確かに Web 2.0 にも明確な定義は無かった。Tim O'Reilly の [What Is Web 2.0](https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html) (2005) の冒頭には、
 
 > But there's still a huge amount of disagreement about just what Web 2.0 means, with some people decrying it as a meaningless marketing buzzword, and others accepting it as the new conventional wisdom.
 
@@ -19,9 +19,9 @@ yomoyomo さんの [Web3の「魂」は何なのか？](https://wirelesswire.jp/
 
 > I just wanted to say how much I’ve come to dislike this “Web 2.0” faux-meme. It’s not only vacuous marketing hype, it can’t possibly be right.
 
-[なんて書いている](http://www.tbray.org/ongoing/When/200x/2005/08/04/Web-2.0)。
+[と書いている](http://www.tbray.org/ongoing/When/200x/2005/08/04/Web-2.0)。
 
-ただ、[Web3 is going just great](https://web3isgoinggreat.com) にあげられている色々を眺めると「Web 2.0 はここまで酷くなかったよねえ」とも思う。複雑化した金融商品に人々が食い物にされすぎていて、Web 2.0 というよりは、サブプライムローンを想起してしまう。
+一方で、[Web3 is going just great](https://web3isgoinggreat.com) にあげられている色々を眺めると「Web 2.0 はここまで酷くなかったよね」とも思う。複雑化した金融商品に人々が食い物にされすぎていて、これでは Web 2.0 より、サブプライムローン危機を想起してしまう。
 
 こういう状況をまえに、私も含めたコンピュータに明るい人々が「まあ、Web 2.0 にも同じ面が...」といってしまうのは、サブプライムローンを含んだ証券の類を適切に評価できなかった、格付け機関の人々と同じなのではないか。
 
@@ -40,7 +40,7 @@ yomoyomo さんの [Web3の「魂」は何なのか？](https://wirelesswire.jp/
 - 暗号研究者の Bruce Schneier
 - Netscape の Jamie Zawinski
 
-とそうそうたる面子。Web3 批判としてもよくまとまっている。末尾の参考文献は私も読みきれていない。
+とそうそうたる面子。私は末尾の参考文献までは読みきれていないけれど、Web3 批判としてもよくまとまっていると思う。
 
 ### ゴールそのものにまつわる問題
 
@@ -54,8 +54,10 @@ Web3 が実現するとうたわれているものには「それブロックチ
 
 > たとえば本書の提案する新通貨システムは、社会貢献度を数値的に算出する。それは人間の平等性の根拠を破壊しかねない。通貨取引では確かに関係性は表現されない。でもそれだからこそ、人々は金銭取引外の価値を認め、人の価値はお金ではない、だれでも見えないところで社会に貢献しているんだからという平等の理念が成立する。ところがこの仕組みで社会貢献度が数値的に見えてしまったら？　それは人々の実質的な等級付けに直結しかねない。むろん、それに対して「いやこの社会貢献度は目安であってそれ以外の部分もあるんだから人は平等です」と強弁することはできる。だが説得力があるだろうか。ぼくは社会がその誘惑に勝てるとは思わないのだ。
 
-「ありがとう」が数値化されるのは、本当に良い社会なのだろうか。
+人々の「ありがとう」が数値化されるのは、本当に良い社会なのだろうか。
 
 あるいは、Ethereum の [Introduction to Web3](https://ethereum.org/en/web3/) にある検閲への耐性。確かにパブリックなブロックチェーンに記録された情報を検閲するのは難しい。広義の、公権力だけでなく私企業によって行われるモデレーションも「検閲」に含めたときに、それがアメリカ的、あるいはリベラル的な価値観によりすぎである、という批判もできるだろう。
 
-ただ、ブロックチェーンから消せないのは、政府や企業によって都合の悪い情報だけではなく、誹謗中傷やリベンジポルノでもある。ロシアのような国では、政府自身も特定の情報をソーシャルメディアで拡散するのに加担している。EU が「忘れられる権利」を明文化したこの時代に、追記のみのパブリックなデータベースに載せたい情報は極めて限定されると思う。
+ただ、ブロックチェーンから消せないのは、政府や企業によって都合の悪い情報だけではなく、誹謗中傷やリベンジポルノでもある。ロシアのような国では、政府自身が身分を明かさずに操作しているアカウントもあり、[Twitter ではそういうアカウントを削除してもいる](https://blog.twitter.com/en_us/topics/company/2021/disclosing-state-linked-information-operations-we-ve-removed)。
+
+EU の「忘れられる権利」のような、個人が自分自身のデータをきちんと削除したいという要求と、いわゆるフェイクニュースが組織的に拡散されているという現状をまえに、追記のみのパブリックなデータベースを使った「検閲」というか削除一般ができないプラットフォームというのは、極めて用途が限定されてしまうと思う。
