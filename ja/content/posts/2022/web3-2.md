@@ -6,6 +6,8 @@ date: 2022-07-21T23:11:56-07:00
 
 > 「いちばんやさしいWeb3の教本」というのが試し読みできたので開いてみたら、出だしから「Web1の時代は1970年代から80年代にかけて整備され」とめちゃくちゃなことが書いてあってその先を読む気力が失せた。インターネットとWebを混同している? 専門家なのに? いろいろ謎。
 
+そこから、
+
 * [最近のWeb3への雑感](https://yuheinakasaka.github.io/gialog-diary/articles/14)
 * [Web3のここがすごい](https://laiso.hatenablog.com)
 
@@ -19,13 +21,13 @@ date: 2022-07-21T23:11:56-07:00
 
 ただ、パブリックなブロックチェーンにデータを記録する、というのには色々と副作用がある。まず遅い。また、私は自分のメールも、だれと頻繁にメールをやりとりしているかも、他人には知られたくない。むかしに送って後悔しているメールは、手元からだけでも消しておきたい。
 
-ここで、ブロックチェーンに詳しい人なら「速度の問題はロールアップで緩和できるし、ブロックチェーンに記録するデータはもちろん暗号化できます。人間とウォレットは 1:1 ではなく、1:N でいいし、これはナカモトサトシの最初の論文の 10. Privacy でも検討されていて...」となるのだろう。ただ、私からすると「そもそも、パブリックなブロックチェーンに、プライベートなデータを記録するのは、筋の悪い応用なのでは?」と思ってしまう。
+ここで、ブロックチェーンに詳しい人なら「速度の問題はロールアップで緩和できるし、ブロックチェーンに記録するデータはもちろん暗号化できます。人間とウォレットは 1:1 ではなく、1:N でいいし、これはナカモトサトシの論文 [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) の6ページ目で検討されていて...」となるのだろう。ただ、私からすると「そもそも、パブリックなブロックチェーンに、プライベートなデータを記録するのは、筋の悪い応用なのでは?」と思ってしまう。
 
 昔々に、Paul Graham は [Hackers and Painters](http://www.paulgraham.com/hp.html) で「間違った前提からはじめると、たくさんの問題が生まれる」と書いていた。
 
 > Nothing yields meaty problems like starting with the wrong assumptions. Most of AI is an example of this rule; if you assume that knowledge can be represented as a list of predicate logic expressions whose arguments represent abstract concepts, you'll have a lot of papers to write about how to make this work. As Ricky Ricardo used to say, "Lucy, you got a lot of explaining to do."
 
-「パブリックなブロックチェーンをもって、データの可搬性を確保します」というところから出発すると、たくさんの解くべき問題があって、それを解く面白さはあるのかもしれないけれど、個人的には「そもそも前提が間違っているのでは」と思っている。
+「パブリックなブロックチェーンをもって、データの可搬性を確保します」というところから出発すると、たくさんの解くべき問題がある。それを解く面白さはあるのかもしれないけれど、個人的には「そもそも前提が間違っているのでは」と思っている。
 
 ### 相互乗り入れのためのコスト、例えば合意形成の遅さを、我々は受け入れられるのか
 
