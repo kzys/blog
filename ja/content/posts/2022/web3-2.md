@@ -31,16 +31,16 @@ date: 2022-07-21T23:11:56-07:00
 
 また、パブリックなブロックチェーンにデータを記録して可搬性を確保する、というのには、そのデータのかたちには、アプリケーション間で合意がある、という前提がある。ただ、これを実現するのは難しい。例えばあるオンラインゲームでアイテムを買って、これが「すばやさ」を上げるものだとする。これを別のゲームに持ちこんで、同じように「すばやさ」を上げるには、二つのゲームで「すばやさ」という概念を揃えなくてはいけない。
 
-「デジタルなアイテムが NFT なら、他のメタバースやゲームにも持ち込める」という話には、この概念をそろえる必要がある。これも難しい。Signal の Moxie Marlinspike は [My first impressions of web3](https://moxie.org/2022/01/07/web3-first-impressions.html) で、こういった複数のアプリケーションでの合意を取り決めることの難しさ、とりわけ変化の遅さを指摘している。
+「デジタルなアイテムが NFT なら、他のメタバースやゲームにも持ち込める」という仕様を実装するには、この概念をそろえる作業を参加するゲームなりアプリケーション間でやらないといけない。Signal の Moxie Marlinspike は [My first impressions of web3](https://moxie.org/2022/01/07/web3-first-impressions.html) で、こういった複数のアプリケーションでの合意を取り決めることの難しさ、とりわけ変化の遅さを指摘している。
 
 > A protocol moves much more slowly than a platform. After 30+ years, email is still unencrypted; meanwhile WhatsApp went from unencrypted to full e2ee in a year. People are still trying to standardize sharing a video reliably over IRC; meanwhile, Slack lets you create custom reaction emoji based on your face. 
 >
 > This isn’t a funding issue. If something is truly decentralized, it becomes very difficult to change, and often remains stuck in time. That is a problem for technology, because the rest of the ecosystem is moving very quickly, and if you don’t keep up you will fail. There are entire parallel industries focused on defining and improving methodologies like Agile to try to figure out how to organize enormous groups of people so that they can move as quickly as possible because it is so critical. 
 
-我々は本当にそのコストを払えるのだろうか。IETF や W3C とか、私の仕事に近い OCI とかはそれぞれ頑張っている。一方で、Slack と Discord の相互乗り入れはいまだに実現していない。
+我々は本当にそのコストを払えるのだろうか。IETF や W3C とか、私の仕事に近い [OCI](https://opencontainers.org) とかはそれぞれ頑張っている。一方で、例えば Slack と Discord の相互乗り入れはいまだに実現していない。
 
 ### ところで、日本はどうすればいいのか
 
-わかりません。アメリカでしばらく働いているけれど「ここがちがう! これがあれば日本は復活する!」と思うものは、正直みあたらない。Google, Apple, Facebook, Amazon の前には、Sun Microsystems や DEC があって、そういう歴史の積み重ねと、そこからくる人材の層の厚さが効いているのでは、と思うことはある。でもこれはコピーできるものではないのでなあ。アメリカは特異点なのでまずは無視して、カナダにある Shopify とか、オーストラリアの Atlassian とか、アメリカの外の会社を見たほうがいいのでは、とは思う。
+わかりません。アメリカでしばらく働いているけれど「ここがちがう! これがあれば日本は復活する!」と思うものは、正直みあたらない。Google, Apple, Facebook, Amazon の前には、Sun Microsystems や DEC があって、そういう歴史の積み重ねと、そこからくる人材の層の厚さが効いているのでは、と思うことはある。でもこれはコピーするのが難しい。アメリカは特異点なのでまずは無視して、カナダにある Shopify とか、オーストラリアの Atlassian とか、アメリカの外の会社を見たほうがいいのでは、とは思う。
 
 こうやって言い淀んでいるところに「Web3 で日本は復活します!」といっている人が来ると、それが頼もしくみえて、話を聞いてしまうのは致し方ないのかもしれない。
