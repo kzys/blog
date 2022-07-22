@@ -9,7 +9,8 @@ date: 2022-07-21T23:11:56-07:00
 そこから、
 
 * [最近のWeb3への雑感](https://yuheinakasaka.github.io/gialog-diary/articles/14)
-* [Web3のここがすごい](https://laiso.hatenablog.com)
+* [Web3のここがすごい](https://laiso.hatenablog.com/entry/2022/07/22/mochio3)
+* [書籍「いちばんやさしいWeb3の教本」は本当に酷い内容だし、Web3界隈の人は一致団結して間違いを指摘して、インプレスは回収して内容修正するべき](https://blog.tomoya.dev/posts/the-easiest-web3-textbook-is-really-bad/)
 
 と、また Web3 の話が盛り上がっている。
 
