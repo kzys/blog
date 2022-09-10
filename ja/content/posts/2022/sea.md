@@ -12,6 +12,6 @@ date: 2022-09-06T23:51:25-07:00
 
 > We know that competitive pay and high standards of excellence provide teachers with the resources and support they need to create positive learning environments and are offering a substantial package.
 
-給料の話をするのはえらいなと感心していたけれど、結局条件は折り合わず、9月にはじまるはずの学校がまだはじまっていない。SEA のほうは [What’s at stake – SEA 2022 Bargaining](https://www.washingtonea.org/file_viewer.php?id=53001) という PDF で、SPS と SEA の提案の違い (つまり、SEA の方が良い、という主張) をまとめている。
+給料の話をするのはえらいなと感心していたけれど、結局条件は折り合わず、9月にはじまるはずの学校がまだはじまっていない。SEA のほうは [What’s at stake – SEA 2022 Bargaining](https://www.washingtonea.org/file_viewer.php?id=53001) という PDF で、SPS と SEA の提案の違い (つまり「SEA の方が良い」という主張) をまとめている。
 
 そもそも日本の公務員には団体行動権 (ストライキとかする権利) がないので、これは個々人に帰する問題ではないのだけど、こういうのを背景に育つと、物事の見方も変わるよなと思う。
