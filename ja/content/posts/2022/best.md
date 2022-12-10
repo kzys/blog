@@ -11,4 +11,4 @@ date: 2022-12-05T01:45:47-08:00
 
 買い物といえば、ギターも買った。これはまったく練習できていないので、2023年に期待したい。
 
-(この記事は [2022 アドベントカレンダー 2022](https://adventar.org/calendars/7814)の5日目です。4日目は [まとさん](https://matottorix.hatenablog.com/entry/2022/12/03/224009)、6日目は引率木こりさんです。)
+(この記事は [2022 アドベントカレンダー 2022](https://adventar.org/calendars/7814)の5日目です。4日目は [まとさん](https://matottorix.hatenablog.com/entry/2022/12/03/224009)、6日目は[引率木こりさん](https://candysearchlight.hatenablog.com/entry/2022/12/06/123613)でした。)
