@@ -12,4 +12,4 @@ And [Chris Krycho](https://v5.chriskrycho.com/journal/please-reply/) said that p
 
 I decided to use Buttodown as my blogging platform this year, 2023. It has [RSS](https://buttondown.email/kazuyoshi/rss) and [web archive](https://buttondown.email/kazuyoshi/archive) and that's all I need.
 
-[Things I made](https://buttondown.email/kazuyoshi) is the name of the newsletter. I'd like to rename that later though.
+[Things I made](https://buttondown.email/kazuyoshi) is the name of the newsletter. The name is preliminary. I want to name this thing something unique like [Elephant Gym](https://elephant-gym.bandcamp.com/) (that's a band), [Coding Horror](https://blog.codinghorror.com/) (that's a blog) and/or [Put A Egg On It](http://www.putaeggonit.com/) (that's a zine)...
