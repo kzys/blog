@@ -1,6 +1,6 @@
 ---
 title: Bitfield Notes はじめました
-date:　2023-01-10T18:34:14-08:00
+date: 2023-01-10T18:34:14-08:00
 ---
 [Wave](https://www.wave.com/) の CTO の [Ben Kuhn](https://www.benkuhn.net/writing/) が、ブログはメールで購読出来るようにすること、と書いていたのと、
 
